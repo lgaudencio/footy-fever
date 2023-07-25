@@ -119,6 +119,9 @@ def club_one_end():
     stat.club_one_stats()
 
 
+def start_club_two():
+
+
 def main():
     introduction()
 
