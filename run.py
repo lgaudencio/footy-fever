@@ -4,6 +4,7 @@ MAIN_MENU_OPTIONS = ["1", "2", "3"]
 CLUB_ONE = ["BENFICA", "AJAX", "RB SALZBURG"]
 
 name = ""
+age = 17
 
 weekly_wage_one = ""
 weekly_wage_two = ""
@@ -105,7 +106,7 @@ def start_pro_career():
 
 
 def club_one_end():
-    
+
 
 
 def main():
