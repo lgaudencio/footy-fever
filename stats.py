@@ -21,3 +21,10 @@ Total Goal Involvments per 90: {ratio}""")
 
 
 def club_titles():
+    global total_league_titles
+    global total_domestic_cups
+    global total_european_cups
+
+    league_titles = random.randint(0, 5)
+    domestic_cups = random.randint(0, 5)
+    european_cups = random.randint(0, 5)
