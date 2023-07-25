@@ -121,6 +121,7 @@ def club_one_end():
 
 def start_club_two():
 
+    transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
 
 def main():
     introduction()
