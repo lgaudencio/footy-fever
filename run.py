@@ -23,3 +23,6 @@ Enter 3 - Play Game
             print("Starting Game...")
         else:
             print("Please enter a number between 1 and 3")
+
+
+def main():
