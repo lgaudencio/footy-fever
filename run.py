@@ -26,6 +26,9 @@ Enter 3 - Play Game
             print("Please enter a number between 1 and 3")
 
 
+def invalid_main_menu_input():
+    
+
 def main():
     introduction()
 
