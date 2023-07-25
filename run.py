@@ -79,6 +79,15 @@ def start_pro_career():
 
     print("Alongside your talent, your agent has been very proactive\nand there are a number of clubs around Europe that would\nlike to sign you.")
 
+    weekly_wage_club_one()
+
+    print(f"""Three clubs have expressed their interest and they have guaranteed that you'll play at least 50% of the games in your first season. 
+\nPlease see your options below:
+\nOption 1: {CLUB_ONE[0]} for £{weekly_wage_one} per week
+\nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week  
+\nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week""")
+
+
 def main():
     introduction()
 
