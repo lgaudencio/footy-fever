@@ -42,6 +42,8 @@ def invalid_main_menu_input():
             print("Please enter valud input...")
 
 
+def input_name():
+
 
 def main():
     introduction()
