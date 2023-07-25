@@ -1,6 +1,8 @@
 
 MAIN_MENU_OPTIONS = ["1", "2", "3"]
 
+name = ""
+
 def introduction():
     print("Footy Fever")
     main_menu()
