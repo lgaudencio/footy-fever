@@ -3,6 +3,10 @@ MAIN_MENU_OPTIONS = ["1", "2", "3"]
 
 name = ""
 
+weekly_wage_one = ""
+weekly_wage_two = ""
+weekly_wage_three = ""
+
 def introduction():
     print("Footy Fever")
     main_menu()
