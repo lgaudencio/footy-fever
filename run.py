@@ -59,6 +59,10 @@ You will now begin your path to stardom, good luck in your journey!""")
         else:
             print("Name must be longer than 0 characters!")
 
+
+def weekly_wage_club_one():
+
+
 def main():
     introduction()
 
