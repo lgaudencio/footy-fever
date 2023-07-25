@@ -27,7 +27,17 @@ Enter 3 - Play Game
 
 
 def invalid_main_menu_input():
-    
+    while True:
+        try:
+            response = input("Please enter 0 to go back to the Main Menu... ")
+            if response == "0":
+                break
+            else:
+                None
+        except Exception:
+            print("Please enter valud input...")
+
+
 
 def main():
     introduction()
