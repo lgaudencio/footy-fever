@@ -6,6 +6,7 @@ name = ""
 def introduction():
     print("Footy Fever")
     main_menu()
+    input_name()
 
 
 def main_menu():
