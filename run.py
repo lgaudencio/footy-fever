@@ -13,6 +13,7 @@ def introduction():
     print("Footy Fever")
     main_menu()
     input_name()
+    start_pro_career()
 
 
 def main_menu():
