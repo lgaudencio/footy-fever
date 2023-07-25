@@ -121,9 +121,16 @@ def club_one_end():
 
 
 def start_club_two():
+    print("CHAPTER 3: BIG MONEY MOVE")
 
     transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
     second_club = random.choice(CLUB_TWO)
+
+    print(f"""You are currently preparing for a pre-season tour when you get a call from your agent. 
+  
+Your agent tells you that some big Premier League clubs are battling it out for your signature!
+
+You've been told that your current club has accepted a fee of {transfer_fee} from {second_club}.""")
 
 def main():
     introduction()
