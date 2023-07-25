@@ -62,7 +62,13 @@ You will now begin your path to stardom, good luck in your journey!""")
 
 
 def weekly_wage_club_one():
-
+    global weekly_wage_one
+    global weekly_wage_two
+    global weekly_wage_three
+    
+    weekly_wage_one = (random.randint(5, 11)) * 1000
+    weekly_wage_two = (random.randint(5, 11)) * 1000
+    weekly_wage_three = (random.randint(5, 11)) * 1000
 
 def main():
     introduction()
