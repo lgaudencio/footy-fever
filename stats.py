@@ -1,5 +1,10 @@
 import random
 
+total_league_titles = 0
+total_domestic_cups = 0
+total_european_cups = 0
+
+
 def club_one_stats():
     goals = random.randint(65, 85)
     assists = random.randint(30, 50)
