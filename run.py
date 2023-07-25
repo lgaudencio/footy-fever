@@ -3,6 +3,7 @@ import stats as stat
 
 MAIN_MENU_OPTIONS = ["1", "2", "3"]
 CLUB_ONE = ["BENFICA", "AJAX", "RB SALZBURG"]
+CLUB_TWO = ["CHELSEA", "LIVERPOOL", "ARSENAL"]
 
 name = ""
 age = 17
