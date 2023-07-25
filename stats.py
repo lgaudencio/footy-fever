@@ -18,3 +18,6 @@ Games Played: {games_played}
 Goals Scored: {goals} 
 Assists: {assists} 
 Total Goal Involvments per 90: {ratio}""")
+
+
+def club_titles():
