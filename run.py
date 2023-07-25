@@ -116,6 +116,8 @@ def club_one_end():
 
     print("Five years later...")
 
+    stat.club_one_stats()
+
 
 def main():
     introduction()
