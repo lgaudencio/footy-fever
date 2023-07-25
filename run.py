@@ -26,3 +26,4 @@ Enter 3 - Play Game
 
 
 def main():
+    introduction()
