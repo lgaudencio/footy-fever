@@ -43,7 +43,16 @@ def invalid_main_menu_input():
 
 
 def input_name():
-
+    global name
+    while True:
+        name = input("Please enter your name?: ")
+        if len(name) > 0:
+            print(f"""Welcome {name}!
+        
+You will now begin your path to stardom, good luck in your journey!""")
+            break
+        else:
+            print("Name must be longer than 0 characters!")
 
 def main():
     introduction()
