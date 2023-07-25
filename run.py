@@ -109,6 +109,12 @@ def club_one_end():
     global age
     age += 5
 
+    print("Loading Chapter 2...")
+
+    print("CHAPTER 2: A STAR IN THE MAKING")
+
+    print("Five years later...")
+
 
 def main():
     introduction()
