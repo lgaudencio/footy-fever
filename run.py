@@ -18,8 +18,10 @@ Enter 3 - Play Game
 """)
         if response == "1":
             print("About This Game:")
+            invalid_main_menu_input()
         elif response == "2":
             print("Game instructions")
+            invalid_main_menu_input()
         elif response == "3":
             print("Starting Game...")
         else:
