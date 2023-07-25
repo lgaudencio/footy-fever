@@ -27,3 +27,6 @@ Enter 3 - Play Game
 
 def main():
     introduction()
+
+if __name__ == "__main__":
+    main()
