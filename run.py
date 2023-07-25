@@ -88,6 +88,21 @@ def start_pro_career():
 \nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week  
 \nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week""")
 
+    club_picked = ""
+    while club_picked not in CLUB_ONE:
+        club_picked = input("\nTo pick a team, please type one of the following: Benfica, Ajax or RB Salzburg\n")
+        if club_picked.upper() == "BENFICA":
+            print("You are heading to Lisbon, Portugal. Good luck in the upcoming season!")
+            break
+        elif club_picked.upper() == "AJAX":
+            print("You are heading to Amsterdam, Netherlands. Good luck in the upcoming season!")
+            break
+        elif club_picked.upper() == "RB SALZBURG":
+            print("You are heading to Salzburg, Austria. Good luck in the upcoming season!")
+            break
+        else:
+            print("Invalid input, please select a club option from above!")
+
 
 def main():
     introduction()
