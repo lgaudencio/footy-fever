@@ -104,6 +104,10 @@ def start_pro_career():
             print("Invalid input, please select a club option from above!")
 
 
+def club_one_end():
+    
+
+
 def main():
     introduction()
 
