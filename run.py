@@ -106,7 +106,8 @@ def start_pro_career():
 
 
 def club_one_end():
-
+    global age
+    age += 5
 
 
 def main():
