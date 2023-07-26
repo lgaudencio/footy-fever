@@ -178,6 +178,11 @@ def at_club_two():
     {sponsor} has contacted you and would like to offer you a sponsorship
     deal worth {sponsor_salary} per year.""")
 
+    response = ""
+    while response not in YES_OR_NO:
+        response = input(f"""{name}, would you like to sign on with {sponsor}? 
+Please type 'YES' or "NO'""")
+
 def main():
     introduction()
 
