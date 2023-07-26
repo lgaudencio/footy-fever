@@ -166,6 +166,10 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
         else:
             print("Please type either yes or no.")
 
+
+def at_club_two():
+    
+
 def main():
     introduction()
 
