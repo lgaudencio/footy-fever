@@ -1,5 +1,6 @@
 import random
 import stats as stat
+import game_scenarios as scenario
 
 MAIN_MENU_OPTIONS = ["1", "2", "3"]
 YES_OR_NO = ["YES", "NO"]
