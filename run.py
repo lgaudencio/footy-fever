@@ -168,6 +168,7 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
 
 
 def at_club_two():
+    sponsor = random.choice(SPONSORSHIP_DEAL)
     
 
 def main():
