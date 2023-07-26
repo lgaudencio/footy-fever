@@ -182,6 +182,14 @@ def at_club_two():
     while response not in YES_OR_NO:
         response = input(f"""{name}, would you like to sign on with {sponsor}? 
 Please type 'YES' or "NO'""")
+        if response.upper() == "YES":
+            print(f"Congratulation {name}, you've signed a lucrative deal with {sponsor}!")
+            break
+        elif response.upper() == "NO":
+            print(f"You've decided to turn down a lucrative sponsor from {sponsor}.")
+            break
+        else:
+            print("Please type either yes or no.\n")
 
 def main():
     introduction()
