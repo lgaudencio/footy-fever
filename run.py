@@ -168,9 +168,15 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
 
 
 def at_club_two():
+    print("CHAPTER 4: HIGH FLYER")
+
     sponsor = random.choice(SPONSORSHIP_DEAL)
     sponsor_salary = "£" + str(random.randint(1, 5)) + " Million"
-    
+
+    print(f"""Your big money move to has made headlines.
+  
+    {sponsor} has contacted you and would like to offer you a sponsorship
+    deal worth {sponsor_salary} per year.""")
 
 def main():
     introduction()
