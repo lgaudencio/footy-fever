@@ -135,6 +135,8 @@ You've been told that your current club has accepted a fee of {transfer_fee} fro
     global weekly_wage_one
     weekly_wage_one = "£" + str(random.randint(150, 200)) + "k"
 
+    negotiated_salary = "£" + str(random.randint(150, 200)) + "k"
+
 def main():
     introduction()
 
