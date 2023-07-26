@@ -138,6 +138,14 @@ You've been told that your current club has accepted a fee of {transfer_fee} fro
 
     negotiated_salary = "£" + str(random.randint(150, 200)) + "k"
 
+    response = ""
+    while response not in YES_OR_NO:
+        response = input(f"""{second_club} are offering you a weekly salary of {weekly_wage_one}.
+
+Do you accept this offer or do you risk negotiating?
+      
+If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
+
 def main():
     introduction()
 
