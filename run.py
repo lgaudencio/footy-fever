@@ -198,6 +198,8 @@ Please type 'YES' or "NO'""")
 def main():
     introduction()
 
+    club_one_end()
+
     start_club_two()
 
     at_club_two()
