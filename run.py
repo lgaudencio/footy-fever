@@ -196,5 +196,7 @@ def main():
 
     start_club_two()
 
+    at_club_two()
+
 if __name__ == "__main__":
     main()
