@@ -161,7 +161,6 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
         elif response.upper() == "YES":
             print(f"Congratulations {name}, you will now meeting up with your new teammates at {second_club}!")
             break
-
         else:
             print("Please type either yes or no.")
 
