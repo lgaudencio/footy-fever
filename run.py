@@ -6,6 +6,8 @@ YES_OR_NO = ["YES", "NO"]
 CLUB_ONE = ["BENFICA", "AJAX", "RB SALZBURG"]
 CLUB_TWO = ["CHELSEA", "LIVERPOOL", "ARSENAL"]
 
+SPONSORSHIP_DEAL = ["NIKE", "ADIDAS", "PUMA"]
+
 name = ""
 age = 17
 
