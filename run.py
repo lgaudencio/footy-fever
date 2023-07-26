@@ -132,6 +132,9 @@ Your agent tells you that some big Premier League clubs are battling it out for 
 
 You've been told that your current club has accepted a fee of {transfer_fee} from {second_club}.""")
 
+    global weekly_wage_one
+    weekly_wage_one = "£" + str(random.randint(150, 200)) + "k"
+
 def main():
     introduction()
 
