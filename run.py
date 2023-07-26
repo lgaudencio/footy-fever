@@ -167,5 +167,7 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
 def main():
     introduction()
 
+    start_club_two()
+
 if __name__ == "__main__":
     main()
