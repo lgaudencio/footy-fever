@@ -146,6 +146,13 @@ Do you accept this offer or do you risk negotiating?
       
 If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
 
+        if response.upper() == "NO":
+
+        elif response.upper() == "YES":
+
+        else:
+            print("Please type either yes or no.")
+
 def main():
     introduction()
 
