@@ -100,12 +100,15 @@ def start_pro_career():
         club_picked = input("\nTo pick a team, please type one of the following: Benfica, Ajax or RB Salzburg\n")
         if club_picked.upper() == "BENFICA":
             print("You are heading to Lisbon, Portugal. Good luck in the upcoming season!")
+            in_game_scenario_one()
             break
         elif club_picked.upper() == "AJAX":
             print("You are heading to Amsterdam, Netherlands. Good luck in the upcoming season!")
+            in_game_scenario_one()
             break
         elif club_picked.upper() == "RB SALZBURG":
             print("You are heading to Salzburg, Austria. Good luck in the upcoming season!")
+            in_game_scenario_one()
             break
         else:
             print("Invalid input, please select a club option from above!")
