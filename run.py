@@ -201,7 +201,9 @@ Please type 'YES' or "NO'""")
 
 
 def award_time():
-
+    global award
+    award = "UEFA Player of the Year"
+    
 
 def main():
     introduction()
