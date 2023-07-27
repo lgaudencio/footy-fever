@@ -199,6 +199,8 @@ Please type 'YES' or "NO'""")
 
     in_game_scenario_two()
 
+    print(f"{name}, you have been nominated for UEFA Player of the Year Award.")
+
     award_time()
 
 
@@ -206,8 +208,6 @@ def award_time():
     global award
     award = "UEFA Player of the Year"
     award_placement = random.randint(1, 3)
-
-    print(f"{name}, you have been nominated for UEFA Player of the Year Award.")
 
     print(f"{name}, you have arrived in France for the {award} ceremony. Tonight, you are among teammates and rivals to see who will take home the {award} award.")
 
