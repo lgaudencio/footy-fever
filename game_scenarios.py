@@ -33,7 +33,13 @@ def in_game_scenario_two():
     while response not in SHOOT_OR_PASS:
     response = input(f"Your team is battling it out to secure a Champions League spot for next season. A freekick has been awarded, it is {distance} out from goal. As the clubs freekick taker, you hover over the ball. Do you take a shot on goal or do you pass it?... Please enter shoot or pass...")
         if response.upper() == "SHOOT":
-
+            print("You shoot...")
+            if chance == 0:
+                print("Goalkeeper saves it!")
+            elif chance == 1:
+                print("...You score! Your team is now 3-2 up!")
+                break
+                
         elif response.upper() == "PASS":
 
         else:
