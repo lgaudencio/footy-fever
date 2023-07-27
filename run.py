@@ -197,6 +197,9 @@ Please type 'YES' or "NO'""")
 
     in_game_scenario_two()
 
+
+def award_time():
+
 def main():
     introduction()
 
