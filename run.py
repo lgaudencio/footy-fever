@@ -203,6 +203,7 @@ Please type 'YES' or "NO'""")
 def award_time():
     global award
     award = "UEFA Player of the Year"
+    award_placement = random.randint(1, 3)
     
 
 def main():
