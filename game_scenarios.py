@@ -24,3 +24,6 @@ def in_game_scenario_one():
                 break
         else:
             print("Please type yes or no...")
+
+
+def in_game_scenario_two():
