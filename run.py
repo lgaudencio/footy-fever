@@ -16,6 +16,8 @@ weekly_wage_one = ""
 weekly_wage_two = ""
 weekly_wage_three = ""
 
+award = ""
+
 def introduction():
     print("Footy Fever")
     main_menu()
@@ -199,6 +201,7 @@ Please type 'YES' or "NO'""")
 
 
 def award_time():
+
 
 def main():
     introduction()
