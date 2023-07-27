@@ -46,7 +46,6 @@ def in_game_scenario_two():
                  break
             elif chance == 1:
                 print("Your teammate headers the ball and it goes in! Your team is now 3-2 up!")
-                break
-                
+                break        
         else:
             print("Please type 'shoot' or 'pass'")
