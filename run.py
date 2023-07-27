@@ -209,6 +209,13 @@ def award_time():
 
     print("Top 3 is about to be announced...")
 
+    if award_placement == 1:
+        print(f"Congratulations {name}! You've won the {award}. You've cemented your name amongst the great that have won this award!")
+    elif award_placement == 2:
+        print(f"{name}, you've finished in 2nd place")
+    else:
+        print(f"{name}, you've finished in 3rd place")
+
 def main():
     introduction()
 
