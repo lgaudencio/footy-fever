@@ -37,6 +37,7 @@ def in_game_scenario_two():
             print("You shoot...")
             if chance == 0:
                 print("Goalkeeper saves it!")
+                break
             elif chance == 1:
                 print("...You score! Your team is now 3-2 up!")
                 break 
@@ -44,7 +45,7 @@ def in_game_scenario_two():
             print("You pass to one of your teammates...")
             if chance == 0:
                 print("An opposition player tackles your teammate, and gets the ball away!")
-                 break
+                break
             elif chance == 1:
                 print("Your teammate headers the ball and it goes in! Your team is now 3-2 up!")
                 break        
