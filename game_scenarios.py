@@ -12,6 +12,7 @@ def in_game_scenario_one():
             print("You handed the responsiviluty to you teammate...")
             if chance == 0:
                 print("You teammate missed the penalty!")
+                break
             elif chance == 1:
                 print("You teammate scored! Your team is now 1-0 up!")
                 break
