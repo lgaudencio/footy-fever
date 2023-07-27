@@ -204,7 +204,10 @@ def award_time():
     global award
     award = "UEFA Player of the Year"
     award_placement = random.randint(1, 3)
-    
+
+    print(f"{name}, you have arrived in France for the {award} ceremony. Tonight, you are among teammates and rivals to see who will take home the {award} award.")
+
+    print("Top 3 is about to be announced...")
 
 def main():
     introduction()
