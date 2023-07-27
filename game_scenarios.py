@@ -1,6 +1,7 @@
 import random
 
 YES_OR_NO = ["YES", "NO"]
+SHOOT_OR_PASS = ["SHOOT", "PASS"]
 
 def in_game_scenario_one():
     response = ""
