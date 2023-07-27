@@ -199,6 +199,8 @@ Please type 'YES' or "NO'""")
 
     in_game_scenario_two()
 
+    award_time()
+
 
 def award_time():
     global award
