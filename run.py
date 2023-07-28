@@ -6,6 +6,7 @@ MAIN_MENU_OPTIONS = ["1", "2", "3"]
 YES_OR_NO = ["YES", "NO"]
 CLUB_ONE = ["BENFICA", "AJAX", "RB SALZBURG"]
 CLUB_TWO = ["CHELSEA", "LIVERPOOL", "ARSENAL"]
+CLUB_THREE = ["REAL MADRID", "BARCELONA", "BAYERN MUNCHEN"]
 
 SPONSORSHIP_DEAL = ["NIKE", "ADIDAS", "PUMA"]
 
@@ -222,7 +223,7 @@ def award_time():
 
 
 def end_second_club(): 
-    
+
 
 def main():
     introduction()
