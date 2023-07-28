@@ -229,6 +229,7 @@ def end_second_club():
     third_club = random.choice(CLUB_THREE)
     release_clause = "£" + str(random.randint(100, 150)) + " Million"
     random_opponent = random.choice(RANDOM_OPPONENT)
+    negotiated_salary = "£" + str(random.randint(400, 500)) + "k"
 
 
 def main():
