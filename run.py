@@ -228,6 +228,7 @@ def end_second_club():
     age += 5
     third_club = random.choice(CLUB_THREE)
     release_clause = "£" + str(random.randint(100, 150)) + " Million"
+    random_opponent = random.choice(RANDOM_OPPONENT)
 
 
 def main():
