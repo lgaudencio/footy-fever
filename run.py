@@ -226,7 +226,8 @@ def award_time():
 def end_second_club(): 
     global age
     age += 5
-    
+    third_club = random.choice(CLUB_THREE)
+
 
 def main():
     introduction()
