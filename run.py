@@ -220,6 +220,10 @@ def award_time():
     else:
         print(f"{name}, you've finished in 3rd place")
 
+
+def end_second_club(): 
+    
+
 def main():
     introduction()
 
