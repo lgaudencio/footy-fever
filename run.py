@@ -251,5 +251,7 @@ def main():
 
     at_club_two()
 
+    end_second_club()
+
 if __name__ == "__main__":
     main()
