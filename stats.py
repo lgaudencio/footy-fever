@@ -21,6 +21,11 @@ Total Goal Involvments per 90: {ratio}""")
 
 
 def club_two_stats():
+    goals = random.randint(150, 175)
+    assists = random.randint(80, 100)
+    games_played = random.randint(200, 230)
+    ratio_calc = (goals + assists) / games_played
+    ratio = round(ratio_calc, 2)
 
 
 def club_titles():
