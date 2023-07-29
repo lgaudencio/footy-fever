@@ -19,6 +19,8 @@ Goals Scored: {goals}
 Assists: {assists} 
 Total Goal Involvments per 90: {ratio}""")
 
+    club_titles()
+
 
 def club_two_stats():
     goals = random.randint(150, 175)
@@ -33,6 +35,8 @@ Games Played: {games_played}
 Goals Scored: {goals} 
 Assists: {assists} 
 Total Goal Involvments per 90: {ratio}""")
+
+    club_titles()
 
 
 def club_titles():
