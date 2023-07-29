@@ -66,8 +66,14 @@ def in_game_scenario_three():
             elif chance == 1:
                 print("You got the ball! Excellent tackle!")
                 break
-
         elif response.upper() == "NO":
+            print("The opposition player has a great chance to score here...")
+            if chance == 0:
+                print("The opposition player scored, your team is now 2-1 down!")
+                break
+            elif chance == 1:
+                print("You goalkeeper made an incredible save, the score stays level at 1-1!")
+                break
 
         else:
             print("Please type YES or NO...")
