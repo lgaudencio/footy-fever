@@ -280,6 +280,8 @@ While at the ceremony you meet with great stars of the beautiful game, but, on t
     global award
     award = "Balon d'Or"
 
+    award_time()
+
 def main():
     introduction()
 
