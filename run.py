@@ -247,6 +247,12 @@ def end_second_club():
 Do you accept this offer or do you risk negotiating?
       
 If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
+        if response.upper() == "NO":
+
+        elif response.upper() == "YES":
+        
+        else:
+        print("Please type either YES or NO.")
 
 
 def main():
