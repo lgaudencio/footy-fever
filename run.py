@@ -265,6 +265,9 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
     print(f"{name}, as you move to {third_club}, you are reminded with what you have achieved in the last five season with your previous club...")
 
     stat.club_two_stats()
+
+
+def at_third_club():
     
 
 def main():
