@@ -59,6 +59,13 @@ def in_game_scenario_three():
     while response not in YES_OR_NO:
         response = input("An opposition player is in on goal, do you takle him?... Please enter yes or no...")
         if response.upper() == "YES":
+            print("You decided to make the tackle...")
+            if chance == 0:
+                print("Bad tackle! You got none of the ball so the ref gave you a red card!")
+                break
+            elif chance == 1:
+                print("You got the ball! Excellent tackle!")
+                break
 
         elif response.upper() == "NO":
 
