@@ -268,7 +268,9 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
 
 
 def at_third_club():
-    
+
+    scenario.in_game_scenario_three()
+
 
 def main():
     introduction()
