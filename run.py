@@ -240,6 +240,13 @@ def end_second_club():
 
     print(f"""A few days later, the Sporting Director of your current club pulls you aside for a meeting. He informs you that as {third_club} paid your release clause, you are free to join them.""")
 
+    response = ""
+    while response not in YES_OR_NO:
+        response = input(f"""{third_club} are offering you a weekly salary of {weekly_wage_one}.
+
+Do you accept this offer or do you risk negotiating?
+      
+If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
 
 
 def main():
