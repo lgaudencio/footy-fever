@@ -51,3 +51,6 @@ def in_game_scenario_two():
                 break        
         else:
             print("Please type 'shoot' or 'pass'")
+
+
+def in_game_scenario_three():
