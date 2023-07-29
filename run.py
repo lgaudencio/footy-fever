@@ -199,7 +199,7 @@ Please type 'YES' or "NO'""")
         else:
             print("Please type either yes or no.\n")
 
-    in_game_scenario_two()
+    scenario.in_game_scenario_two()
 
     print(f"{name}, you have been nominated for UEFA Player of the Year Award.")
 
