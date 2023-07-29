@@ -234,6 +234,12 @@ def end_second_club():
     global weekly_wage_one
     weekly_wage_one = "£" + str(random.randint(400, 500)) + "k"
 
+    print(f"""{name}, you are on your back from playing a first leg away game against {random_opponent} in the UEFA Champions League Quarter Finals. 
+
+    Your agent informs you that {third_club} has approched your current club and will pay your release clause of {release_clause}.""")
+
+    print(f"""A few days later, the Sporting Director of your current club pulls you aside for a meeting. He informs you that as {third_club} paid your release clause, you are free to join them.""")
+
 
 
 def main():
