@@ -248,6 +248,15 @@ Do you accept this offer or do you risk negotiating?
       
 If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
         if response.upper() == "NO":
+            if negotiated_salary < weekly_wage_one:
+                print(f"{third_club} are not impressed with the negotiations, so they have now offered you {negotiated_salary})")
+                print(f"Congratulations {name}, you are now heading to your new club!")
+            elif negotiated_salary > weekly_wage_one:
+                print(f"{third_club} are impressed by your negotiating skills, they have now offered {negotiated_salary}")
+                print(f"Congratulations {name}, you are now heading to your new club!")
+            else:
+                print(f"The offer stands at {weekly_wage_one}, {third_club} will not negotiate!")
+                print(f"Congratulations {name}, you are now heading to your new club!")
 
         elif response.upper() == "YES":
         
