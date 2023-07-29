@@ -277,6 +277,8 @@ def at_third_club():
 
 While at the ceremony you meet with great stars of the beautiful game, but, on this night they are also your rivals. Let's see who comes out on top!""")
 
+    global award
+    award = "Balon d'Or"
 
 def main():
     introduction()
