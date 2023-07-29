@@ -257,9 +257,8 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
             else:
                 print(f"The offer stands at {weekly_wage_one}, {third_club} will not negotiate!")
                 print(f"Congratulations {name}, you are now heading to your new club!")
-
         elif response.upper() == "YES":
-        
+            print(f"Congratulations {name}, you are now heading to your new club!")
         else:
         print("Please type either YES or NO.")
 
