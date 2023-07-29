@@ -293,6 +293,8 @@ def main():
 
     end_second_club()
 
+    at_third_club()
+
 if __name__ == "__main__":
     main()
 
