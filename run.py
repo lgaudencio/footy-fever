@@ -231,6 +231,10 @@ def end_second_club():
     random_opponent = random.choice(RANDOM_OPPONENT)
     negotiated_salary = "£" + str(random.randint(400, 500)) + "k"
 
+    global weekly_wage_one
+    weekly_wage_one = "£" + str(random.randint(400, 500)) + "k"
+
+
 
 def main():
     introduction()
