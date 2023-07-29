@@ -20,6 +20,9 @@ Assists: {assists}
 Total Goal Involvments per 90: {ratio}""")
 
 
+def club_two_stats():
+
+
 def club_titles():
     global total_league_titles
     global total_domestic_cups
