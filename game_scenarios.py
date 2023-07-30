@@ -83,4 +83,9 @@ def in_game_scenario_four():
     chance = random.randint(0, 1)
     while response not in SHOOT_OR_PASS:
         response = input("You find yourself one-on-one with the goalkeeper, but the angle is getting tighter. You see that if you pass to your teammate, they'll have an a clear cut opportunity to score. Do you take the shot or do you pass?... Please enter shoot or pass...")
-        
+        if response.upper() == "SHOOT":
+
+        elif response.upper() == "PASS":
+
+        else:
+            print("Please type SHOOT or PASS")
