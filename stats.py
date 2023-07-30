@@ -53,6 +53,8 @@ Goals Scored: {goals}
 Assists: {assists} 
 Total Goal Involvments per 90: {ratio}""")
 
+    club_titles()
+
 
 def club_titles():
     global total_league_titles
