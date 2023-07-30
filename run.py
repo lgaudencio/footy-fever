@@ -282,6 +282,10 @@ While at the ceremony you meet with great stars of the beautiful game, but, on t
 
     award_time()
 
+
+def end_third_club():
+    
+
 def main():
     introduction()
 
