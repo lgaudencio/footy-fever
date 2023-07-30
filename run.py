@@ -12,6 +12,8 @@ RANDOM_OPPONENT = ["AC MILAN", "JUVENTUS", "BORUSSIA DORTMUND", "FC PORTO"]
 SPONSORSHIP_DEAL = ["NIKE", "ADIDAS", "PUMA"]
 
 class End_Club:
+    def __init__(self, club, city, country):
+        
 
 name = ""
 age = 17
