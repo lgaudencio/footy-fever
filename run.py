@@ -284,6 +284,8 @@ While at the ceremony you meet with great stars of the beautiful game, but, on t
 
 
 def end_third_club():
+    global age
+    age += 5
     
 
 def main():
