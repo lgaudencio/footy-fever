@@ -13,6 +13,9 @@ SPONSORSHIP_DEAL = ["NIKE", "ADIDAS", "PUMA"]
 
 class End_Club:
     def __init__(self, club, city, country):
+        self.club = club
+        self.city = city
+        self.country = country
         
 
 name = ""
