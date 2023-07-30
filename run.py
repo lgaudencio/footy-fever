@@ -308,6 +308,11 @@ def end_third_club():
 
     print(f"{saudi_club.club}, who are based in {saudi_club.city}, {saudi_club.country} are willing to give you a yearly salary of £100 Million and give you a role as a football ambassador for the region.")
 
+    input("Press enter to view the second option...")
+
+    print("SECOND OPTION:")
+
+    print(f"{usa_club.club}, who are used in {usa_club.city}, {usa_club.country} are wiling to give you a yearly salary of £50 Million, but you will also have the following: stock shares of the club, a sponsorship deal with Apple and you get to keep your image rights.")
 
 def main():
     introduction()
