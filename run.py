@@ -11,6 +11,8 @@ RANDOM_OPPONENT = ["AC MILAN", "JUVENTUS", "BORUSSIA DORTMUND", "FC PORTO"]
 
 SPONSORSHIP_DEAL = ["NIKE", "ADIDAS", "PUMA"]
 
+class End_Club:
+
 name = ""
 age = 17
 
@@ -286,7 +288,7 @@ While at the ceremony you meet with great stars of the beautiful game, but, on t
 def end_third_club():
     global age
     age += 5
-    
+
 
 def main():
     introduction()
