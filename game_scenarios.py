@@ -91,8 +91,14 @@ def in_game_scenario_four():
             elif chance == 1:
                 print("...You score! Your team is now 4-3 up!")
                 break
-
         elif response.upper() == "PASS":
-
+            print("You pass to your teammate...")
+            if chance == 0:
+                print("You teammate shoots the ball over the bar!")
+                break
+            elif chance == 1:
+                print("Your teammate gets an easy tap in and your team now leads by 4-3!")
+                break
+                
         else:
             print("Please type SHOOT or PASS")
