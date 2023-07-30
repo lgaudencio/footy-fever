@@ -98,7 +98,6 @@ def in_game_scenario_four():
                 break
             elif chance == 1:
                 print("Your teammate gets an easy tap in and your team now leads by 4-3!")
-                break
-                
+                break          
         else:
             print("Please type SHOOT or PASS")
