@@ -84,6 +84,13 @@ def in_game_scenario_four():
     while response not in SHOOT_OR_PASS:
         response = input("You find yourself one-on-one with the goalkeeper, but the angle is getting tighter. You see that if you pass to your teammate, they'll have an a clear cut opportunity to score. Do you take the shot or do you pass?... Please enter shoot or pass...")
         if response.upper() == "SHOOT":
+            print("You shoot...")
+            if chance == 0:
+                print("The shot goes wide!")
+                break
+            elif chance == 1:
+                print("...You score! Your team is now 4-3 up!")
+                break
 
         elif response.upper() == "PASS":
 
