@@ -296,6 +296,14 @@ def end_third_club():
     global age
     age += 5
 
+    print("CHAPTER 6: A NEW ADVENTURE AWAITS")
+
+    print(f"As you are now {age} years old, your club is reluctant to give you the contract extention you wanted, and clubs around the world have got wind of this information...")
+
+    print(f"{name}, you have two lucrative deals on the table and you need to select one of them...")
+
+    input("Press enter to view the first option...")
+
 
 def main():
     introduction()
