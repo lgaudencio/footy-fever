@@ -318,6 +318,12 @@ def end_third_club():
     response = ""
     while response not in CLUB_OPTIONS:
         response = input(f"{name}, which option would you like to pick? Please type 1 or 2")
+        if response == "1":
+
+        elif response == "2":
+
+        else:
+            print("Please enter either 1 or 2")
 
 def main():
     introduction()
