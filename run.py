@@ -315,6 +315,10 @@ def end_third_club():
 
     print(f"{usa_club.club}, who are used in {usa_club.city}, {usa_club.country} are wiling to give you a yearly salary of £50 Million, but you will also have the following: stock shares of the club, a sponsorship deal with Apple and you get to keep your image rights.")
 
+    response = ""
+    while response not in CLUB_OPTIONS:
+        response = input(f"{name}, which option would you like to pick? Please type 1 or 2")
+
 def main():
     introduction()
 
