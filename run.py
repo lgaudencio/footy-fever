@@ -3,6 +3,7 @@ import stats as stat
 import game_scenarios as scenario
 
 MAIN_MENU_OPTIONS = ["1", "2", "3"]
+CLUB_OPTIONS = ["1", "2"]
 YES_OR_NO = ["YES", "NO"]
 CLUB_ONE = ["BENFICA", "AJAX", "RB SALZBURG"]
 CLUB_TWO = ["CHELSEA", "LIVERPOOL", "ARSENAL"]
