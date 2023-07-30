@@ -327,6 +327,9 @@ def end_third_club():
 
     print(f"{name}, on the last day at your current club, teammates and fans gather, your accolades are read out by the clubs president...")
 
+    stat.club_three_stats()
+
+
 def main():
     introduction()
 
