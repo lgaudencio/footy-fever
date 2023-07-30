@@ -16,7 +16,9 @@ class End_Club:
         self.club = club
         self.city = city
         self.country = country
-        
+
+saudi_club = End_Club("AL-NASSR", "RIYADH", "SAUDI ARABIA")
+usa_club = End_Club("INTER MIAMI", "MIAMI", "USA")
 
 name = ""
 age = 17
