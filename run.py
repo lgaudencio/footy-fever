@@ -319,9 +319,9 @@ def end_third_club():
     while response not in CLUB_OPTIONS:
         response = input(f"{name}, which option would you like to pick? Please type 1 or 2")
         if response == "1":
-
+            print(f"{name}, you have decided to joing {saudi_club.club}. You will now be meeting up with your new colleagues in {saudi_club.city}, {saudi_club.country}. We wish you the best of luck!")
         elif response == "2":
-
+            print(f"{name}, you have decided to joing {usa_club.club}. You will now be meeting up with your new colleagues in {usa_club.city}, {usa_club.country}. We wish you the best of luck!")
         else:
             print("Please enter either 1 or 2")
 
