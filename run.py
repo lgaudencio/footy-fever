@@ -325,6 +325,8 @@ def end_third_club():
         else:
             print("Please enter either 1 or 2")
 
+    print(f"{name}, on the last day at your current club, teammates and fans gather, your accolades are read out by the clubs president...")
+
 def main():
     introduction()
 
