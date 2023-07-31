@@ -360,6 +360,9 @@ def play_again():
     while response not in YES_OR_NO:
     response = input("Would you like to play again?")
     if response.upper() == "YES":
+        print("Loading new game...")
+        os.system('clear')
+        introduction()
     
     elif response.upper() == 'NO':
 
