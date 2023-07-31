@@ -89,3 +89,6 @@ def club_titles():
 
 
 def total_career_titles():
+    print(f"League Title(s): {total_league_titles}")
+    print(f"Domestic Cup(s): {total_domestic_cups}")
+    print(f"European Cup(s) : {total_european_cups}")
