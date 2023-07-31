@@ -385,6 +385,8 @@ def main():
 
     career_end()
 
+    play_again()
+
 if __name__ == "__main__":
     main()
 
