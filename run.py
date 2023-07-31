@@ -363,6 +363,8 @@ def main():
 
     end_third_club()
 
+    career_end()
+
 if __name__ == "__main__":
     main()
 
