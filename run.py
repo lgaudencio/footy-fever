@@ -1,4 +1,5 @@
 import random
+import os
 import stats as stat
 import game_scenarios as scenario
 
