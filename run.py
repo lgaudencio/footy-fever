@@ -330,6 +330,9 @@ def end_third_club():
     stat.club_three_stats()
 
 
+def career_end():
+    
+
 def main():
     introduction()
 
