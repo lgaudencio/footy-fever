@@ -334,7 +334,17 @@ def career_end():
     global age
     age += 5
 
+    print("CHAPTER 7: THE LEGACY")
+
     scenario.in_game_scenario_four()
+
+    print("A few years later...")
+
+    print(f""" ***BREAKING NEWS***
+
+{name} has just announced their retirement at the age of {age}. 
+
+Over the past five years playing in a different continent, {name} has achieved the following titles... """)
 
 def main():
     introduction()
