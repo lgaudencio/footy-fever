@@ -86,3 +86,6 @@ def club_titles():
 {league_titles} League Title(s)
 {domestic_cups} Domestic Cup Title(s)
 {european_cups} European Cup Title(s)""")
+
+
+def total_career_titles():
