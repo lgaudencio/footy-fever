@@ -17,4 +17,18 @@ In this game Footy Fever, users will be playing to reach the heights of their fo
 * The user can chose if they like to sign on to a sponsorship deal. 
 * Along the way the user can pick up prestigious footballing awards. 
 * The user will be presented with in-game scenarios and they must take control of their actions. 
-* By the end of the game the user should have achieved footballing stardom, with incredible personal and team accolades. 
+* By the end of the game the user should have achieved footballing stardom, with incredible personal and team accolades.
+
+## User Stories
+
+Target Audience: The target audience for this game is anyone that has a keen interest in football and wants to play an online command-line interface fun game. 
+
+As a User I want to:
+
+* play a quick and fun game around an interest of mine
+* be able to make decision in a game
+* know when i have entered something incorrectly 
+* play a game on different devices
+* understand how to play the game
+* be able to restart the game once finished 
+* play a game that is not repetitive if I play it again and again 
