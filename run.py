@@ -354,6 +354,10 @@ Over the past five years playing in a different continent, {name} has achieved t
 
 
 def play_again():
+    print("You have now completed the game!")
+    response = ""
+    while response not in YES_OR_NO:
+    response = input("Would you like to play again?")
     
 
 def main():
