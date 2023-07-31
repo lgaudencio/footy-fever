@@ -56,6 +56,9 @@ Total Goal Involvments per 90: {ratio}""")
     club_titles()
 
 
+def club_four_stats():
+    
+
 def club_titles():
     global total_league_titles
     global total_domestic_cups
