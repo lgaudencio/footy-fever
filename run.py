@@ -346,6 +346,8 @@ def career_end():
 
 Over the past five years playing in a different continent, {name} has achieved the following titles... """)
 
+    stat.club_four_stats()
+
 def main():
     introduction()
 
