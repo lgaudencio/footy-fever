@@ -331,6 +331,8 @@ def end_third_club():
 
 
 def career_end():
+    global age
+    age += 5
     
 
 def main():
