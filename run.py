@@ -350,6 +350,8 @@ Over the past five years playing in a different continent, {name} has achieved t
 
     print("""Throughout their career, the amount of titles won have been the following... """)
 
+    stat.total_career_titles()
+
 def main():
     introduction()
 
