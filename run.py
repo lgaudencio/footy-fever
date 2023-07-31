@@ -363,9 +363,8 @@ def play_again():
         print("Loading new game...")
         os.system('clear')
         introduction()
-    
     elif response.upper() == 'NO':
-
+        print("Thank you for playing!")
     else:
         print("Please enter 'YES' or 'NO'")
 
