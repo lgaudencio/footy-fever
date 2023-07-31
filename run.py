@@ -352,6 +352,10 @@ Over the past five years playing in a different continent, {name} has achieved t
 
     stat.total_career_titles()
 
+
+def play_again():
+    
+
 def main():
     introduction()
 
