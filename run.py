@@ -348,6 +348,8 @@ Over the past five years playing in a different continent, {name} has achieved t
 
     stat.club_four_stats()
 
+    print("""Throughout their career, the amount of titles won have been the following... """)
+
 def main():
     introduction()
 
