@@ -333,7 +333,8 @@ def end_third_club():
 def career_end():
     global age
     age += 5
-    
+
+    scenario.in_game_scenario_four()
 
 def main():
     introduction()
