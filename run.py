@@ -359,7 +359,12 @@ def play_again():
     response = ""
     while response not in YES_OR_NO:
     response = input("Would you like to play again?")
+    if response.upper() == "YES":
     
+    elif response.upper() == 'NO':
+
+    else:
+        print("Please enter 'YES' or 'NO'")
 
 def main():
     introduction()
