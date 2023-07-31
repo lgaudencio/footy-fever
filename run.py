@@ -1,5 +1,6 @@
 import random
 import os
+import time
 import stats as stat
 import game_scenarios as scenario
 
