@@ -6,20 +6,19 @@ SHOOT_OR_PASS = ["SHOOT", "PASS"]
 
 def in_game_scenario_one():
     time.sleep(3)
-    print("Loading in-game scenario...")
+    print("Loading in-game scenario...\n")
     time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
         response = input("""You've been fouled inside the box do you chose to
-take the penalty or hand it to a teammate?... 
-Please enter YES to take the pentalty or NO to hand it over to your teammate...
-        """)
+take the penalty or hand it to a teammate?...\n
+Please enter YES to take the pentalty or NO to hand it over to your teammate...\n""")
         if response.upper() == "NO":
             print("You handed the responsiviluty to you teammate...")
             time.sleep(2)
             if chance == 0:
-                print("You teammate missed the penalty!")
+                print("Your teammate missed the penalty! Score stays at 0-0")
                 break
             elif chance == 1:
                 print("You teammate scored! Your team is now 1-0 up!")
