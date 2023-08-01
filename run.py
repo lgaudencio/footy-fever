@@ -174,7 +174,7 @@ def start_club_two():
     print("Loading Chapter 3...")
 
     time.sleep(3)
-    
+
     print("CHAPTER 3: BIG MONEY MOVE")
 
     transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
@@ -185,6 +185,8 @@ def start_club_two():
 Your agent tells you that some big Premier League clubs are battling it out for your signature!
 
 You've been told that your current club has accepted a fee of {transfer_fee} from {second_club}.""")
+
+    time.sleep(3)
 
     global weekly_wage_one
     weekly_wage_one = "£" + str(random.randint(150, 200)) + "k"
