@@ -452,7 +452,8 @@ def career_end():
 
 {name} has just announced their retirement at the age of {age}. 
 
-Over the past five years playing in a different continent, {name} has achieved the following titles... """)
+Over the past five years playing in a different continent, 
+{name} has achieved the following titles... """)
 
     stat.club_four_stats()
 
