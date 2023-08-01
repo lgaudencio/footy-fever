@@ -142,21 +142,21 @@ Please see your options below:
     while club_picked not in CLUB_ONE:
         club_picked = input("\nTo pick a team, please type one of the following: Benfica, Ajax or RB Salzburg\n")
         if club_picked.upper() == "BENFICA":
-            print("\nYou are heading to Lisbon, Portugal. Good luck in the upcoming season!")
+            print("\nYou are heading to Lisbon, Portugal. Good luck in the upcoming season!\n")
             scenario.in_game_scenario_one()
             break
         elif club_picked.upper() == "AJAX":
-            print("\nYou are heading to Amsterdam, Netherlands. Good luck in the upcoming season!")
+            print("\nYou are heading to Amsterdam, Netherlands. Good luck in the upcoming season!\n")
             scenario.in_game_scenario_one()
             break
         elif club_picked.upper() == "RB SALZBURG":
-            print("\nYou are heading to Salzburg, Austria. Good luck in the upcoming season!")
+            print("\nYou are heading to Salzburg, Austria. Good luck in the upcoming season!\n")
             scenario.in_game_scenario_one()
             break
         else:
-            print("\nInvalid input, please select a club option from above!")
+            print("\nInvalid input, please select a club option from above!\n")
 
-    input("Press Enter to continue...\n")
+    input("\nPress Enter to continue...\n")
     time.sleep(1)
 
 def club_one_end():
