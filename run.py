@@ -48,7 +48,7 @@ def introduction():
 def main_menu():
     response = ""
     while response not in MAIN_MENU_OPTIONS:
-        print("MAIN MENU")
+        print("\nMAIN MENU\n")
         response = input("""Please select an option below:
     
 Enter 1 - About This Game
@@ -64,11 +64,11 @@ Enter 3 - Play Game
             invalid_main_menu_input()
             main_menu()
         elif response == "3":
-            print("Starting Game...")
+            print("\nStarting Game...\n")
             time.sleep(3)
             break
         else:
-            print("Please enter a number between 1 and 3")
+            print("\nPlease enter a number between 1 and 3")
 
 
 def invalid_main_menu_input():
