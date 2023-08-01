@@ -163,21 +163,21 @@ def club_one_end():
     global age
     age += 5
 
-    print("Loading Chapter 2...")
+    print("Loading Chapter 2...\n")
 
     time.sleep(3)
 
-    print("CHAPTER 2: A STAR IN THE MAKING")
+    print("CHAPTER 2: A STAR IN THE MAKING\n")
 
     time.sleep(2)
 
-    print("Five years later...")
+    print("Five years later...\n")
 
     time.sleep(2)
 
     stat.club_one_stats()
 
-    input("Press Enter to continue")
+    input("\nPress Enter to continue\n")
 
 
 def start_club_two():
