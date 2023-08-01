@@ -351,8 +351,8 @@ so they have now offered you {negotiated_salary}""")
                 print(f"Congratulations {name}, you are now heading to your new club!")
                 break
             elif negotiated_salary > weekly_wage_one:
-                print(f"{third_club} are impressed by your negotiating skills, 
-they have now offered {negotiated_salary}")
+                print(f"""{third_club} are impressed by your negotiating skills, 
+they have now offered {negotiated_salary}""")
                 print(f"Congratulations {name}, you are now heading to your new club!")
                 break
             else:
@@ -364,8 +364,8 @@ they have now offered {negotiated_salary}")
         else:
             print("Please type either YES or NO.")
 
-    print(f"{name}, as you move to {third_club}, you are reminded with what you have 
-achieved in the last five season with your previous club...")
+    print(f"""{name}, as you move to {third_club}, you are reminded with what you have 
+achieved in the last five season with your previous club...""")
 
     stat.club_two_stats()
 
