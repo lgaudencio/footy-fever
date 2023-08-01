@@ -80,7 +80,7 @@ def invalid_main_menu_input():
             else:
                 None
         except Exception:
-            print("Please enter valud input...")
+            print("Please enter valid input...")
             main_menu()
 
 
