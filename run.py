@@ -89,12 +89,12 @@ def input_name():
     while True:
         name = input("Please enter your name?: ")
         if len(name) > 0:
-            print(f"""Welcome {name}!
+            print(f"""\nWelcome {name}!
         
-You will now begin your path to stardom, good luck in your journey!""")
+You will now begin your path to stardom, good luck in your journey!\n""")
             break
         else:
-            print("Name must be longer than 0 characters!")
+            print("\nName must be longer than 0 characters!\n")
 
 
 def weekly_wage_club_one():
