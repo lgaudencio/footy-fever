@@ -371,6 +371,9 @@ achieved in the last five season with your previous club...")
 
 
 def at_third_club():
+    print("Loading Chapter 5...")
+
+    time.sleep(3)
 
     print("CHAPTER 5: SO THIS IS PEAKING?")
 
