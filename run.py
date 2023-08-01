@@ -221,6 +221,10 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
 
 
 def at_club_two():
+    print("Loading Chapter 4...")
+
+    time.sleep(3)
+
     print("CHAPTER 4: HIGH FLYER")
 
     sponsor = random.choice(SPONSORSHIP_DEAL)
