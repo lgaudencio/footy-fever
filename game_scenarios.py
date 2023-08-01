@@ -45,7 +45,10 @@ def in_game_scenario_two():
     chance = random.randint(0, 1)
     distance = str(random.randint(20, 45)) + " Yards"
     while response not in SHOOT_OR_PASS:
-        response = input(f"Your team is battling it out to secure a Champions League spot for next season. A freekick has been awarded, it is {distance} out from goal. As the clubs freekick taker, you hover over the ball. Do you take a shot on goal or do you pass it?... Please enter shoot or pass...")
+        response = input(f"""Your team is battling it out to secure a Champions League spot for next season. 
+A freekick has been awarded, it is {distance} out from goal. 
+As the clubs freekick taker, you hover over the ball. Do you take a shot on goal or do you pass it?... 
+Please enter SHOOT or PASS...""")
         if response.upper() == "SHOOT":
             print("You shoot...")
             time.sleep(2)
