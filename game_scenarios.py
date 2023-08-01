@@ -95,12 +95,16 @@ def in_game_scenario_three():
 
 
 def in_game_scenario_four():
+    time.sleep(3)
+    print("Loading in-game scenario...")
+    time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
     while response not in SHOOT_OR_PASS:
         response = input("You find yourself one-on-one with the goalkeeper, but the angle is getting tighter. You see that if you pass to your teammate, they'll have an a clear cut opportunity to score. Do you take the shot or do you pass?... Please enter shoot or pass...")
         if response.upper() == "SHOOT":
             print("You shoot...")
+            time.sleep(2)
             if chance == 0:
                 print("The shot goes wide!")
                 break
@@ -109,6 +113,7 @@ def in_game_scenario_four():
                 break
         elif response.upper() == "PASS":
             print("You pass to your teammate...")
+            time.sleep(2)
             if chance == 0:
                 print("You teammate shoots the ball over the bar!")
                 break
