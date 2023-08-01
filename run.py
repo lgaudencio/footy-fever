@@ -128,6 +128,8 @@ def start_pro_career():
 \nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week  
 \nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week""")
 
+    time.sleep(2)
+
     club_picked = ""
     while club_picked not in CLUB_ONE:
         club_picked = input("\nTo pick a team, please type one of the following: Benfica, Ajax or RB Salzburg\n")
@@ -146,6 +148,8 @@ def start_pro_career():
         else:
             print("Invalid input, please select a club option from above!")
 
+    input("Press Enter to continue...\n")
+    time.sleep(1)
 
 def club_one_end():
     global age
