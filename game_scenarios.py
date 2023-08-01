@@ -1,4 +1,5 @@
 import random
+import time
 
 YES_OR_NO = ["YES", "NO"]
 SHOOT_OR_PASS = ["SHOOT", "PASS"]
