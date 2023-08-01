@@ -110,9 +110,15 @@ def weekly_wage_club_one():
 def start_pro_career():
     print("CHAPTER 1: The Choice")
 
+    time.sleep(2)
+
     print(f"{name}, you have just finished a successful youth career at your\nlocal football club.")
 
+    time.sleep(4)
+
     print("Alongside your talent, your agent has been very proactive\nand there are a number of clubs around Europe that would\nlike to sign you.")
+
+    time.sleep(4)
 
     weekly_wage_club_one()
 
