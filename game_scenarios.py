@@ -78,7 +78,8 @@ def in_game_scenario_three():
     response = ""
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
-        response = input("An opposition player is in on goal, do you takle him?... Please enter yes or no...")
+        response = input("""An opposition player is in on goal, do you takle him?... 
+Please enter YES to tackle or NO to take no action...""")
         if response.upper() == "YES":
             print("You decided to make the tackle...")
             time.sleep(2)
