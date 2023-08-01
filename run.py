@@ -177,6 +177,8 @@ def club_one_end():
 
     stat.club_one_stats()
 
+    input("Press Enter to continue")
+
 
 def start_club_two():
     print("Loading Chapter 3...")
