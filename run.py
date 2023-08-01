@@ -157,9 +157,15 @@ def club_one_end():
 
     print("Loading Chapter 2...")
 
+    time.sleep(3)
+
     print("CHAPTER 2: A STAR IN THE MAKING")
 
+    time.sleep(2)
+
     print("Five years later...")
+
+    time.sleep(2)
 
     stat.club_one_stats()
 
