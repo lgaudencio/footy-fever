@@ -392,33 +392,48 @@ def end_third_club():
 
     print("CHAPTER 6: A NEW ADVENTURE AWAITS")
 
-    print(f"As you are now {age} years old, your club is reluctant to give you the contract extention you wanted, and clubs around the world have got wind of this information...")
+    print(f"""As you are now {age} years old, your club is reluctant to give you the 
+contract extention you wanted, and clubs around the world have got wind of 
+this information...""")
 
-    print(f"{name}, you have two lucrative deals on the table and you need to select one of them...")
+    print(f"""{name}, you have two lucrative deals on the table 
+and you need to select one of them...""")
 
-    input("Press enter to view the first option...")
+    input("Press Enter to view the first option...")
 
     print("FIRST OPTION:")
 
-    print(f"{saudi_club.club}, who are based in {saudi_club.city}, {saudi_club.country} are willing to give you a yearly salary of £100 Million and give you a role as a football ambassador for the region.")
+    print(f"""{saudi_club.club}, who are based in {saudi_club.city}, {saudi_club.country} 
+are willing to give you a yearly salary of £100 Million and give you a role 
+as a football ambassador for the region.""")
 
-    input("Press enter to view the second option...")
+    input("Press Enter to view the second option...")
 
     print("SECOND OPTION:")
 
-    print(f"{usa_club.club}, who are used in {usa_club.city}, {usa_club.country} are wiling to give you a yearly salary of £50 Million, but you will also have the following: stock shares of the club, a sponsorship deal with Apple and you get to keep your image rights.")
+    print(f"""{usa_club.club}, who are used in {usa_club.city}, {usa_club.country} 
+are wiling to give you a yearly salary of £50 Million, 
+but you will also have the following: stock shares of the club, 
+a sponsorship deal with Apple and you get to keep your image rights.""")
 
     response = ""
     while response not in CLUB_OPTIONS:
         response = input(f"{name}, which option would you like to pick? Please type 1 or 2")
         if response == "1":
-            print(f"{name}, you have decided to joing {saudi_club.club}. You will now be meeting up with your new colleagues in {saudi_club.city}, {saudi_club.country}. We wish you the best of luck!")
+            print(f"""{name}, you have decided to joing {saudi_club.club}. 
+You will now be meeting up with your new colleagues in 
+{saudi_club.city}, {saudi_club.country}. 
+We wish you the best of luck!""")
         elif response == "2":
-            print(f"{name}, you have decided to joing {usa_club.club}. You will now be meeting up with your new colleagues in {usa_club.city}, {usa_club.country}. We wish you the best of luck!")
+            print(f"""{name}, you have decided to joing {usa_club.club}. 
+You will now be meeting up with your new colleagues in 
+{usa_club.city}, {usa_club.country}. 
+We wish you the best of luck!""")
         else:
             print("Please enter either 1 or 2")
 
-    print(f"{name}, on the last day at your current club, teammates and fans gather, your accolades are read out by the clubs president...")
+    print(f"""{name}, on the last day at your current club, teammates and fans gather, 
+your accolades are read out by the clubs president...""")
 
     stat.club_three_stats()
 
