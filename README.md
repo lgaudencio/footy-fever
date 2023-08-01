@@ -34,3 +34,7 @@ As a User I want to:
 * understand how to play the game
 * be able to restart the game once finished 
 * play a game that is not repetitive if I play it again and again 
+
+### User Experience in this Game
+
+This game will take into consideration the user stories as mentioned above to create a positive UX. The users experience will be shown in deeper detail with examples within the below sections. 
