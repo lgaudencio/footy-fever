@@ -65,6 +65,8 @@ Enter 3 - Play Game
             main_menu()
         elif response == "3":
             print("Starting Game...")
+            time.sleep(3)
+            break
         else:
             print("Please enter a number between 1 and 3")
 
