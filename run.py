@@ -108,22 +108,30 @@ def weekly_wage_club_one():
 
 
 def start_pro_career():
-    print("CHAPTER 1: The Choice")
+    print("CHAPTER 1: The Choice\n")
 
     time.sleep(2)
 
-    print(f"{name}, you have just finished a successful youth career at your\nlocal football club.")
+    # print(f"{name}, you have just finished a successful youth career at your\nlocal football club.")
+
+    print(f"""{name}, you have just finished a successful youth career
+at your local football club.\n""")
 
     time.sleep(4)
 
-    print("Alongside your talent, your agent has been very proactive\nand there are a number of clubs around Europe that would\nlike to sign you.")
+    # print("Alongside your talent, your agent has been very proactive\nand there are a number of clubs around Europe that would\nlike to sign you.")
+
+    print("""Alongside your talent, your agent has been very proactive and
+there are a number of clubs around Europe that would like to sign you.\n""")
 
     time.sleep(4)
 
     weekly_wage_club_one()
 
-    print(f"""Three clubs have expressed their interest and they have guaranteed that you'll play at least 50% of the games in your first season. 
-\nPlease see your options below:
+    print(f"""Three clubs have expressed their interest and they have 
+guaranteed that you'll play at least 50% of the games in your first season. 
+
+Please see your options below:
 \nOption 1: {CLUB_ONE[0]} for £{weekly_wage_one} per week
 \nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week  
 \nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week""")
@@ -134,19 +142,19 @@ def start_pro_career():
     while club_picked not in CLUB_ONE:
         club_picked = input("\nTo pick a team, please type one of the following: Benfica, Ajax or RB Salzburg\n")
         if club_picked.upper() == "BENFICA":
-            print("You are heading to Lisbon, Portugal. Good luck in the upcoming season!")
+            print("\nYou are heading to Lisbon, Portugal. Good luck in the upcoming season!")
             scenario.in_game_scenario_one()
             break
         elif club_picked.upper() == "AJAX":
-            print("You are heading to Amsterdam, Netherlands. Good luck in the upcoming season!")
+            print("\nYou are heading to Amsterdam, Netherlands. Good luck in the upcoming season!")
             scenario.in_game_scenario_one()
             break
         elif club_picked.upper() == "RB SALZBURG":
-            print("You are heading to Salzburg, Austria. Good luck in the upcoming season!")
+            print("\nYou are heading to Salzburg, Austria. Good luck in the upcoming season!")
             scenario.in_game_scenario_one()
             break
         else:
-            print("Invalid input, please select a club option from above!")
+            print("\nInvalid input, please select a club option from above!")
 
     input("Press Enter to continue...\n")
     time.sleep(1)
