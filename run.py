@@ -248,7 +248,19 @@ Please type 'YES' or "NO'""")
         else:
             print("Please type either yes or no.\n")
 
+    time.sleep(2)
+
+    print("Loading in-game scenario...")
+
+    time.sleep(3)
+
     scenario.in_game_scenario_two()
+
+    time.sleep(2)
+
+    print("Loading award ceremony...")
+
+    time.sleep(3)
 
     print(f"{name}, you have been nominated for UEFA Player of the Year Award.")
 
