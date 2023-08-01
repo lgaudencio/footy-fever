@@ -181,27 +181,27 @@ def club_one_end():
 
 
 def start_club_two():
-    print("Loading Chapter 3...")
+    print("Loading Chapter 3...\n")
 
     time.sleep(3)
 
-    print("CHAPTER 3: BIG MONEY MOVE")
+    print("CHAPTER 3: BIG MONEY MOVE\n")
 
     transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
     second_club = random.choice(CLUB_TWO)
 
     print("""You are currently preparing for a pre-season tour 
-when you get a call from your agent.""")
+when you get a call from your agent.\n""")
 
     time.sleep(2)
 
     print("""Your agent tells you that some big Premier League clubs 
-are battling it out for your signature!""")
+are battling it out for your signature!\n""")
 
     time.sleep(2)
 
     print(f"""You've been told that your current club has accepted a 
-fee of {transfer_fee} from {second_club}.""")
+fee of {transfer_fee} from {second_club}.\n""")
 
     time.sleep(3)
 
@@ -216,7 +216,7 @@ fee of {transfer_fee} from {second_club}.""")
 
 Do you accept this offer or do you risk negotiating?
       
-If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
+If you accept the offer type 'YES' if you want to negotiate type 'NO'\n""")
 
         if response.upper() == "NO":
             if negotiated_salary < weekly_wage_one:
@@ -240,7 +240,7 @@ new teammates at {second_club}!""")
 new teammates at {second_club}!""")
             break
         else:
-            print("Please type either YES or NO")
+            print("Please type either YES or NO\n")
 
 
 def at_club_two():
