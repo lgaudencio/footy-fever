@@ -268,12 +268,14 @@ Please type 'YES' or "NO'""")
 
     print(f"{name}, you have been nominated for UEFA Player of the Year Award.")
 
+    global award
+    award = "UEFA Player of the Year"
     award_time()
 
 
 def award_time():
-    global award
-    award = "UEFA Player of the Year"
+    # global award
+    # award = "UEFA Player of the Year"
     award_placement = random.randint(1, 3)
 
     print(f"{name}, you have arrived in France for the {award} ceremony. Tonight, you are among teammates and rivals to see who will take home the {award} award.")
