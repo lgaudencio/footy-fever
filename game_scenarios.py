@@ -34,6 +34,9 @@ def in_game_scenario_one():
 
 
 def in_game_scenario_two():
+    time.sleep(3)
+    print("Loading in-game scenario...")
+    time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
     distance = str(random.randint(20, 45)) + " Yards"
@@ -41,6 +44,7 @@ def in_game_scenario_two():
     response = input(f"Your team is battling it out to secure a Champions League spot for next season. A freekick has been awarded, it is {distance} out from goal. As the clubs freekick taker, you hover over the ball. Do you take a shot on goal or do you pass it?... Please enter shoot or pass...")
         if response.upper() == "SHOOT":
             print("You shoot...")
+            time.sleep(2)
             if chance == 0:
                 print("Goalkeeper saves it!")
                 break
@@ -49,6 +53,7 @@ def in_game_scenario_two():
                 break 
         elif response.upper() == "PASS":
             print("You pass to one of your teammates...")
+            time.sleep(2)
             if chance == 0:
                 print("An opposition player tackles your teammate, and gets the ball away!")
                 break
