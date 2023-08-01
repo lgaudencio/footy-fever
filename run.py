@@ -38,6 +38,9 @@ def introduction():
     input_name()
 
     input("Press Enter to continue...\n")
+    time.sleep(1)
+    print("Loading Chapter 1...\n")
+    time.sleep(3)
 
     start_pro_career()
 
