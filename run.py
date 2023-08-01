@@ -171,6 +171,10 @@ def club_one_end():
 
 
 def start_club_two():
+    print("Loading Chapter 3...")
+
+    time.sleep(3)
+    
     print("CHAPTER 3: BIG MONEY MOVE")
 
     transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
