@@ -10,7 +10,7 @@ This game (Footy Fever) was chosen to appeal to its intended target audience, wh
 
 ## User Experience (UX)
 
-## How To Play 
+### How To Play 
 
 In this game Footy Fever, users will be playing to reach the heights of their footballing career. By starting just out of a youth club and potentially ending up in a whole different continent by the end of the game. Along the way the user will chose clubs that they’ll play for and even take part in salary negotiations. Upon finishing their time at a certain club, they’ll be presented with their stats as a player and all the trophies they’ve won!
 
@@ -21,7 +21,7 @@ In this game Footy Fever, users will be playing to reach the heights of their fo
 * The user will be presented with in-game scenarios and they must take control of their actions. 
 * By the end of the game the user should have achieved footballing stardom, with incredible personal and team accolades.
 
-## User Stories
+### User Stories
 
 Target Audience: The target audience for this game is anyone that has a keen interest in football and wants to play an online command-line interface fun game. 
 
