@@ -180,11 +180,15 @@ def start_club_two():
     transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
     second_club = random.choice(CLUB_TWO)
 
-    print(f"""You are currently preparing for a pre-season tour when you get a call from your agent. 
-  
-Your agent tells you that some big Premier League clubs are battling it out for your signature!
+    print("You are currently preparing for a pre-season tour when you get a call from your agent.")
 
-You've been told that your current club has accepted a fee of {transfer_fee} from {second_club}.""")
+    time.sleep(2)
+
+    print("Your agent tells you that some big Premier League clubs are battling it out for your signature!")
+
+    time.sleep(2)
+
+    print(f"You've been told that your current club has accepted a fee of {transfer_fee} from {second_club}.")
 
     time.sleep(3)
 
