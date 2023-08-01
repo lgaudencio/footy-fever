@@ -416,15 +416,15 @@ def play_again():
     print("You have now completed the game!")
     response = ""
     while response not in YES_OR_NO:
-    response = input("Would you like to play again?")
-    if response.upper() == "YES":
-        print("Loading new game...")
-        os.system('clear')
-        introduction()
-    elif response.upper() == 'NO':
-        print("Thank you for playing!")
-    else:
-        print("Please enter 'YES' or 'NO'")
+        response = input("Would you like to play again?")
+        if response.upper() == "YES":
+            print("Loading new game...")
+            os.system('clear')
+            introduction()
+        elif response.upper() == 'NO':
+            print("Thank you for playing!")
+        else:
+            print("Please enter 'YES' or 'NO'")
 
 def main():
     introduction()
