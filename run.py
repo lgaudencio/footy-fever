@@ -81,6 +81,7 @@ def invalid_main_menu_input():
                 None
         except Exception:
             print("Please enter valud input...")
+            main_menu()
 
 
 def input_name():
