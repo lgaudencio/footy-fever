@@ -51,6 +51,8 @@ def club_three_stats():
     ratio_calc = (goals + assists) / games_played
     ratio = round(ratio_calc, 2)
 
+    time.sleep(3)
+
     print(f"""Your stats the last five seasons:
   
 Games Played: {games_played} 
