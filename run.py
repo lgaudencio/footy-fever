@@ -295,7 +295,9 @@ def award_time():
     # award = "UEFA Player of the Year"
     award_placement = random.randint(1, 3)
 
-    print(f"{name}, you have arrived in France for the {award} ceremony. Tonight, you are among teammates and rivals to see who will take home the {award} award.")
+    print(f"""{name}, you have arrived in France for the {award} ceremony. 
+Tonight, you are among teammates and rivals to see who will take home the 
+{award} award.""")
 
     time.sleep(2)
 
@@ -304,7 +306,8 @@ def award_time():
     time.sleep(3)
 
     if award_placement == 1:
-        print(f"Congratulations {name}! You've won the {award}. You've cemented your name amongst the great that have won this award!")
+        print(f"""Congratulations {name}! You've won the {award}. 
+You've cemented your name amongst the great that have won this award!""")
     elif award_placement == 2:
         print(f"{name}, you've finished in 2nd place")
     else:
