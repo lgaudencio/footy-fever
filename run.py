@@ -36,6 +36,9 @@ def introduction():
     print("Footy Fever")
     main_menu()
     input_name()
+
+    input("Press Enter to continue...\n")
+
     start_pro_career()
 
 
