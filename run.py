@@ -395,6 +395,10 @@ def end_third_club():
     global age
     age += 5
 
+    print("Loading Chapter 6...")
+
+    time.sleep(3)
+
     print("CHAPTER 6: A NEW ADVENTURE AWAITS")
 
     print(f"""As you are now {age} years old, your club is reluctant to give you the 
