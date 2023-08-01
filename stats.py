@@ -96,6 +96,10 @@ def club_titles():
 {domestic_cups} Domestic Cup Title(s)
 {european_cups} European Cup Title(s)""")
 
+    total_league_titles += league_titles
+    total_domestic_cups += domestic_cups
+    total_european_cups += european_cups
+
 
 def total_career_titles():
     print(f"League Title(s): {total_league_titles}")
