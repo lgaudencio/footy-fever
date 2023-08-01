@@ -451,6 +451,10 @@ def career_end():
     global age
     age += 5
 
+    print("Loading Chapter 7...")
+
+    time.sleep(3)
+
     print("CHAPTER 7: THE LEGACY")
 
     scenario.in_game_scenario_four()
