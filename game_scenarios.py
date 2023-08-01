@@ -65,12 +65,16 @@ def in_game_scenario_two():
 
 
 def in_game_scenario_three():
+    time.sleep(3)
+    print("Loading in-game scenario...")
+    time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
         response = input("An opposition player is in on goal, do you takle him?... Please enter yes or no...")
         if response.upper() == "YES":
             print("You decided to make the tackle...")
+            time.sleep(2)
             if chance == 0:
                 print("Bad tackle! You got none of the ball so the ref gave you a red card!")
                 break
@@ -79,6 +83,7 @@ def in_game_scenario_three():
                 break
         elif response.upper() == "NO":
             print("The opposition player has a great chance to score here...")
+            time.sleep(2)
             if chance == 0:
                 print("The opposition player scored, your team is now 2-1 down!")
                 break
