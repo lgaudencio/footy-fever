@@ -244,29 +244,29 @@ new teammates at {second_club}!""")
 
 
 def at_club_two():
-    print("Loading Chapter 4...")
+    print("\nLoading Chapter 4...\n")
 
     time.sleep(3)
 
-    print("CHAPTER 4: HIGH FLYER")
+    print("CHAPTER 4: HIGH FLYER\n")
 
     sponsor = random.choice(SPONSORSHIP_DEAL)
     sponsor_salary = "£" + str(random.randint(1, 5)) + " Million"
 
     print(f"""Your big money move to has made headlines.
   
-    {sponsor} has contacted you and would like to offer you a sponsorship
-    deal worth {sponsor_salary} per year.""")
+{sponsor} has contacted you and would like to offer you a sponsorship
+deal worth {sponsor_salary} per year.\n""")
 
     response = ""
     while response not in YES_OR_NO:
         response = input(f"""{name}, would you like to sign on with {sponsor}? 
-Please type 'YES' or "NO'""")
+Please type 'YES' or "NO'\n""")
         if response.upper() == "YES":
-            print(f"Congratulation {name}, you've signed a lucrative deal with {sponsor}!")
+            print(f"Congratulation {name}, you've signed a lucrative deal with {sponsor}!\n")
             break
         elif response.upper() == "NO":
-            print(f"You've decided to turn down a lucrative sponsor from {sponsor}.")
+            print(f"You've decided to turn down a lucrative sponsor from {sponsor}.\n")
             break
         else:
             print("Please type either yes or no.\n")
@@ -281,11 +281,11 @@ Please type 'YES' or "NO'""")
 
     time.sleep(2)
 
-    print("Loading award ceremony...")
+    print("Loading award ceremony...\n")
 
     time.sleep(3)
 
-    print(f"{name}, you have been nominated for UEFA Player of the Year Award.")
+    print(f"{name}, you have been nominated for UEFA Player of the Year Award.\n")
 
     global award
     award = "UEFA Player of the Year"
