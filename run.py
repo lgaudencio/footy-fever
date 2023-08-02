@@ -283,6 +283,10 @@ Please type 'YES' or "NO'\n""")
 
     time.sleep(2)
 
+    input("Press Enter to continue")
+
+    time.sleep(2)
+
     print("Loading award ceremony...\n")
 
     time.sleep(3)
