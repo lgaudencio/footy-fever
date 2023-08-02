@@ -33,7 +33,7 @@ Please enter YES to take the pentalty or NO to hand it over to your teammate...\
                 print("You scored! Your team now leads 1-0")
                 break
         else:
-            print("Please type yes or no...")
+            print(Fore.RED + "Error: Please enter either YES or NO...")
 
 
 def in_game_scenario_two():
@@ -67,7 +67,7 @@ Please enter SHOOT or PASS...\n""")
                 print("Your teammate headers the ball and it goes in! Your team is now 3-2 up!")
                 break        
         else:
-            print("Please type 'shoot' or 'pass'")
+            print(Fore.RED + "Please enter either SHOOT or PASS...")
 
 
 def in_game_scenario_three():
@@ -98,7 +98,7 @@ Please enter YES to tackle or NO to take no action...""")
                 print("You goalkeeper made an incredible save, the score stays level at 1-1!")
                 break
         else:
-            print("Please type YES or NO...")
+            print(Fore.RED + "Please enter either YES or NO...")
 
 
 def in_game_scenario_four():
@@ -131,4 +131,4 @@ Please enter SHOOT or PASS...""")
                 print("Your teammate gets an easy tap in and your team now leads by 4-3!")
                 break          
         else:
-            print("Please type SHOOT or PASS")
+            print(Fore.RED + "Error: Please type SHOOT or PASS...")
