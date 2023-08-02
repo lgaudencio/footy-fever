@@ -385,6 +385,8 @@ achieved in the last five season with your previous club...\n""")
 
     stat.club_two_stats()
 
+    input("\nPress Enter to continue...\n")
+
 
 def at_third_club():
     print("Loading Chapter 5...")
