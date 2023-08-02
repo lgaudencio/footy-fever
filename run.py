@@ -3,6 +3,7 @@ import os
 import time
 import stats as stat
 import game_scenarios as scenario
+from colorama import Fore, Back, Style, init
 
 MAIN_MENU_OPTIONS = ["1", "2", "3"]
 CLUB_OPTIONS = ["1", "2"]
