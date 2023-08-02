@@ -338,14 +338,20 @@ def end_second_club():
     weekly_wage_one = "£" + str(random.randint(400, 500)) + "k"
 
     print(f"""{name}, you are on your back from playing a first leg away game against 
-{random_opponent} in the UEFA Champions League Quarter Finals.""") 
+{random_opponent} in the UEFA Champions League Quarter Finals.\n""") 
+
+    time.sleep(2)
 
     print(f"""Your agent informs you that {third_club} has approched your current club 
-and will pay your release clause of {release_clause}.""")
+and will pay your release clause of {release_clause}.\n""")
+
+    time.sleep(2)
 
     print(f"""A few days later, the Sporting Director of your current club pulls you aside 
 for a meeting. He informs you that as {third_club} paid your release clause and 
-you are free to join them.""")
+you are free to join them.\n""")
+
+    time.sleep(2)
 
     response = ""
     while response not in YES_OR_NO:
@@ -353,7 +359,7 @@ you are free to join them.""")
 
 Do you accept this offer or do you risk negotiating?
       
-If you accept the offer type 'YES' if you want to negotiate type 'NO'""")
+If you accept the offer type 'YES' if you want to negotiate type 'NO'\n""")
         if response.upper() == "NO":
             if negotiated_salary < weekly_wage_one:
                 print(f"""{third_club} are not impressed with the negotiations, 
@@ -374,8 +380,8 @@ they have now offered {negotiated_salary}""")
         else:
             print("Please type either YES or NO.")
 
-    print(f"""{name}, as you move to {third_club}, you are reminded with what you have 
-achieved in the last five season with your previous club...""")
+    print(f"""\n{name}, as you move to {third_club}, you are reminded with what you have 
+achieved in the last five season with your previous club...\n""")
 
     stat.club_two_stats()
 
