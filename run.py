@@ -122,13 +122,13 @@ def weekly_wage_club_one():
 
 
 def start_pro_career():
-    print("CHAPTER 1: The Choice\n")
+    print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 1: The Choice ")
 
     time.sleep(2)
 
     # print(f"{name}, you have just finished a successful youth career at your\nlocal football club.")
 
-    print(f"""{name}, you have just finished a successful youth career
+    print(f"""\n{name}, you have just finished a successful youth career
 at your local football club.\n""")
 
     time.sleep(4)
@@ -181,11 +181,11 @@ def club_one_end():
 
     time.sleep(3)
 
-    print("CHAPTER 2: A STAR IN THE MAKING\n")
+    print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 2: A STAR IN THE MAKING ")
 
     time.sleep(2)
 
-    print("Five years later...\n")
+    print("\nFive years later...\n")
 
     time.sleep(2)
 
@@ -199,12 +199,12 @@ def start_club_two():
 
     time.sleep(3)
 
-    print("CHAPTER 3: BIG MONEY MOVE\n")
+    print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 3: BIG MONEY MOVE ")
 
     transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
     second_club = random.choice(CLUB_TWO)
 
-    print("""You are currently preparing for a pre-season tour 
+    print("""\nYou are currently preparing for a pre-season tour 
 when you get a call from your agent.\n""")
 
     time.sleep(2)
@@ -264,12 +264,12 @@ def at_club_two():
 
     time.sleep(3)
 
-    print("CHAPTER 4: HIGH FLYER\n")
+    print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 4: HIGH FLYER ")
 
     sponsor = random.choice(SPONSORSHIP_DEAL)
     sponsor_salary = "£" + str(random.randint(1, 5)) + " Million"
 
-    print(f"""Your big money move to has made headlines.
+    print(f"""\nYour big money move to has made headlines.
   
 {sponsor} has contacted you and would like to offer you a sponsorship
 deal worth {sponsor_salary} per year.\n""")
@@ -407,13 +407,13 @@ def at_third_club():
 
     time.sleep(3)
 
-    print("CHAPTER 5: SO THIS IS PEAKING?\n")
+    print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 5: SO THIS IS PEAKING? ")
 
     scenario.in_game_scenario_three()
 
     time.sleep(2)
 
-    input("Press Enter to continue...\n")
+    input("\nPress Enter to continue...\n")
 
     print(f"""{name}, you had a phenominal season and you've been nominated for the 
 Balon d'Or, the most presigious prize in world football!
@@ -437,9 +437,9 @@ def end_third_club():
 
     time.sleep(3)
 
-    print("CHAPTER 6: A NEW ADVENTURE AWAITS\n")
+    print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 6: A NEW ADVENTURE AWAITS ")
 
-    print(f"""As you are now {age} years old, your club is reluctant to give you the 
+    print(f"""\nAs you are now {age} years old, your club is reluctant to give you the 
 contract extention you wanted, and clubs around the world have got wind of 
 this information...\n""")
 
@@ -501,7 +501,7 @@ def career_end():
 
     time.sleep(3)
 
-    print("CHAPTER 7: THE LEGACY")
+    print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 7: THE LEGACY ")
 
     scenario.in_game_scenario_four()
 
