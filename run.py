@@ -532,6 +532,7 @@ def play_again():
             introduction()
         elif response.upper() == 'NO':
             print("Thank you for playing!")
+            exit()
         else:
             print(Fore.RED + "Error: Please enter YES or NO")
 
