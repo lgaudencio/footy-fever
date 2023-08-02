@@ -241,6 +241,8 @@ new teammates at {second_club}!""")
             break
         else:
             print("Please type either YES or NO\n")
+    
+    input("Press Enter to continue")
 
 
 def at_club_two():
