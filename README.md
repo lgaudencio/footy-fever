@@ -64,6 +64,24 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user selects a number that is neither 1, 2 or 3 an error message will be displayed which will state ‘Please enter a number between 1 and 3’. This error message will have red text, thus highlighting to the user that they have given an incorrect input. The main menu will load again so the user can give a correct input. 
 
+### About This Game Section
+
+* If the user decided to view the what the game is about, they will be presented with the title ‘About This Game’ followed by an short explanation of what this game is, what it is centred around and what the ultimate goal is by the end of the game. 
+
+* The title has been given colour to indicate to the user that it is a title. 
+
+* At the end of the ‘About This Game’ explanation, the user will be prompted to enter ‘0’ to be taken back to the main menu, where they can view another game instructions and/or play the game. 
+
+### Name Input Section 
+
+* Once the user enters ‘3’ on the main menu, the game will load and the user will be prompted to enter their name. 
+
+* The user can chose to either use letters or numbers or a combination of both to create their name. 
+
+* One the name has been accepted, a welcome message with the users name will be displayed. 
+
+* If the user decides to press enter without entering a name, the user will be displayed an error message stating ‘Name must be longer than 0 characters!’. The user will then be prompted again to enter a valid name. The error message will be in red, to convey to the user that an error has occurred. 
+
 ## Libraries & Technologies Used
 
 ### Built-in Python Libraries 
