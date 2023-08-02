@@ -39,6 +39,30 @@ As a User I want to:
 
 This game will take into consideration the user stories as mentioned above to create a positive UX. The users experience will be shown in deeper detail with examples within the below sections. 
 
+## Features 
+
+### Title Section
+
+* [Pyfiglet](https://pypi.org/project/pyfiglet/0.7/) was installed and import pyfiglet was used to generate ASCII art for the title of the game. 
+
+* The ’Standard’ font was used for the game title as it is large and clear to read, thus the user has clarity on what the game is called. 
+
+* The game title was given a green font, this is so the title stands out and relates it to the game subject. Football pitches are green, hence a green coloured title. 
+
+### Main Menu Section
+
+* Just under the game title, the main menu will be displayed to the user.
+
+* The main menu will have three option to choose from:
+    1. About The Game
+	2. Game Instructions 
+	3. Play Game
+
+* If the user enters ‘1’ they will be displayed with what the game is about, if the user enters ‘2’ they will given instructions on how to play the game. In both options ‘1’ and ‘2’, the user will be instructed to press ‘0’ to return back to the main menu. 
+
+* If the user enters ‘3’, the game will load and then the user will be prompted to enter their name. 
+
+* If the user selects a number that is neither 1, 2 or 3 an error message will be displayed which will state ‘Please enter a number between 1 and 3’. This error message will have red text, thus highlighting to the user that they have given an incorrect input. The main menu will load again so the user can give a correct input. 
 
 ## Libraries & Technologies Used
 
