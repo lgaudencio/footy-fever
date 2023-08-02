@@ -419,54 +419,62 @@ def end_third_club():
     global age
     age += 5
 
-    print("Loading Chapter 6...")
+    print("Loading Chapter 6...\n")
 
     time.sleep(3)
 
-    print("CHAPTER 6: A NEW ADVENTURE AWAITS")
+    print("CHAPTER 6: A NEW ADVENTURE AWAITS\n")
 
     print(f"""As you are now {age} years old, your club is reluctant to give you the 
 contract extention you wanted, and clubs around the world have got wind of 
-this information...""")
+this information...\n""")
+
+    time.sleep(2)
 
     print(f"""{name}, you have two lucrative deals on the table 
-and you need to select one of them...""")
+and you need to select one of them...\n""")
 
-    input("Press Enter to view the first option...")
+    time.sleep(2)
 
-    print("FIRST OPTION:")
+    input("Press Enter to view the first option...\n")
+
+    print("FIRST OPTION:\n")
 
     print(f"""{saudi_club.club}, who are based in {saudi_club.city}, {saudi_club.country} 
 are willing to give you a yearly salary of £100 Million and give you a role 
-as a football ambassador for the region.""")
+as a football ambassador for the region.\n""")
 
-    input("Press Enter to view the second option...")
+    time.sleep(2)
 
-    print("SECOND OPTION:")
+    input("Press Enter to view the second option...\n")
+
+    print("SECOND OPTION:\n")
 
     print(f"""{usa_club.club}, who are used in {usa_club.city}, {usa_club.country} 
 are wiling to give you a yearly salary of £50 Million, 
 but you will also have the following: stock shares of the club, 
-a sponsorship deal with Apple and you get to keep your image rights.""")
+a sponsorship deal with Apple and you get to keep your image rights.\n""")
 
     response = ""
     while response not in CLUB_OPTIONS:
         response = input(f"{name}, which option would you like to pick? Please type 1 or 2")
         if response == "1":
-            print(f"""{name}, you have decided to joing {saudi_club.club}. 
+            print(f"""\n{name}, you have decided to joing {saudi_club.club}. 
 You will now be meeting up with your new colleagues in 
 {saudi_club.city}, {saudi_club.country}. 
-We wish you the best of luck!""")
+We wish you the best of luck!\n""")
         elif response == "2":
-            print(f"""{name}, you have decided to joing {usa_club.club}. 
+            print(f"""\n{name}, you have decided to joing {usa_club.club}. 
 You will now be meeting up with your new colleagues in 
 {usa_club.city}, {usa_club.country}. 
-We wish you the best of luck!""")
+We wish you the best of luck!\n""")
         else:
-            print("Please enter either 1 or 2")
+            print("Please enter either 1 or 2\n")
 
     print(f"""{name}, on the last day at your current club, teammates and fans gather, 
-your accolades are read out by the clubs president...""")
+your accolades are read out by the clubs president...\n""")
+
+    time.sleep(2)
 
     stat.club_three_stats()
 
