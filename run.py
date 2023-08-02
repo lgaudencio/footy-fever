@@ -389,19 +389,25 @@ achieved in the last five season with your previous club...\n""")
 
 
 def at_third_club():
-    print("Loading Chapter 5...")
+    print("Loading Chapter 5...\n")
 
     time.sleep(3)
 
-    print("CHAPTER 5: SO THIS IS PEAKING?")
+    print("CHAPTER 5: SO THIS IS PEAKING?\n")
 
     scenario.in_game_scenario_three()
+
+    time.sleep(2)
+
+    input("Press Enter to continue...\n")
 
     print(f"""{name}, you had a phenominal season and you've been nominated for the 
 Balon d'Or, the most presigious prize in world football!
 
 While at the ceremony you meet with great stars of the beautiful game, but, 
 on this night they are also your rivals. Let's see who comes out on top!""")
+
+    time.sleep(3)
 
     global award
     award = "Balon d'Or"
