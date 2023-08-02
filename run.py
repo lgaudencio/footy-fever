@@ -82,7 +82,7 @@ There's only one way to find out!\n""")
             time.sleep(3)
             break
         else:
-            print("\nPlease enter a number between 1 and 3")
+            print(Fore.RED + "\nError: Please enter a either 1, 2 or 3")
 
 
 def invalid_main_menu_input():
@@ -94,7 +94,7 @@ def invalid_main_menu_input():
             else:
                 None
         except Exception:
-            print("Please enter valid input...")
+            print(Fore.RED + "Error: Please enter a valid input...")
             main_menu()
 
 
@@ -108,7 +108,7 @@ def input_name():
 You will now begin your path to stardom, good luck in your journey!\n""")
             break
         else:
-            print("\nName must be longer than 0 characters!\n")
+            print(Fore.RED + "\nError: Name must be longer than 0 characters!\n")
 
 
 def weekly_wage_club_one():
@@ -168,7 +168,7 @@ Please see your options below:
             scenario.in_game_scenario_one()
             break
         else:
-            print("\nInvalid input, please select a club option from above!\n")
+            print(Fore.RED + "\nError: Please select a club option from above!\n")
 
     input("\nPress Enter to continue...\n")
     time.sleep(1)
@@ -254,7 +254,7 @@ new teammates at {second_club}!""")
 new teammates at {second_club}!""")
             break
         else:
-            print("Please type either YES or NO\n")
+            print(Fore.RED + "Error: Please enter either YES or NO\n")
     
     input("Press Enter to continue")
 
@@ -285,7 +285,7 @@ Please type 'YES' or "NO'\n""")
             print(f"You've decided to turn down a lucrative sponsor from {sponsor}.\n")
             break
         else:
-            print("Please type either yes or no.\n")
+            print("Error: Please enter either YES or NO\n")
 
     # time.sleep(2)
 
@@ -392,7 +392,7 @@ they have now offered {negotiated_salary}""")
             print(f"Congratulations {name}, you are now heading to your new club!")
             break
         else:
-            print("Please type either YES or NO.")
+            print(Fore.RED + "Error: Please enter either YES or NO")
 
     print(f"""\n{name}, as you move to {third_club}, you are reminded with what you have 
 achieved in the last five season with your previous club...\n""")
@@ -483,7 +483,7 @@ You will now be meeting up with your new colleagues in
 {usa_club.city}, {usa_club.country}. 
 We wish you the best of luck!\n""")
         else:
-            print("Please enter either 1 or 2\n")
+            print(Fore.RED + "Error: Please enter either 1 or 2\n")
 
     print(f"""{name}, on the last day at your current club, teammates and fans gather, 
 your accolades are read out by the clubs president...\n""")
@@ -533,7 +533,7 @@ def play_again():
         elif response.upper() == 'NO':
             print("Thank you for playing!")
         else:
-            print("Please enter 'YES' or 'NO'")
+            print(Fore.RED + "Error: Please enter YES or NO")
 
 def main():
     introduction()
