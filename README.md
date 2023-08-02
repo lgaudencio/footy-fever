@@ -38,3 +38,30 @@ As a User I want to:
 ### User Experience in this Game
 
 This game will take into consideration the user stories as mentioned above to create a positive UX. The users experience will be shown in deeper detail with examples within the below sections. 
+
+
+## Libraries & Technologies Used
+
+### Built-in Python Libraries 
+
+* random 
+
+The random library was imported to access the built-in method of generating a random number selection using the randint() method. This was used when it came to displaying the following: Weekly Salary, Transfer Amount, Transfer teams, opponents, awards, Trophies Won, In-Game Scenario Outcomes, Player Stats such as Goals, Assists, Games Played and Ratio. 
+
+* time
+
+The time library was imported to access the built-in method of suspending the execution of the current thread for a given number of seconds using the sleep() method. This was used to give the game some structure in how it’s to be presented to the user. If this method wasn’t used, the user would be thrown a large chunk of text all in one go. Using the sleep() method means that the user can digest the text of the game in smaller parts and not lose track of the flow of the game. 
+
+* os 
+
+The os library was imported to create a function to utilise the os.system to clear the terminal. At the end of the game, if the user decided to play again, the terminal will be cleared and the game will start from the beginning. This function will provide a positive user experience as it will make the new game clearer and more structured. 
+
+### External Python Libraries  
+
+* [Colorama](https://pypi.org/project/colorama/) for adding colour to fonts. 
+
+* [Pyfiglet](https://pypi.org/project/pyfiglet/0.7/) for adding ascii art to the game title. 
+
+### Other 
+
+* [LucidCharts](https://lucid.co/) was used to create the Flowchart.
