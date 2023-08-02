@@ -6,6 +6,8 @@ import game_scenarios as scenario
 from colorama import Fore, Back, Style, init
 import pyfiglet
 
+init(autoreset=True)
+
 MAIN_MENU_OPTIONS = ["1", "2", "3"]
 CLUB_OPTIONS = ["1", "2"]
 YES_OR_NO = ["YES", "NO"]
@@ -35,7 +37,10 @@ weekly_wage_three = ""
 award = ""
 
 def introduction():
-    print("Footy Fever")
+    # print("Footy Fever")
+    game_title = pyfiglet.figlet_format("Footy Fever", font="standard", justify="center")
+    print(Fore.GREEN + Style.BRIGHT + game_title)
+    
     main_menu()
     input_name()
 
