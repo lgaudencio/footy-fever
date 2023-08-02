@@ -321,6 +321,10 @@ You've cemented your name amongst the great that have won this award!""")
     else:
         print(f"{name}, you've finished in 3rd place")
 
+    time.sleep(2)
+
+    input("Press Enter to continue")
+
 
 def end_second_club(): 
     global age
