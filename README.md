@@ -82,6 +82,30 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user decides to press enter without entering a name, the user will be displayed an error message stating ‘Name must be longer than 0 characters!’. The user will then be prompted again to enter a valid name. The error message will be in red, to convey to the user that an error has occurred. 
 
+### Negotiation Sections 
+
+* There exists two parts in the game where the user will be prompted to either accept the salary given by the club or they can chose to negotiate. These two sections exist when the user goes to their second and third professional club. 
+
+* If the user choses to accept the offer and not negotiate, a welcome to your new club message will be displayed to the user. 
+
+* If the user does decide to negotiate, this could their have a positive impact or a negative impact. If a second random integer generated is higher than the proposed salary, the user will be presented with a message stating that the club is impressed with their negotiations and will offer a higher salary. But, if this second random integer is lower, then the user will be presented with a message stating that the club is not impressed with their negotiations and will offer a lower salary. 
+
+* Another outcome in negotiating the salary, if the second random integer generated happens to be equal to the proposed salary, then the user will be presented with a meagre stating that the club will not negotiate and the proposed salary will stay as initially presented. 
+
+### Sponsorship Choice Section
+
+* From a list of three brands, one will be selected at random and presented to the user.
+
+* The yearly salary from this sponsorship deal will also be displayed as a random integer. 
+
+* The user will have the choice of accepting this deal by entering ‘yes’ or they can reject it by entering ’no.
+
+* If the user enters ‘yes’, a congratulations message will be displayed. 
+
+* If the user enters ‘no’, a message stating that the user turned down a lucrative deal will be displayed. 
+
+* If the user enters something other than ‘yes’ or ‘no’, an error message will pop up prompting the user to either enter ‘yes’ or ’no’. The question will be displayed again for the user to give it a correct input. 
+
 ## Libraries & Technologies Used
 
 ### Built-in Python Libraries 
