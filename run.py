@@ -191,7 +191,7 @@ def club_one_end():
 
     stat.club_one_stats()
 
-    input("\nPress Enter to continue\n")
+    input("\nPress Enter to continue...\n")
 
 
 def start_club_two():
@@ -256,7 +256,7 @@ new teammates at {second_club}!\n""")
         else:
             print(Fore.RED + "\nError: Please enter either YES or NO\n")
     
-    input("Press Enter to continue")
+    input("Press Enter to continue...")
 
 
 def at_club_two():
@@ -297,7 +297,7 @@ Please type 'YES' or "NO'\n""")
 
     time.sleep(2)
 
-    input("Press Enter to continue\n")
+    input("Press Enter to continue...\n")
 
     time.sleep(2)
 
@@ -337,7 +337,7 @@ You've cemented your name amongst the great that have won this award!\n""")
 
     time.sleep(2)
 
-    input("Press Enter to continue")
+    input("Press Enter to continue...")
 
 
 def end_second_club(): 
