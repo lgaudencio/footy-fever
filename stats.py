@@ -84,24 +84,24 @@ Total Goal Involvments per 90: {ratio}""")
 def club_titles():
     global total_league_titles
     global total_domestic_cups
-    global total_european_cups
+    global total_continental_cups
 
     league_titles = random.randint(0, 5)
     domestic_cups = random.randint(0, 5)
-    european_cups = random.randint(0, 5)
+    continental_cups = random.randint(0, 5)
 
     print(f"""\nThe trophies you've won over the last five seasons: 
     
 {league_titles} League Title(s)
 {domestic_cups} Domestic Cup Title(s)
-{european_cups} European Cup Title(s)""")
+{continental_cups} Continental Cup Title(s)""")
 
     total_league_titles += league_titles
     total_domestic_cups += domestic_cups
-    total_european_cups += european_cups
+    total_continental_cups += continental_cups
 
 
 def total_career_titles():
     print(f"League Title(s): {total_league_titles}")
     print(f"Domestic Cup(s): {total_domestic_cups}")
-    print(f"European Cup(s) : {total_european_cups}")
+    print(f"Continental Cup(s) : {total_continental_cups}")
