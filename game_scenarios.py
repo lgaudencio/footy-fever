@@ -1,5 +1,6 @@
 import random
 import time
+from colorama import Fore, Back, Style, init
 
 YES_OR_NO = ["YES", "NO"]
 SHOOT_OR_PASS = ["SHOOT", "PASS"]
