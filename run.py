@@ -234,27 +234,27 @@ If you accept the offer type 'YES' if you want to negotiate type 'NO'\n""")
 
         if response.upper() == "NO":
             if negotiated_salary < weekly_wage_one:
-                print(f"""{second_club} are not impressed with the negotiations, 
-so they have now offered you {negotiated_salary}""")
+                print(f"""\n{second_club} are not impressed with the negotiations, 
+so they have now offered you {negotiated_salary}\n""")
                 print(f"""Congratulations {name}, you will now meeting up with your 
-new teammates at {second_club}!""")
+new teammates at {second_club}!\n""")
                 break
             elif negotiated_salary > weekly_wage_one:
-                print(f"""{second_club} are impressed by your negotiating skills, 
-they have now offered {negotiated_salary}""")
+                print(f"""\n{second_club} are impressed by your negotiating skills, 
+they have now offered {negotiated_salary}\n""")
                 print(f"""Congratulations {name}, you will now meeting up with your 
-new teammates at {second_club}!""")
+new teammates at {second_club}!\n""")
                 break
             else:
                 print(f"The offer stands at {weekly_wage_one}, {second_club} will not negotiate!")
                 print(f"""Congratulations {name}, you will now meeting up with your 
 new teammates at {second_club}!""")
         elif response.upper() == "YES":
-            print(f"""Congratulations {name}, you will now meeting up with your 
-new teammates at {second_club}!""")
+            print(f"""\nCongratulations {name}, you will now meeting up with your 
+new teammates at {second_club}!\n""")
             break
         else:
-            print(Fore.RED + "Error: Please enter either YES or NO\n")
+            print(Fore.RED + "\nError: Please enter either YES or NO\n")
     
     input("Press Enter to continue")
 
@@ -279,10 +279,10 @@ deal worth {sponsor_salary} per year.\n""")
         response = input(f"""{name}, would you like to sign on with {sponsor}? 
 Please type 'YES' or "NO'\n""")
         if response.upper() == "YES":
-            print(f"Congratulation {name}, you've signed a lucrative deal with {sponsor}!\n")
+            print(f"\nCongratulation {name}, you've signed a lucrative deal with {sponsor}!\n")
             break
         elif response.upper() == "NO":
-            print(f"You've decided to turn down a lucrative sponsor from {sponsor}.\n")
+            print(f"\nYou've decided to turn down a lucrative sponsor from {sponsor}.\n")
             break
         else:
             print("Error: Please enter either YES or NO\n")
@@ -297,7 +297,7 @@ Please type 'YES' or "NO'\n""")
 
     time.sleep(2)
 
-    input("Press Enter to continue")
+    input("Press Enter to continue\n")
 
     time.sleep(2)
 
@@ -319,21 +319,21 @@ def award_time():
 
     print(f"""{name}, you have arrived in France for the {award} ceremony. 
 Tonight, you are among teammates and rivals to see who will take home the 
-{award} award.""")
+{award} award.\n""")
 
     time.sleep(2)
 
-    print("Top 3 is about to be announced...")
+    print("Top 3 is about to be announced...\n")
 
     time.sleep(3)
 
     if award_placement == 1:
         print(f"""Congratulations {name}! You've won the {award}. 
-You've cemented your name amongst the great that have won this award!""")
+You've cemented your name amongst the great that have won this award!\n""")
     elif award_placement == 2:
-        print(f"{name}, you've finished in 2nd place")
+        print(f"{name}, you've finished in 2nd place\n")
     else:
-        print(f"{name}, you've finished in 3rd place")
+        print(f"{name}, you've finished in 3rd place\n")
 
     time.sleep(2)
 
@@ -351,7 +351,7 @@ def end_second_club():
     global weekly_wage_one
     weekly_wage_one = "£" + str(random.randint(400, 500)) + "k"
 
-    print(f"""{name}, you are on your back from playing a first leg away game against 
+    print(f"""\n{name}, you are on your back from playing a first leg away game against 
 {random_opponent} in the UEFA Champions League Quarter Finals.\n""") 
 
     time.sleep(2)
@@ -376,23 +376,23 @@ Do you accept this offer or do you risk negotiating?
 If you accept the offer type 'YES' if you want to negotiate type 'NO'\n""")
         if response.upper() == "NO":
             if negotiated_salary < weekly_wage_one:
-                print(f"""{third_club} are not impressed with the negotiations, 
-so they have now offered you {negotiated_salary}""")
-                print(f"Congratulations {name}, you are now heading to your new club!")
+                print(f"""\n{third_club} are not impressed with the negotiations, 
+so they have now offered you {negotiated_salary}\n""")
+                print(f"Congratulations {name}, you are now heading to your new club!\n")
                 break
             elif negotiated_salary > weekly_wage_one:
-                print(f"""{third_club} are impressed by your negotiating skills, 
-they have now offered {negotiated_salary}""")
-                print(f"Congratulations {name}, you are now heading to your new club!")
+                print(f"""\n{third_club} are impressed by your negotiating skills, 
+they have now offered {negotiated_salary}\n""")
+                print(f"Congratulations {name}, you are now heading to your new club!\n")
                 break
             else:
-                print(f"The offer stands at {weekly_wage_one}, {third_club} will not negotiate!")
-                print(f"Congratulations {name}, you are now heading to your new club!")
+                print(f"\nThe offer stands at {weekly_wage_one}, {third_club} will not negotiate!\n")
+                print(f"Congratulations {name}, you are now heading to your new club!\n")
         elif response.upper() == "YES":
             print(f"Congratulations {name}, you are now heading to your new club!")
             break
         else:
-            print(Fore.RED + "Error: Please enter either YES or NO")
+            print(Fore.RED + "\nError: Please enter either YES or NO")
 
     print(f"""\n{name}, as you move to {third_club}, you are reminded with what you have 
 achieved in the last five season with your previous club...\n""")
@@ -471,7 +471,7 @@ a sponsorship deal with Apple and you get to keep your image rights.\n""")
 
     response = ""
     while response not in CLUB_OPTIONS:
-        response = input(f"{name}, which option would you like to pick? Please type 1 or 2")
+        response = input(f"{name}, which option would you like to pick? Please type 1 or 2\n")
         if response == "1":
             print(f"""\n{name}, you have decided to joing {saudi_club.club}. 
 You will now be meeting up with your new colleagues in 
@@ -512,20 +512,20 @@ def career_end():
 {name} has just announced their retirement at the age of {age}. 
 
 Over the past five years playing in a different continent, 
-{name} has achieved the following titles... """)
+{name} has achieved the following titles...\n""")
 
     stat.club_four_stats()
 
-    print("""Throughout their career, the amount of titles won have been the following... """)
+    print("""\nThroughout their career, the amount of titles won have been the following...\n""")
 
     stat.total_career_titles()
 
 
 def play_again():
-    print("You have now completed the game!")
+    print("\nYou have now completed the game!\n")
     response = ""
     while response not in YES_OR_NO:
-        response = input("Would you like to play again?")
+        response = input("Would you like to play again?\n")
         if response.upper() == "YES":
             print("Loading new game...")
             os.system('clear')
