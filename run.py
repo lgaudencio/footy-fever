@@ -339,6 +339,7 @@ You've cemented your name amongst the great that have won this award!\n""")
 
     input("Press Enter to continue...")
 
+    time.sleep(3)
 
 def end_second_club(): 
     global age
@@ -469,6 +470,8 @@ are wiling to give you a yearly salary of £50 Million,
 but you will also have the following: stock shares of the club, 
 a sponsorship deal with Apple and you get to keep your image rights.\n""")
 
+    time.sleep(4)
+
     response = ""
     while response not in CLUB_OPTIONS:
         response = input(f"{name}, which option would you like to pick? Please type 1 or 2\n")
@@ -506,6 +509,8 @@ def career_end():
     scenario.in_game_scenario_four()
 
     print("A few years later...\n")
+
+    time.sleep(3)
 
     print(f""" ***BREAKING NEWS***
 
