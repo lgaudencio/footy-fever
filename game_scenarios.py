@@ -36,6 +36,8 @@ Please enter YES to take the pentalty or NO to hand it over to your teammate...\
         else:
             print(Fore.RED + "Error: Please enter either YES or NO...")
 
+    time.sleep(3)
+
 
 def in_game_scenario_two():
     time.sleep(3)
@@ -71,6 +73,8 @@ Please enter SHOOT or PASS...\n""")
         else:
             print(Fore.RED + "\nPlease enter either SHOOT or PASS...\n")
 
+    time.sleep(3)
+
 
 def in_game_scenario_three():
     time.sleep(3)
@@ -101,6 +105,8 @@ Please enter YES to tackle or NO to take no action...\n""")
                 break
         else:
             print(Fore.RED + "\nPlease enter either YES or NO...")
+
+    time.sleep(3)
 
 
 def in_game_scenario_four():
@@ -134,3 +140,5 @@ Please enter SHOOT or PASS...\n""")
                 break          
         else:
             print(Fore.RED + "\nError: Please type SHOOT or PASS...")
+
+    time.sleep(3)
