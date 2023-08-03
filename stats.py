@@ -90,7 +90,7 @@ def club_titles():
     domestic_cups = random.randint(0, 5)
     european_cups = random.randint(0, 5)
 
-    print(f"""The trophies you've won over the last five seasons: 
+    print(f"""\nThe trophies you've won over the last five seasons: 
     
 {league_titles} League Title(s)
 {domestic_cups} Domestic Cup Title(s)

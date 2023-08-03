@@ -505,7 +505,7 @@ def career_end():
 
     scenario.in_game_scenario_four()
 
-    print("A few years later...")
+    print("A few years later...\n")
 
     print(f""" ***BREAKING NEWS***
 
@@ -531,10 +531,10 @@ def play_again():
             os.system('clear')
             introduction()
         elif response.upper() == 'NO':
-            print("Thank you for playing!")
+            print("\nThank you for playing!")
             exit()
         else:
-            print(Fore.RED + "Error: Please enter YES or NO")
+            print(Fore.RED + "\nError: Please enter YES or NO")
 
 def main():
     introduction()
