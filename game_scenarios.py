@@ -7,7 +7,7 @@ SHOOT_OR_PASS = ["SHOOT", "PASS"]
 
 def in_game_scenario_one():
     time.sleep(3)
-    print("Loading in-game scenario...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading in-game scenario...\n")
     time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
@@ -39,7 +39,7 @@ Please enter YES to take the pentalty or NO to hand it over to your teammate...\
 
 def in_game_scenario_two():
     time.sleep(3)
-    print("Loading in-game scenario...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading in-game scenario...\n")
     time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
@@ -74,7 +74,7 @@ Please enter SHOOT or PASS...\n""")
 
 def in_game_scenario_three():
     time.sleep(3)
-    print("\nLoading in-game scenario...")
+    print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...")
     time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
@@ -105,7 +105,7 @@ Please enter YES to tackle or NO to take no action...\n""")
 
 def in_game_scenario_four():
     time.sleep(3)
-    print("\nLoading in-game scenario...\n")
+    print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...\n")
     time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
