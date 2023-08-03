@@ -46,7 +46,7 @@ def introduction():
 
     input("Press Enter to continue...\n")
     time.sleep(1)
-    print("Loading Chapter 1...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 1...\n")
     time.sleep(3)
 
     start_pro_career()
@@ -78,7 +78,7 @@ There's only one way to find out!\n""")
             invalid_main_menu_input()
             main_menu()
         elif response == "3":
-            print("\nStarting Game...\n")
+            print(Fore.CYAN + Style.BRIGHT + "\nStarting Game...\n")
             time.sleep(2)
             break
         else:
@@ -177,7 +177,7 @@ def club_one_end():
     global age
     age += 5
 
-    print("Loading Chapter 2...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 2...\n")
 
     time.sleep(3)
 
@@ -195,7 +195,7 @@ def club_one_end():
 
 
 def start_club_two():
-    print("Loading Chapter 3...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 3...\n")
 
     time.sleep(3)
 
@@ -260,7 +260,7 @@ new teammates at {second_club}!\n""")
 
 
 def at_club_two():
-    print("\nLoading Chapter 4...\n")
+    print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 4...\n")
 
     time.sleep(3)
 
@@ -301,7 +301,7 @@ Please type 'YES' or "NO'\n""")
 
     time.sleep(3)
 
-    print("Loading award ceremony...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading award ceremony...\n")
 
     time.sleep(3)
 
@@ -403,7 +403,7 @@ achieved in the last five season with your previous club...\n""")
 
 
 def at_third_club():
-    print("Loading Chapter 5...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 5...\n")
 
     time.sleep(3)
 
@@ -433,7 +433,7 @@ def end_third_club():
     global age
     age += 5
 
-    print("Loading Chapter 6...\n")
+    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 6...\n")
 
     time.sleep(3)
 
@@ -497,7 +497,7 @@ def career_end():
     global age
     age += 5
 
-    print("Loading Chapter 7...")
+    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 7...")
 
     time.sleep(3)
 
@@ -527,7 +527,7 @@ def play_again():
     while response not in YES_OR_NO:
         response = input("Would you like to play again?\n")
         if response.upper() == "YES":
-            print("Loading new game...")
+            print(Fore.CYAN + Style.BRIGHT + "Loading new game...")
             os.system('clear')
             introduction()
         elif response.upper() == 'NO':
