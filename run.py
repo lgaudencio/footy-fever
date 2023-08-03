@@ -79,7 +79,7 @@ There's only one way to find out!\n""")
             main_menu()
         elif response == "3":
             print("\nStarting Game...\n")
-            time.sleep(3)
+            time.sleep(2)
             break
         else:
             print(Fore.RED + "\nError: Please enter a either 1, 2 or 3")
@@ -150,7 +150,7 @@ Please see your options below:
 \nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week  
 \nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     club_picked = ""
     while club_picked not in CLUB_ONE:
@@ -171,7 +171,7 @@ Please see your options below:
             print(Fore.RED + "\nError: Please select a club option from above!\n")
 
     input("\nPress Enter to continue...\n")
-    time.sleep(1)
+    time.sleep(2)
 
 def club_one_end():
     global age
@@ -207,17 +207,17 @@ def start_club_two():
     print("""\nYou are currently preparing for a pre-season tour 
 when you get a call from your agent.\n""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     print("""Your agent tells you that some big Premier League clubs 
 are battling it out for your signature!\n""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     print(f"""You've been told that your current club has accepted a 
 fee of {transfer_fee} from {second_club}.\n""")
 
-    time.sleep(3)
+    time.sleep(4)
 
     global weekly_wage_one
     weekly_wage_one = "£" + str(random.randint(150, 200)) + "k"
@@ -295,11 +295,11 @@ Please type 'YES' or "NO'\n""")
 
     scenario.in_game_scenario_two()
 
-    time.sleep(2)
+    time.sleep(3)
 
     input("Press Enter to continue...\n")
 
-    time.sleep(2)
+    time.sleep(3)
 
     print("Loading award ceremony...\n")
 
@@ -321,7 +321,7 @@ def award_time():
 Tonight, you are among teammates and rivals to see who will take home the 
 {award} award.\n""")
 
-    time.sleep(2)
+    time.sleep(3)
 
     print("Top 3 is about to be announced...\n")
 
@@ -335,7 +335,7 @@ You've cemented your name amongst the great that have won this award!\n""")
     else:
         print(f"{name}, you've finished in 3rd place\n")
 
-    time.sleep(2)
+    time.sleep(3)
 
     input("Press Enter to continue...")
 
@@ -354,18 +354,18 @@ def end_second_club():
     print(f"""\n{name}, you are on your back from playing a first leg away game against 
 {random_opponent} in the UEFA Champions League Quarter Finals.\n""") 
 
-    time.sleep(2)
+    time.sleep(4)
 
     print(f"""Your agent informs you that {third_club} has approched your current club 
 and will pay your release clause of {release_clause}.\n""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     print(f"""A few days later, the Sporting Director of your current club pulls you aside 
 for a meeting. He informs you that as {third_club} paid your release clause and 
 you are free to join them.\n""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     response = ""
     while response not in YES_OR_NO:
@@ -443,12 +443,12 @@ def end_third_club():
 contract extention you wanted, and clubs around the world have got wind of 
 this information...\n""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     print(f"""{name}, you have two lucrative deals on the table 
 and you need to select one of them...\n""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     input("Press Enter to view the first option...\n")
 
@@ -458,7 +458,7 @@ and you need to select one of them...\n""")
 are willing to give you a yearly salary of £100 Million and give you a role 
 as a football ambassador for the region.\n""")
 
-    time.sleep(2)
+    time.sleep(3)
 
     input("Press Enter to view the second option...\n")
 
@@ -488,7 +488,7 @@ We wish you the best of luck!\n""")
     print(f"""{name}, on the last day at your current club, teammates and fans gather, 
 your accolades are read out by the clubs president...\n""")
 
-    time.sleep(2)
+    time.sleep(4)
 
     stat.club_three_stats()
 
