@@ -135,6 +135,24 @@ A flow chart is used to show the order in which individual statements, instructi
 
 ![Fourth Flow Chart Image](assets/images/flowchart-4.png)
 
+## Aesthetic Design 
+
+### Font
+
+[Pyfiglet](https://pypi.org/project/pyfiglet/0.7/) was installed and import pyfiglet was used to generate ASCII art for the game title. Pyfiglet was added to requirements.txt then for deployment to Heroku. 
+
+The ASCII art used for the game title was chosen with readability for the user in mind, the font was selected using Figlet.org 
+
+Font used: 
+
+Standard - Used for the game title as it is clear for the user to read. 
+
+### Colour 
+
+[Colorama](https://pypi.org/project/colorama/) was installed and import colorama was used to change the font colour and background colour of some words. Colorama was added to requirements.txt then for deployment to Heroku. 
+
+A mix of blue, cyan, yellow and red was used to keep the gameplay interesting and as a visual cue to users for certain feedback and sections. 
+
 ## Libraries & Technologies Used
 
 ### Built-in Python Libraries 
