@@ -102,8 +102,9 @@ def input_name():
     global name
     while True:
         name = input("Please enter your name?: ")
-        if len(name) > 0:
-            print(f"""\nWelcome {name}!
+        stripped_name = name.strip()
+        if len(stripped_name) > 0:
+            print(f"""\nWelcome {stripped_name}!
         
 You will now begin your path to stardom, good luck in your journey!\n""")
             break
