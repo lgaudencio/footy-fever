@@ -7,6 +7,10 @@ total_european_cups = 0
 
 
 def club_one_stats():
+    """
+    This function calculates the player stats (goals, assists, games played 
+    and ratio) and displays them for the users first club
+    """
     goals = random.randint(65, 85)
     assists = random.randint(30, 50)
     games_played = random.randint(140, 160)
@@ -26,6 +30,10 @@ Total Goal Involvments per 90: {ratio}""")
 
 
 def club_two_stats():
+      """
+    This function calculates the player stats (goals, assists, games played 
+    and ratio) and displays them for the users second club
+    """
     goals = random.randint(150, 175)
     assists = random.randint(80, 100)
     games_played = random.randint(200, 230)
@@ -45,6 +53,10 @@ Total Goal Involvments per 90: {ratio}""")
 
 
 def club_three_stats():
+    """
+    This function calculates the player stats (goals, assists, games played 
+    and ratio) and displays them for the users third club
+    """
     goals = random.randint(200, 250)
     assists = random.randint(130, 150)
     games_played = random.randint(230, 250)
@@ -64,6 +76,10 @@ Total Goal Involvments per 90: {ratio}""")
 
 
 def club_four_stats():
+    """
+    This function calculates the player stats (goals, assists, games played 
+    and ratio) and displays them for the users fourth club
+    """
     goals = random.randint(120, 150)
     assists = random.randint(50, 70)
     games_played = random.randint(170, 190)
@@ -82,6 +98,10 @@ Total Goal Involvments per 90: {ratio}""")
     club_titles()
 
 def club_titles():
+    """
+    This function calculates the trophies won with each club
+    and displays it to the user
+    """
     global total_league_titles
     global total_domestic_cups
     global total_continental_cups
@@ -102,6 +122,10 @@ def club_titles():
 
 
 def total_career_titles():
+    """
+    This function adds up all the trophies won throughout the game
+    and is displayed to the user at the end of the game 
+    """
     print(f"League Title(s): {total_league_titles}")
     print(f"Domestic Cup(s): {total_domestic_cups}")
     print(f"Continental Cup(s) : {total_continental_cups}")
