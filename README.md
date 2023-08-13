@@ -117,6 +117,8 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * Another outcome in negotiating the salary, if the second random integer generated happens to be equal to the proposed salary, then the user will be presented with a meagre stating that the club will not negotiate and the proposed salary will stay as initially presented. 
 
+* If the user does not enter either ‘yes’ or ‘no’, an error will be displayed to the user to enter either ‘yes’ or ‘no’. he question will be displayed again for the user to give it a correct input. 
+
 ### Sponsorship Choice Section
 
 * From a list of three brands, one will be selected at random and presented to the user.
