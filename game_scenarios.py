@@ -6,6 +6,11 @@ YES_OR_NO = ["YES", "NO"]
 SHOOT_OR_PASS = ["SHOOT", "PASS"]
 
 def in_game_scenario_one():
+    """
+    This function is used for the first in-game scenario, where
+    the user will have two options to chose from and output 
+    generated at random
+    """
     time.sleep(3)
     print(Fore.CYAN + Style.BRIGHT + "Loading in-game scenario...\n")
     time.sleep(3)
@@ -40,6 +45,11 @@ Please enter YES to take the pentalty or NO to hand it over to your teammate...\
 
 
 def in_game_scenario_two():
+    """
+    This function is used for the second in-game scenario, where
+    the user will have two options to chose from and output 
+    generated at random
+    """
     time.sleep(3)
     print(Fore.CYAN + Style.BRIGHT + "Loading in-game scenario...\n")
     time.sleep(3)
@@ -77,6 +87,11 @@ Please enter SHOOT or PASS...\n""")
 
 
 def in_game_scenario_three():
+      """
+    This function is used for the third in-game scenario, where
+    the user will have two options to chose from and output 
+    generated at random
+    """
     time.sleep(3)
     print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...")
     time.sleep(3)
@@ -110,6 +125,11 @@ Please enter YES to tackle or NO to take no action...\n""")
 
 
 def in_game_scenario_four():
+    """
+    This function is used for the fourth in-game scenario, where
+    the user will have two options to chose from and output 
+    generated at random
+    """
     time.sleep(3)
     print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...\n")
     time.sleep(3)
