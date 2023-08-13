@@ -133,6 +133,16 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user enters something other than ‘yes’ or ‘no’, an error message will pop up prompting the user to either enter ‘yes’ or ’no’. The question will be displayed again for the user to give it a correct input. 
 
+### Awards 
+
+* During the course of the game, there will be two occasions where the user is nominated for awards. 
+
+* A function called award_time() is used to handle both the award sections of the game. 
+
+* As both award sections use the same function, the global keyword has to be called upon to change the name of the award. 
+
+* For award placement, a random number is generated between 1 and 3, if the number generated is a 1, it will display a message to the user congratulating them on the award. If the number generated is a 2, it will display to the user that they placed second and if a 3 is generated, it will display to the user that they played third. 
+
 ## Flow Control 
 
 A flow chart is used to show the order in which individual statements, instructions or function calls are executed or evaluated. The below images, the flow of the game is laid out and structured to aid in the design of the control flow statements such as while loops, if-elif-else statements and try-except statements. The flow chart allowed the design of the user input validation checks to be visually clear before the code was written. 
