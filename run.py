@@ -37,7 +37,10 @@ weekly_wage_three = ""
 award = ""
 
 def introduction():
-    # print("Footy Fever")
+    """
+    This fucntion will introduce the name of the game, along with the main
+    menu and have the user input their name
+    """
     game_title = pyfiglet.figlet_format("Footy Fever", font="standard", justify="center")
     print(Fore.GREEN + Style.BRIGHT + game_title)
     
@@ -53,6 +56,11 @@ def introduction():
 
 
 def main_menu():
+    """
+    This function is for the main menu of the game, the user can chose
+    to view what this game is about and how to play the game, they
+    can also chose to start the game
+    """
     response = ""
     while response not in MAIN_MENU_OPTIONS:
         print("\nMAIN MENU\n")
@@ -86,6 +94,10 @@ There's only one way to find out!\n""")
 
 
 def invalid_main_menu_input():
+    """
+    This function is used to validate the input given by the 
+    user on the main menu
+    """
     while True:
         try:
             response = input("Please enter 0 to go back to the Main Menu... ")
@@ -99,6 +111,10 @@ def invalid_main_menu_input():
 
 
 def input_name():
+    """
+    This function is used to get the user to input a name
+    that will be used during the course of the game
+    """
     global name
     while True:
         name = input("Please enter your name?: ")
@@ -113,6 +129,11 @@ You will now begin your path to stardom, good luck in your journey!\n""")
 
 
 def weekly_wage_club_one():
+    """
+    This fucntion is used to assign three random values for weekly wage
+    and it is then used in start_pro_career funtion to assign each
+    weekly wage to each club option 
+    """
     global weekly_wage_one
     global weekly_wage_two
     global weekly_wage_three
@@ -123,6 +144,10 @@ def weekly_wage_club_one():
 
 
 def start_pro_career():
+    """
+    This fucntion is used so that the user can chose their first club
+    and it also contains the first in-game scenario 
+    """
     print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 1: The Choice ")
 
     time.sleep(2)
@@ -175,6 +200,12 @@ Please see your options below:
     time.sleep(2)
 
 def club_one_end():
+    """
+    This function is used for the end of the users first club and also
+    Chapter 1 but also the start of Chapter 2. It will also display 
+    the player stats and the trophies won during their time with the 
+    first club. 
+    """
     global age
     age += 5
 
@@ -196,6 +227,11 @@ def club_one_end():
 
 
 def start_club_two():
+    """
+    This function is used for the beginning of Chapter 3 and moving
+    to the second club. The user has the option of negotiating the 
+    salary that they secodn club is offering. 
+    """
     print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 3...\n")
 
     time.sleep(3)
@@ -261,6 +297,12 @@ new teammates at {second_club}!\n""")
 
 
 def at_club_two():
+    """
+    This function is used to start the beginning of Chapter 4, this 
+    is when the user can decide to either accept of reject a major
+    sponsorship deal. They will also be nominated for an award and 
+    have their second in-game scenario. 
+    """
     print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 4...\n")
 
     time.sleep(3)
@@ -314,8 +356,10 @@ Please type 'YES' or "NO'\n""")
 
 
 def award_time():
-    # global award
-    # award = "UEFA Player of the Year"
+    """
+    This function is used for two awards that the user will be 
+    nominated for, the award ranking is done at random 
+    """
     award_placement = random.randint(1, 3)
 
     print(f"""{name}, you have arrived in France for the {award} ceremony. 
@@ -343,6 +387,12 @@ You've cemented your name amongst the great that have won this award!\n""")
     time.sleep(3)
 
 def end_second_club(): 
+    """
+    This function is used for when the third club will pay the release
+    clause for the user. The user will also have the option to 
+    negotiate the salary being offered by the new club. The player 
+    stats and trophies won for the second club will also be displayed
+    """
     global age
     age += 5
     third_club = random.choice(CLUB_THREE)
@@ -405,6 +455,11 @@ achieved in the last five season with your previous club...\n""")
 
 
 def at_third_club():
+    """
+    This function is used for the start of Chapter 5, the user will
+    once again be nominated for another award and will take part in 
+    the third in-game scenario 
+    """
     print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 5...\n")
 
     time.sleep(3)
@@ -432,6 +487,11 @@ on this night they are also your rivals. Let's see who comes out on top!""")
 
 
 def end_third_club():
+    """
+    This function is used for the start of Chapter 6, where the user
+    will be given two options for their move to a fourth club. Player 
+    stats and trophies won for their third club will also be displayed
+    """
     global age
     age += 5
 
@@ -498,6 +558,13 @@ your accolades are read out by the clubs president...\n""")
 
 
 def career_end():
+    """
+    This function is used to begin Chapter 7, the user will have their 
+    fourth in-game scenario and it will also be when they their 
+    retirement will be announced. Their player stats and trophies won 
+    for the fourth club will be displayed. Also, their total trophies 
+    won throughout their career will also be displayed 
+    """
     global age
     age += 5
 
@@ -528,6 +595,10 @@ Over the past five years playing in a different continent,
 
 
 def play_again():
+    """
+    This function is used to give the user the option to either end
+    or restart the game
+    """
     print("\nYou have now completed the game!\n")
     response = ""
     while response not in YES_OR_NO:
@@ -543,6 +614,10 @@ def play_again():
             print(Fore.RED + "\nError: Please enter YES or NO")
 
 def main():
+    """
+    This function is used to call all functions to give
+    appropriate structure the gameplay 
+    """
     introduction()
 
     club_one_end()
