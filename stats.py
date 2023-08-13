@@ -3,7 +3,7 @@ import time
 
 total_league_titles = 0
 total_domestic_cups = 0
-total_european_cups = 0
+total_continental_cups = 0
 
 
 def club_one_stats():
