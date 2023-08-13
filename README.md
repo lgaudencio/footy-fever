@@ -141,7 +141,19 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * As both award sections use the same function, the global keyword has to be called upon to change the name of the award. 
 
-* For award placement, a random number is generated between 1 and 3, if the number generated is a 1, it will display a message to the user congratulating them on the award. If the number generated is a 2, it will display to the user that they placed second and if a 3 is generated, it will display to the user that they played third. 
+* For award placement, a random number is generated between 1 and 3, if the number generated is a 1, it will display a message to the user congratulating them on the award. If the number generated is a 2, it will display to the user that they placed second and if a 3 is generated, it will display to the user that they played third.
+
+### Play Again
+
+* Once the user finishes the game, they will be prompted whether to end the game or to restart and play again. If the user enters ‘yes’ the game will restart and if ‘no’ is entered the game will end. Both lower and uppercase inputs will be accepted. The user is alerted with an error message if their input is not valid and the option of restarting the game is shown again. 
+
+* If the user decides to play again, they will be taken back to the start. In case the user needs to see the instructions again, they can do so as the main menu will be displayed again. 
+
+* If the user decides to end the game there, then a message thanking the user for playing will be displayed. The game is then quit by using the exit() method. 
+
+* Import os was used in the play_again() function, this was so that the screen will be cleared if the user decides to play again. It ensures that the user has no obstructions when playing a new game. 
+
+* If the user enters neither ‘yes’ or ‘no’, an error message will be displayed stating to the user to enter either ‘yes’ or ‘no’ and the question will be displayed again. 
 
 ## Flow Control 
 
