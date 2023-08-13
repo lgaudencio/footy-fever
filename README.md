@@ -82,6 +82,14 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user decides to press enter without entering a name, the user will be displayed an error message stating ‘Name must be longer than 0 characters!’. The user will then be prompted again to enter a valid name. The error message will be in red, to convey to the user that an error has occurred. 
 
+### Club Choice Sections
+
+* During the course of this game, the user will be joining a total of four clubs, but the user will only have input on the club selection twice only.
+
+* The users first selection will be for their first club. Chapter 1 starts with the user have a choice of three clubs, which are Benfica, Ajax and RB Salzburg. The user must select one of these clubs by entering one of the club name. If the user enters a valid response, the user will be displayed with a welcome message and stating good luck in the city and county of the club they’ve chosen. If the user enters an invalid response, the user will be displayed an error message starting that they have entered an invalid input and to choose from one club stated, the question will then be displayed again. If the response is validated the game will continue to the next section, which will be an in-game scenario. 
+
+* The users second selection will be for their last club. The user will be displayed with two options and they must enter either ‘1’ or ‘2’. If the user enters a valid response, the user will be displayed with a welcome message. If the user enters an invalid response, the user will be displayed an error message starting that they have entered an invalid input and to chose either ‘1’ or ‘2’, the question will then be displayed again.  If the response is validated the game will continue to the next section, which will be display the player stats and trophies for their third club. 
+
 ### In-Game Choices Sections
 
 * During the users time with each club they transfer to, they will be presented with one in-game scenario. 
