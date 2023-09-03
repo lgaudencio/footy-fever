@@ -69,8 +69,8 @@ def main_menu():
                         "Enter 2 - Game Instructions\n"
                         "Enter 3 - Play Game\n")
         if response == "1":
-            print("About This Game:")
-            print("Welcome to Football Glory, a text-based game that will take "
+            print("\nAbout This Game:\n"
+                    "\nWelcome to Football Glory, a text-based game that will take "
                     "you to the heights of European Football.\n"
                     "\nWill you reach lengednary status and have your name "
                     "cemented alongside the European Elite?\n"
