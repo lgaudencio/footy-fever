@@ -30,7 +30,7 @@ Total Goal Involvments per 90: {ratio}""")
 
 
 def club_two_stats():
-      """
+    """
     This function calculates the player stats (goals, assists, games played 
     and ratio) and displays them for the users second club
     """

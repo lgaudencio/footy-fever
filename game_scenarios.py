@@ -87,7 +87,7 @@ Please enter SHOOT or PASS...\n""")
 
 
 def in_game_scenario_three():
-      """
+    """
     This function is used for the third in-game scenario, where
     the user will have two options to chose from and output 
     generated at random
