@@ -456,11 +456,10 @@ def at_third_club():
 
     input("\nPress Enter to continue...\n")
 
-    print(f"""{name}, you had a phenominal season and you've been nominated for the 
-Balon d'Or, the most presigious prize in world football!
-
-While at the ceremony you meet with great stars of the beautiful game, but, 
-on this night they are also your rivals. Let's see who comes out on top!""")
+    print(f"\n{name}, you had a phenominal season and you've been nominated for the "
+            "Balon d'Or, the most presigious prize in world football!\n"
+            "\nWhile at the ceremony you meet with great stars of the beautiful game, but, "
+            "on this night they are also your rivals. Let's see who comes out on top!\n")
 
     time.sleep(3)
 
