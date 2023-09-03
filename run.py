@@ -305,15 +305,14 @@ def at_club_two():
     sponsor = random.choice(SPONSORSHIP_DEAL)
     sponsor_salary = "£" + str(random.randint(1, 5)) + " Million"
 
-    print(f"""\nYour big money move to has made headlines.
-  
-{sponsor} has contacted you and would like to offer you a sponsorship
-deal worth {sponsor_salary} per year.\n""")
+    print("\nYour big money move to has made headlines.\n"
+            f"\n{sponsor} has contacted you and would like to offer you a sponsorship "
+            f"deal worth {sponsor_salary} per year.\n")
 
     response = ""
     while response not in YES_OR_NO:
-        response = input(f"""{name}, would you like to sign on with {sponsor}? 
-Please type 'YES' or "NO'\n""")
+        response = input(f"\n{name}, would you like to sign on with {sponsor}?" 
+                            "Please type 'YES' or 'NO'\n")
         if response.upper() == "YES":
             print(f"\nCongratulation {name}, you've signed a lucrative deal with {sponsor}!\n")
             break
