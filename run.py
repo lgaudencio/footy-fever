@@ -348,9 +348,9 @@ def award_time():
     """
     award_placement = random.randint(1, 3)
 
-    print(f"""{name}, you have arrived in France for the {award} ceremony. 
-Tonight, you are among teammates and rivals to see who will take home the 
-{award} award.\n""")
+    print(f"\n{name}, you have arrived in France for the {award} ceremony.\n"
+            "\nTonight, you are among teammates and rivals to see who will take home the " 
+            f"{award} award.\n")
 
     time.sleep(3)
 
@@ -359,16 +359,16 @@ Tonight, you are among teammates and rivals to see who will take home the
     time.sleep(3)
 
     if award_placement == 1:
-        print(f"""Congratulations {name}! You've won the {award}. 
-You've cemented your name amongst the great that have won this award!\n""")
+        print(f"\nCongratulations {name}! You've won the {award}."
+                "\nYou've cemented your name amongst the great that have won this award!\n")
     elif award_placement == 2:
-        print(f"{name}, you've finished in 2nd place\n")
+        print(f"\n{name}, you've finished in 2nd place\n")
     else:
-        print(f"{name}, you've finished in 3rd place\n")
+        print(f"\n{name}, you've finished in 3rd place\n")
 
     time.sleep(3)
 
-    input("Press Enter to continue...")
+    input("\nPress Enter to continue...")
 
     time.sleep(3)
 
