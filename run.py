@@ -563,12 +563,10 @@ def career_end():
 
     time.sleep(3)
 
-    print(f""" ***BREAKING NEWS***
-
-{name} has just announced their retirement at the age of {age}. 
-
-Over the past five years playing in a different continent, 
-{name} has achieved the following titles...\n""")
+    print(f"\n ***BREAKING NEWS*** \n"
+            f"\n{name} has just announced their retirement at the age of {age}.\n"
+            "\nOver the past five years playing in a different continent, 
+            f"{name} has achieved the following titles...\n")
 
     stat.club_four_stats()
 
