@@ -311,7 +311,7 @@ def at_club_two():
 
     response = ""
     while response not in YES_OR_NO:
-        response = input(f"{name}, would you like to sign on with {sponsor}?" 
+        response = input(f"{name}, would you like to sign on with {sponsor}?\n" 
                             "Please type 'YES' or 'NO'\n")
         if response.upper() == "YES":
             print(f"\nCongratulation {name}, you've signed a lucrative deal with {sponsor}!\n")
@@ -390,7 +390,7 @@ def end_second_club():
     weekly_wage_one = "£" + str(random.randint(400, 500)) + "k"
 
     print(f"\n{name}, you are on your back from playing a first leg away game against "
-            f"{random_opponent} in the UEFA Champions League Quarter Finals.\n) "
+            f"{random_opponent} in the UEFA Champions League Quarter Finals.\n")
 
     time.sleep(4)
 
@@ -565,7 +565,7 @@ def career_end():
 
     print(f"\n ***BREAKING NEWS*** \n"
             f"\n{name} has just announced their retirement at the age of {age}.\n"
-            "\nOver the past five years playing in a different continent, 
+            "\nOver the past five years playing in a different continent, " 
             f"{name} has achieved the following titles...\n")
 
     stat.club_four_stats()
