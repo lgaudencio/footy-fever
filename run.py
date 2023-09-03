@@ -484,14 +484,14 @@ def end_third_club():
 
     print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 6: A NEW ADVENTURE AWAITS ")
 
-    print(f"""\nAs you are now {age} years old, your club is reluctant to give you the 
-contract extention you wanted, and clubs around the world have got wind of 
-this information...\n""")
+    print(f"\nAs you are now {age} years old, your club is reluctant to give you the "
+            "contract extention you wanted, and clubs around the world have got wind of "
+            "this information...\n")
 
     time.sleep(4)
 
-    print(f"""{name}, you have two lucrative deals on the table 
-and you need to select one of them...\n""")
+    print(f"\n{name}, you have two lucrative deals on the table "
+            "and you need to select one of them...\n")
 
     time.sleep(4)
 
@@ -499,9 +499,9 @@ and you need to select one of them...\n""")
 
     print("FIRST OPTION:\n")
 
-    print(f"""{saudi_club.club}, who are based in {saudi_club.city}, {saudi_club.country} 
-are willing to give you a yearly salary of £100 Million and give you a role 
-as a football ambassador for the region.\n""")
+    print(f"\n{saudi_club.club}, who are based in {saudi_club.city}, {saudi_club.country} "
+            "are willing to give you a yearly salary of £100 Million and give you a role "
+            "as a football ambassador for the region.\n")
 
     time.sleep(3)
 
@@ -509,10 +509,10 @@ as a football ambassador for the region.\n""")
 
     print("SECOND OPTION:\n")
 
-    print(f"""{usa_club.club}, who are used in {usa_club.city}, {usa_club.country} 
-are wiling to give you a yearly salary of £50 Million, 
-but you will also have the following: stock shares of the club, 
-a sponsorship deal with Apple and you get to keep your image rights.\n""")
+    print(f"{usa_club.club}, who are used in {usa_club.city}, {usa_club.country} "
+            "are wiling to give you a yearly salary of £50 Million, "
+            "but you will also have the following: \nStock shares of the club, "
+            "a sponsorship deal with Apple and you get to keep your image rights.\n")
 
     time.sleep(4)
 
@@ -520,20 +520,20 @@ a sponsorship deal with Apple and you get to keep your image rights.\n""")
     while response not in CLUB_OPTIONS:
         response = input(f"{name}, which option would you like to pick? Please type 1 or 2\n")
         if response == "1":
-            print(f"""\n{name}, you have decided to joing {saudi_club.club}. 
-You will now be meeting up with your new colleagues in 
-{saudi_club.city}, {saudi_club.country}. 
-We wish you the best of luck!\n""")
+            print(f"\n{name}, you have decided to joing {saudi_club.club}.\n"
+                    "\nYou will now be meeting up with your new colleagues in "
+                    f"{saudi_club.city}, {saudi_club.country}.\n"
+                    "\nWe wish you the best of luck!\n")
         elif response == "2":
-            print(f"""\n{name}, you have decided to joing {usa_club.club}. 
-You will now be meeting up with your new colleagues in 
-{usa_club.city}, {usa_club.country}. 
-We wish you the best of luck!\n""")
+            print(f"\n{name}, you have decided to joing {usa_club.club}.\n"
+                    "You will now be meeting up with your new colleagues in "
+                    f"{usa_club.city}, {usa_club.country}.\n"
+                    "\nWe wish you the best of luck!\n")
         else:
             print(Fore.RED + "Error: Please enter either 1 or 2\n")
 
-    print(f"""{name}, on the last day at your current club, teammates and fans gather, 
-your accolades are read out by the clubs president...\n""")
+    print(f"{name}, on the last day at your current club, teammates and fans gather, "
+            "your accolades are read out by the clubs president...\n")
 
     time.sleep(4)
 
