@@ -152,14 +152,10 @@ def start_pro_career():
 
     time.sleep(2)
 
-    # print(f"{name}, you have just finished a successful youth career at your\nlocal football club.")
-
     print(f"""\n{name}, you have just finished a successful youth career
 at your local football club.\n""")
 
     time.sleep(4)
-
-    # print("Alongside your talent, your agent has been very proactive\nand there are a number of clubs around Europe that would\nlike to sign you.")
 
     print("""Alongside your talent, your agent has been very proactive and
 there are a number of clubs around Europe that would like to sign you.\n""")
@@ -329,12 +325,6 @@ Please type 'YES' or "NO'\n""")
             break
         else:
             print("Error: Please enter either YES or NO\n")
-
-    # time.sleep(2)
-
-    # print("Loading in-game scenario...")
-
-    # time.sleep(3)
 
     scenario.in_game_scenario_two()
 
@@ -638,5 +628,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    
