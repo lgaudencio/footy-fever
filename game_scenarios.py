@@ -17,9 +17,9 @@ def in_game_scenario_one():
     response = ""
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
-        response = input("""You've been fouled inside the box do you chose to
-take the penalty or hand it to a teammate?...\n
-Please enter YES to take the pentalty or NO to hand it over to your teammate...\n""")
+        response = input("\nYou've been fouled inside the box do you chose to "
+                            "take the penalty or hand it to a teammate?...\n"
+                            "\nPlease enter YES to take the pentalty or NO to hand it over to your teammate...\n")
         if response.upper() == "NO":
             print("\nYou handed the responsibility to your teammate...\n")
             time.sleep(2)
@@ -57,11 +57,11 @@ def in_game_scenario_two():
     chance = random.randint(0, 1)
     distance = str(random.randint(20, 45)) + " Yards"
     while response not in SHOOT_OR_PASS:
-        response = input(f"""Your team is battling it out to secure a Champions League spot for next season. 
-A freekick has been awarded, it is {distance} out from goal.\n
-As the clubs freekick taker, you hover over the ball. 
-Do you take a shot on goal or do you pass it?... 
-Please enter SHOOT or PASS...\n""")
+        response = input("\nYour team is battling to secure a Champions League spot for next season.\n"
+                            "\nA freekick has been awarded, it is {distance} out from goal.\n"
+                            "\nAs the clubs freekick taker, you hover over the ball. "
+                            "Do you take a shot on goal or do you pass it?...\n"
+                            "\nPlease enter SHOOT or PASS...\n")
         if response.upper() == "SHOOT":
             print("\nYou shoot...\n")
             time.sleep(2)
@@ -98,8 +98,8 @@ def in_game_scenario_three():
     response = ""
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
-        response = input("""\nAn opposition player is in on goal, do you takle him?... 
-Please enter YES to tackle or NO to take no action...\n""")
+        response = input("\nAn opposition player is in on goal, do you takle him?...\n"
+                            "\nPlease enter YES to tackle or NO to take no action...\n")
         if response.upper() == "YES":
             print("You decided to make the tackle...\n")
             time.sleep(2)
@@ -136,10 +136,10 @@ def in_game_scenario_four():
     response = ""
     chance = random.randint(0, 1)
     while response not in SHOOT_OR_PASS:
-        response = input("""You are one-on-one with the goalkeeper, but the angle is getting tighter. 
-You see that if you pass to your teammate, they'll have an a clear cut
-opportunity to score. Do you take the shot or do you pass to teammate?... 
-Please enter SHOOT or PASS...\n""")
+        response = input("\nYou are one-on-one with the goalkeeper, but the angle is getting tighter.\n"
+                            "\nYou see that if you pass to your teammate, they'll have an a clear cut "
+                            "opportunity to score. Do you take the shot or do you pass to teammate?...\n"
+                            "\nPlease enter SHOOT or PASS...\n")
         if response.upper() == "SHOOT":
             print("\nYou shoot...\n")
             time.sleep(2)
