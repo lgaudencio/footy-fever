@@ -122,9 +122,8 @@ def input_name():
         name = input("Please enter your name?: ")
         stripped_name = name.strip()
         if len(stripped_name) > 0:
-            print(f"""\nWelcome {stripped_name}!
-        
-You will now begin your path to stardom, good luck in your journey!\n""")
+            print(f"\nWelcome {stripped_name}!\n"
+                    "\nYou will now begin your path to stardom, good luck in your journey!\n")
             break
         else:
             print(Fore.RED + "\nError: Name must be longer than 0 characters!\n")
