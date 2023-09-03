@@ -153,25 +153,24 @@ def start_pro_career():
 
     time.sleep(2)
 
-    print(f"""\n{name}, you have just finished a successful youth career
-at your local football club.\n""")
+    print(f"\n{name}, you have just finished a successful youth career "
+            "at your local football club.\n")
 
     time.sleep(4)
 
-    print("""Alongside your talent, your agent has been very proactive and
-there are a number of clubs around Europe that would like to sign you.\n""")
+    print("Alongside your talent, your agent has been very proactive and "
+            "there are a number of clubs around Europe that would like to sign you.\n")
 
     time.sleep(4)
 
     weekly_wage_club_one()
 
-    print(f"""Three clubs have expressed their interest and they have 
-guaranteed that you'll play at least 50% of the games in your first season. 
-
-Please see your options below:
-\nOption 1: {CLUB_ONE[0]} for £{weekly_wage_one} per week
-\nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week  
-\nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week""")
+    print("Three clubs have expressed their interest and they have "
+            "guaranteed that you'll play at least half the games in your first season.\n"
+            "\nPlease see your options below:\n"
+            f"\nOption 1: {CLUB_ONE[0]} for £{weekly_wage_one} per week"
+            f"\nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week"
+            f"\nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week")
 
     time.sleep(4)
 
