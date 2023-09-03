@@ -64,21 +64,17 @@ def main_menu():
     response = ""
     while response not in MAIN_MENU_OPTIONS:
         print("\nMAIN MENU\n")
-        response = input("""Please select an option below:
-    
-Enter 1 - About This Game
-Enter 2 - Game Instructions
-Enter 3 - Play Game
-""")
+        response = input("Please select an option below:\n"
+                        "\nEnter 1 - About This Game\n"
+                        "Enter 2 - Game Instructions\n"
+                        "Enter 3 - Play Game\n")
         if response == "1":
             print("About This Game:")
-            print("""Welcome to Football Glory, a text-based game that will take 
-you to the heights of European Football. 
-
-Will you reach lengednary status and have your name 
-cemented alongside the European Elite?
-
-There's only one way to find out!\n""")
+            print("Welcome to Football Glory, a text-based game that will take "
+                    "you to the heights of European Football.\n"
+                    "\nWill you reach lengednary status and have your name "
+                    "cemented alongside the European Elite?\n"
+                    "\nThere's only one way to find out!\n")
             invalid_main_menu_input()
             main_menu()
         elif response == "2":
