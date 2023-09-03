@@ -19,12 +19,11 @@ def club_one_stats():
 
     time.sleep(3)
 
-    print(f"""Your stats the last five seasons:
-  
-Games Played: {games_played} 
-Goals Scored: {goals} 
-Assists: {assists} 
-Total Goal Involvments per 90: {ratio}""")
+    print(f"Your stats the last five seasons:\n"
+            f"\nGames Played: {games_played}" 
+            f"\nGoals Scored: {goals} "
+            f"\nAssists: {assists} "
+            f"\nTotal Goal Involvments per 90: {ratio}\n")
 
     club_titles()
 
@@ -42,12 +41,11 @@ def club_two_stats():
 
     time.sleep(3)
 
-    print(f"""Your stats the last five seasons:
-  
-Games Played: {games_played} 
-Goals Scored: {goals} 
-Assists: {assists} 
-Total Goal Involvments per 90: {ratio}""")
+    print(f"Your stats the last five seasons:\n"
+            f"\nGames Played: {games_played}" 
+            f"\nGoals Scored: {goals} "
+            f"\nAssists: {assists} "
+            f"\nTotal Goal Involvments per 90: {ratio}\n")
 
     club_titles()
 
@@ -65,12 +63,11 @@ def club_three_stats():
 
     time.sleep(3)
 
-    print(f"""Your stats the last five seasons:
-  
-Games Played: {games_played} 
-Goals Scored: {goals} 
-Assists: {assists} 
-Total Goal Involvments per 90: {ratio}""")
+    print(f"Your stats the last five seasons:\n"
+            f"\nGames Played: {games_played}" 
+            f"\nGoals Scored: {goals} "
+            f"\nAssists: {assists} "
+            f"\nTotal Goal Involvments per 90: {ratio}\n")
 
     club_titles()
 
@@ -88,12 +85,11 @@ def club_four_stats():
 
     time.sleep(3)
 
-    print(f"""Your stats the last five seasons:
-  
-Games Played: {games_played} 
-Goals Scored: {goals} 
-Assists: {assists} 
-Total Goal Involvments per 90: {ratio}""")
+    print(f"Your stats the last five seasons:\n"
+            f"\nGames Played: {games_played}" 
+            f"\nGoals Scored: {goals} "
+            f"\nAssists: {assists} "
+            f"\nTotal Goal Involvments per 90: {ratio}\n")
 
     club_titles()
 
@@ -110,11 +106,10 @@ def club_titles():
     domestic_cups = random.randint(0, 5)
     continental_cups = random.randint(0, 5)
 
-    print(f"""\nThe trophies you've won over the last five seasons: 
-    
-{league_titles} League Title(s)
-{domestic_cups} Domestic Cup Title(s)
-{continental_cups} Continental Cup Title(s)""")
+    print("\nThe trophies you've won over the last five seasons:\n"
+            f"\n{league_titles} League Title(s)"
+            f"\n{domestic_cups} Domestic Cup Title(s)"
+            f"\n{continental_cups} Continental Cup Title(s)") 
 
     total_league_titles += league_titles
     total_domestic_cups += domestic_cups
