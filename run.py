@@ -82,7 +82,13 @@ There's only one way to find out!\n""")
             invalid_main_menu_input()
             main_menu()
         elif response == "2":
-            print("Game instructions")
+            print("\nGame instructions:\n"
+                    "\nIt's time to take control!\n"
+                    "\nAs a future footballing legend, you will take control of the following:\n"
+                    "\n1. The clubs you join\n"
+                    "2. The salary you earn\n"
+                    "3. In game decisions to put your team ahead\n"
+                    "\nTo take control, just follow the in game instructions!\n")
             invalid_main_menu_input()
             main_menu()
         elif response == "3":
