@@ -242,12 +242,12 @@ def start_club_two():
 
     time.sleep(4)
 
-    print("\nYour agent tells you that some big Premier League clubs "
+    print("Your agent tells you that some big Premier League clubs "
             "are battling it out for your signature!\n")
 
     time.sleep(4)
 
-    print("\nYou've been told that your current club has accepted a "
+    print("You've been told that your current club has accepted a "
             f"fee of {transfer_fee} from {second_club}.\n")
 
     time.sleep(4)
@@ -311,7 +311,7 @@ def at_club_two():
 
     response = ""
     while response not in YES_OR_NO:
-        response = input(f"\n{name}, would you like to sign on with {sponsor}?" 
+        response = input(f"{name}, would you like to sign on with {sponsor}?" 
                             "Please type 'YES' or 'NO'\n")
         if response.upper() == "YES":
             print(f"\nCongratulation {name}, you've signed a lucrative deal with {sponsor}!\n")
