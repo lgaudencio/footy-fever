@@ -237,18 +237,18 @@ def start_club_two():
     transfer_fee = "£" + str(random.randint(55, 80)) + " Million"
     second_club = random.choice(CLUB_TWO)
 
-    print("""\nYou are currently preparing for a pre-season tour 
-when you get a call from your agent.\n""")
+    print("\nYou are currently preparing for a pre-season tour "
+            "when you get a call from your agent.\n")
 
     time.sleep(4)
 
-    print("""Your agent tells you that some big Premier League clubs 
-are battling it out for your signature!\n""")
+    print("\nYour agent tells you that some big Premier League clubs "
+            "are battling it out for your signature!\n")
 
     time.sleep(4)
 
-    print(f"""You've been told that your current club has accepted a 
-fee of {transfer_fee} from {second_club}.\n""")
+    print("\nYou've been told that your current club has accepted a "
+            f"fee of {transfer_fee} from {second_club}.\n")
 
     time.sleep(4)
 
@@ -259,32 +259,29 @@ fee of {transfer_fee} from {second_club}.\n""")
 
     response = ""
     while response not in YES_OR_NO:
-        response = input(f"""{second_club} are offering you a weekly salary of {weekly_wage_one}.
-
-Do you accept this offer or do you risk negotiating?
-      
-If you accept the offer type 'YES' if you want to negotiate type 'NO'\n""")
-
+        response = input(f"\n{second_club} are offering you a weekly salary of {weekly_wage_one}.\n"
+                            "\nDo you accept this offer or do you risk negotiating?\n"     
+                            "\nIf you accept the offer type 'YES' if you want to negotiate type 'NO'\n")
         if response.upper() == "NO":
             if negotiated_salary < weekly_wage_one:
-                print(f"""\n{second_club} are not impressed with the negotiations, 
-so they have now offered you {negotiated_salary}\n""")
-                print(f"""Congratulations {name}, you will now meeting up with your 
-new teammates at {second_club}!\n""")
+                print(f"\n{second_club} are not impressed with the negotiations, "
+                        f"so they have now offered you {negotiated_salary}\n")
+                print(f"\nCongratulations {name}, you will now meeting up with your "
+                        f"new teammates at {second_club}!\n")
                 break
             elif negotiated_salary > weekly_wage_one:
-                print(f"""\n{second_club} are impressed by your negotiating skills, 
-they have now offered {negotiated_salary}\n""")
-                print(f"""Congratulations {name}, you will now meeting up with your 
-new teammates at {second_club}!\n""")
+                print(f"\n{second_club} are impressed by your negotiating skills, "
+                        f"they have now offered {negotiated_salary}\n")
+                print(f"\nCongratulations {name}, you will now meeting up with your "
+                        f"new teammates at {second_club}!\n")
                 break
             else:
-                print(f"The offer stands at {weekly_wage_one}, {second_club} will not negotiate!")
-                print(f"""Congratulations {name}, you will now meeting up with your 
-new teammates at {second_club}!""")
+                print(f"\nThe offer stands at {weekly_wage_one}, {second_club} will not negotiate!")
+                print(f"\nCongratulations {name}, you will now meeting up with your "
+                        f"new teammates at {second_club}!")
         elif response.upper() == "YES":
-            print(f"""\nCongratulations {name}, you will now meeting up with your 
-new teammates at {second_club}!\n""")
+            print(f"\nCongratulations {name}, you will now meeting up with your "
+                    f"new teammates at {second_club}!\n")
             break
         else:
             print(Fore.RED + "\nError: Please enter either YES or NO\n")
