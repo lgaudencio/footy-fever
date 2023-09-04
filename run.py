@@ -69,8 +69,8 @@ def main_menu():
                         "Enter 2 - Game Instructions\n"
                         "Enter 3 - Play Game\n")
         if response == "1":
-            print("\nAbout This Game:\n"
-                    "\nWelcome to Football Glory, a text-based game that will take "
+            print(Fore.GREEN + "\nAbout This Game:")
+            print("\nWelcome to Football Glory, a text-based game that will take "
                     "you to the heights of World Football.\n"
                     "\nWill you reach lengednary status and have your name "
                     "cemented alongside the European Elite?\n"
@@ -78,8 +78,8 @@ def main_menu():
             invalid_main_menu_input()
             main_menu()
         elif response == "2":
-            print("\nGame instructions:\n"
-                    "\nIt's time to take control!\n"
+            print(Fore.GREEN + "\nGame Instructions:")
+            print("\nIt's time to take control!\n"
                     "\nAs a future footballing legend, you will take control of the following:\n"
                     "\n1. The clubs you join\n"
                     "2. The salary you earn\n"
