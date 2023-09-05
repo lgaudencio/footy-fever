@@ -72,6 +72,14 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * At the end of the ‘About This Game’ explanation, the user will be prompted to enter ‘0’ to be taken back to the main menu, where they can view another game instructions and/or play the game. 
 
+### Game Instructions Section
+
+* If the user decides to view the game instructions, they will be presented with the title ‘Game Instructions’ followed by what is expected of them during the course of the game. 
+
+* The title has been given colour to indicate to the user that it is a title. 
+
+* At the end of the ‘Game Instructions’ explanation, the user will be prompted to enter ‘0’ to be taken back to the main menu, where they can view about this game and/or play the game. 
+
 ### Name Input Section 
 
 * Once the user enters ‘3’ on the main menu, the game will load and the user will be prompted to enter their name. 
