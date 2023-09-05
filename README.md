@@ -261,3 +261,15 @@ The os library was imported to create a function to utilise the os.system to cle
 	* Sponsorship: During the game, the user will be prompted to accept or decline a sponsorship deal. This will only accept either a ‘yes’ or a ‘no’ input and will accept any of those responses in lower or uppercase. It was tested by entering anything else that wasn’t either of the two given options to ensure the error was caught and handled appropriately. 
 
 	* Play Again: This will only accept either ‘yes’ or ‘no’. It is expected that if the user inputs ‘yes’ the game will restart, if the user inputs ‘no’ the game will finish and exit. Testing was performed on both these inputs and it performed as expected. It is expected that if any other input is given other than ‘yes’ or ‘no’, the user will be displayed with an error message stating that they must enter a valid input. This was tested by giving it an input that would throw an error and it performed as expected. 
+
+## Deployment 
+
+### Version Control 
+
+Git commands were used during the development to push code to the remote repo, the following commands were the following:
+
+* *git add <file>* - This command is used to add a file to the staging area.
+
+* *git commit -m "text"* - This git command is used to commit changes made to the code and sent to the local repository.
+
+* *git push* - This git command is used then the committed code was pushed to the remote repository on GitHub.
