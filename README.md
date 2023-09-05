@@ -218,3 +218,46 @@ The os library was imported to create a function to utilise the os.system to cle
 ### Other 
 
 * [LucidCharts](https://lucid.co/) was used to create the Flowchart.
+
+## Testing 
+
+* The print() method was used throughout the development of the game to check for any errors that arose. It helped to check that the game was running/behaving as expected and that functions using the random() method were generating the expected outcome. 
+
+* User inputs were tested by printing it back to the console, this was to ensure all functions were running as expected. 
+
+* Errors and warnings were fixed as they appeared, this was to ensure that the code was kept clean and any bugs that arose could be identified and fixed easier. 
+
+* The game was tested regularly to check that all the functions were linked appropriately, thus having a well structured game that would run smoothly with no interruptions.  
+
+* The external Python library, Pyfiglet, was tested by running the game, it could be seen that the title of the game was displayed was expected. 
+
+* The external Python library, Colorama, was tested by doing a full run of the game, the expected results were: 
+
+	* Green text for the game title, about the game and game instructions. 
+	* Blue text for starting and loading game display to the user.
+	* Red text for any error messages that might occur throughout the gameplay.   
+	* Blue background and yellow text for the chapter titles.
+
+* Testing inputs were used to ensure all user inputs would be handled correctly and would display appropriate feedback to the user. In the features section, it mentions how user inputs were handled. 
+
+	* Main Menu: This will only accept either 1, 2, 3. It was tested by entering other numbers and other random letters to ensure the error was caught and handled appropriately. 
+
+	* Back to Main Menu: This will only accept 0. It was tested by entering anything else other than ‘0’ to ensure the error was caught and handled appropriately. 
+
+	* User Name: This will accept any alphanumeric input given including special characters. The name must also be longer than 0 characters and the strip method is used to remove any white space. It was tested by entering no name to ensure the error was caught and handled appropriately. 
+
+	* Press Enter to Continue…: This will only accept the enter button being pressed. It was tested by entering any other keys on the keyboard to ensure the error was caught and handled appropriately.  
+
+	* First Club Choice: This will only accept one of the three club options presented to the user and will accept any of those clubs typed in lower or uppercase. It was tested by entering anything else that was not one of the three clubs presented to ensure the error was caught and handled appropriately.  
+
+	* Fourth Club Choice: This will only accept either a ‘1’ or a ‘2’. If the user inputs ‘1’, it is expected that they will join the club mentioned first option presented, if they input ‘2’ it is expected that they will join the club mentioned second option presented. This was tested by selecting either option and it performed as expected. If the user inputs neither ‘1’ or ‘2’ an error will be displayed telling the user to enter either ‘1’ or ‘2’. 
+
+	* First & Third In-Game Scenario: This will only accept either a ‘yes’ or a ‘no’ input and will accept any of those responses in lower or uppercase. It was tested by entering anything else that wasn’t either of the two given options to ensure the error was caught and handled appropriately. 
+
+	* Second & Fourth In-Game Scenario: This will only accept either a ‘shoot’ or a ‘pass’ input and will accept any of those responses in lower or uppercase. It was tested by entering anything else that wasn’t either of the two given options to ensure the error was caught and handled appropriately.
+
+	* Negotiations: All negotiation sections will only accept either a ‘yes’ or a ‘no’ and will accept any of those responses in lower or uppercase. It was tested by entering anything else that wasn’t either of the two given options to ensure the error was caught and handled appropriately.
+
+	* Sponsorship: During the game, the user will be prompted to accept or decline a sponsorship deal. This will only accept either a ‘yes’ or a ‘no’ input and will accept any of those responses in lower or uppercase. It was tested by entering anything else that wasn’t either of the two given options to ensure the error was caught and handled appropriately. 
+
+	* Play Again: This will only accept either ‘yes’ or ‘no’. It is expected that if the user inputs ‘yes’ the game will restart, if the user inputs ‘no’ the game will finish and exit. Testing was performed on both these inputs and it performed as expected. It is expected that if any other input is given other than ‘yes’ or ‘no’, the user will be displayed with an error message stating that they must enter a valid input. This was tested by giving it an input that would throw an error and it performed as expected. 
