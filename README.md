@@ -262,6 +262,22 @@ The os library was imported to create a function to utilise the os.system to cle
 
 	* Play Again: This will only accept either ‘yes’ or ‘no’. It is expected that if the user inputs ‘yes’ the game will restart, if the user inputs ‘no’ the game will finish and exit. Testing was performed on both these inputs and it performed as expected. It is expected that if any other input is given other than ‘yes’ or ‘no’, the user will be displayed with an error message stating that they must enter a valid input. This was tested by giving it an input that would throw an error and it performed as expected. 
 
+### Validator Testing
+
+[This](https://pep8ci.herokuapp.com/) python validator was used to validate all python files. All python files were checked with no errors. 
+
+Validator Testing results for run.py: 
+
+![Validator testing for run.py](readme-images/linter-run.png)
+
+Validator Testing results for stats.py: 
+
+![Validator testing for stats.py](readme-images/linter-stats.png)
+
+Validator Testing results for game_scenarios.py: 
+
+![Validator testing for game_scenarios.py](readme-images/linter-game.png)
+
 ## Deployment 
 
 ### Version Control 
