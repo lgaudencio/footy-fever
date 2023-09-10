@@ -406,7 +406,7 @@ def award_time():
     print(
         f"{name}, you have arrived in France for the {award} ceremony.\n"
         "\nTonight, you are among teammates and rivals to see who will take "
-        "home the {award} award.\n")
+        f"home the {award} award.\n")
 
     time.sleep(3)
 
@@ -416,8 +416,8 @@ def award_time():
 
     if award_placement == 1:
         print(
-            f"\nCongratulations {name}! You've won the {award}."
-            "\nYou've cemented your name amongst the great that have won "
+            f"Congratulations {name}! You've won the {award}.\n"
+            "\nYou've cemented your name amongst the greats that have won "
             "this award!\n")
     elif award_placement == 2:
         print(f"\n{name}, you've finished in 2nd place\n")
@@ -484,7 +484,7 @@ def end_second_club():
                     "negotiations, so they have now offered you "
                     f"{negotiated_salary}\n")
                 print(
-                    f"Congratulations {name}, you are now heading to your "
+                    f"\nCongratulations {name}, you are now heading to your "
                     "new club!\n")
                 break
             elif negotiated_salary > weekly_wage_one:
@@ -492,7 +492,7 @@ def end_second_club():
                     f"\n{third_club} are impressed by your negotiating "
                     f"skills, they have now offered {negotiated_salary}\n")
                 print(
-                    f"Congratulations {name}, you are now heading to "
+                    f"\nCongratulations {name}, you are now heading to "
                     "your new club!\n")
                 break
             else:
@@ -500,18 +500,18 @@ def end_second_club():
                     f"\nThe offer stands at {weekly_wage_one},"
                     f"{third_club} will not negotiate!\n")
                 print(
-                    f"Congratulations {name}, you are now heading to your "
+                    f"\nCongratulations {name}, you are now heading to your "
                     "new club!\n")
         elif response.upper() == "YES":
             print(
-                f"Congratulations {name}, you are now heading to your "
+                f"\nCongratulations {name}, you are now heading to your "
                 "new club!")
             break
         else:
             print(Fore.RED + "\nError: Please enter either YES or NO")
 
     print(
-        f"{name}, as you move to {third_club}, you are reminded with what "
+        f"\n{name}, as you move to {third_club}, you are reminded with what "
         "you have achieved in the last five season with your previous "
         "club...\n")
 

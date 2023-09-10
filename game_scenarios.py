@@ -102,7 +102,7 @@ def in_game_scenario_three():
     generated at random
     """
     time.sleep(3)
-    print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...")
+    print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...\n")
     time.sleep(3)
     response = ""
     chance = random.randint(0, 1)
@@ -111,7 +111,7 @@ def in_game_scenario_three():
             "An opposition player is in on goal, do you takle him?...\n"
             "\nPlease enter YES to tackle or NO to take no action...\n")
         if response.upper() == "YES":
-            print("You decided to make the tackle...\n")
+            print("\nYou decided to make the tackle...\n")
             time.sleep(2)
             if chance == 0:
                 print(
@@ -119,7 +119,7 @@ def in_game_scenario_three():
                     "you a red card!\n")
                 break
             elif chance == 1:
-                print("You got the ball! Excellent tackle!\n")
+                print("\nYou got the ball! Excellent tackle!\n")
                 break
         elif response.upper() == "NO":
             print(
