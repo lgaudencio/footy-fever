@@ -245,6 +245,8 @@ The os library was imported to create a function to utilise the os.system to cle
 	* Red text for any error messages that might occur throughout the gameplay.   
 	* Blue background and yellow text for the chapter titles.
 
+* Total trophies won was tested by keeping count of all trophies won throughout the game, and once the total was displayed at the end of the game, the figures were then compared to see if they matched. The total trophies won was displayed correctly as expected. 
+
 * Testing inputs were used to ensure all user inputs would be handled correctly and would display appropriate feedback to the user. In the features section, it mentions how user inputs were handled. 
 
 	* Main Menu: This will only accept either 1, 2, 3. It was tested by entering other numbers and other random letters to ensure the error was caught and handled appropriately. 
