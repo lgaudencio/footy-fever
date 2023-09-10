@@ -2,7 +2,7 @@
 
 Footy Fever is a Python terminal game that runs on Heroku.
 
-The live project can be viewed [here]().
+The live project can be viewed [here](https://footy-fever-ad7b89b7823a.herokuapp.com/).
 
 Inspiration for this game comes from an existing game called New Star Soccer, which can be downloaded from the App Store and the Google Play Store. In this game you also climb the ranks of football and also take decisions into your own hands.
 
