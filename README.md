@@ -120,6 +120,8 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * In Chapter 7, the user will be presented with their total trophies won, it will calculate all the trophies the user won throughout their career.
 
+* There are no inputs needed from the user for this feature. 
+
 ### Negotiation Sections 
 
 * There exists two parts in the game where the user will be prompted to either accept the salary given by the club or they can chose to negotiate. These two sections exist when the user goes to their second and third professional club. 
