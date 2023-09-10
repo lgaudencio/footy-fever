@@ -79,7 +79,7 @@ def main_menu():
                 "\nWelcome to Football Glory, a text-based game that will "
                 "take you to the heights of World Football.\n"
                 "\nWill you reach lengednary status and have your name "
-                "cemented alongside the European Elite?\n"
+                "cemented alongside the Footballing Elite?\n"
                 "\nThere's only one way to find out!\n")
             invalid_main_menu_input()
             main_menu()
@@ -283,7 +283,7 @@ def start_club_two():
 
     print(
         "You've been told that your current club has accepted a "
-        f"fee of {transfer_fee} from {second_club}.\n")
+        f"fee of {transfer_fee} from {second_club}.")
 
     time.sleep(4)
 
@@ -307,7 +307,7 @@ def start_club_two():
                     "negotiations, so they have now offered you "
                     f"{negotiated_salary}\n")
                 print(
-                    f"\nCongratulations {name}, you will now meeting up "
+                    f"Congratulations {name}, you will now meeting up "
                     f"with your new teammates at {second_club}!\n")
                 break
             elif negotiated_salary > weekly_wage_one:
@@ -315,7 +315,7 @@ def start_club_two():
                     f"\n{second_club} are impressed by your negotiating "
                     f"skills, they have now offered {negotiated_salary}\n")
                 print(
-                    f"\nCongratulations {name}, you will now meeting up "
+                    f"Congratulations {name}, you will now meeting up "
                     f"with your new teammates at {second_club}!\n")
                 break
             else:
@@ -323,11 +323,11 @@ def start_club_two():
                     f"\nThe offer stands at {weekly_wage_one}, "
                     f"{second_club} will not negotiate!")
                 print(
-                    f"\nCongratulations {name}, you will now meeting up "
+                    f"Congratulations {name}, you will now meeting up "
                     f"with your new teammates at {second_club}!")
         elif response.upper() == "YES":
             print(
-                f"\nCongratulations {name}, you will now meeting up with "
+                f"Congratulations {name}, you will now meeting up with "
                 f"your new teammates at {second_club}!\n")
             break
         else:
@@ -404,7 +404,7 @@ def award_time():
     award_placement = random.randint(1, 3)
 
     print(
-        f"\n{name}, you have arrived in France for the {award} ceremony.\n"
+        f"{name}, you have arrived in France for the {award} ceremony.\n"
         "\nTonight, you are among teammates and rivals to see who will take "
         "home the {award} award.\n")
 
@@ -456,14 +456,14 @@ def end_second_club():
     time.sleep(4)
 
     print(
-        f"\nYour agent informs you that {third_club} has approched your "
+        f"Your agent informs you that {third_club} has approched your "
         "current club "
         f"and will pay your release clause of {release_clause}.\n")
 
     time.sleep(4)
 
     print(
-        "\nA few days later, the Sporting Director of your current club "
+        "A few days later, the Sporting Director of your current club "
         f"pulls you aside for a meeting. He informs you that as {third_club} "
         "paid your release clause and you are free to join them.\n")
 
@@ -472,7 +472,7 @@ def end_second_club():
     response = ""
     while response not in YES_OR_NO:
         response = input(
-            f"\n{third_club} are offering you a weekly salary of "
+            f"{third_club} are offering you a weekly salary of "
             f"{weekly_wage_one}.\n"
             "\nDo you accept this offer or do you risk negotiating?\n"
             "\nIf you accept the offer type 'YES' if you want to negotiate "
@@ -511,7 +511,7 @@ def end_second_club():
             print(Fore.RED + "\nError: Please enter either YES or NO")
 
     print(
-        f"\n{name}, as you move to {third_club}, you are reminded with what "
+        f"{name}, as you move to {third_club}, you are reminded with what "
         "you have achieved in the last five season with your previous "
         "club...\n")
 
@@ -538,7 +538,7 @@ def at_third_club():
 
     time.sleep(2)
 
-    input("\nPress Enter to continue...\n")
+    input("Press Enter to continue...")
 
     print(
         f"\n{name}, you had a phenominal season and you've been nominated "
@@ -564,7 +564,7 @@ def end_third_club():
     global age
     age += 5
 
-    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 6...\n")
+    print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 6...\n")
 
     time.sleep(3)
 
@@ -580,7 +580,7 @@ def end_third_club():
     time.sleep(4)
 
     print(
-        f"\n{name}, you have two lucrative deals on the table "
+        f"{name}, you have two lucrative deals on the table "
         "and you need to select one of them...\n")
 
     time.sleep(4)
@@ -590,7 +590,7 @@ def end_third_club():
     print("FIRST OPTION:\n")
 
     print(
-        f"\n{saudi_club.club}, who are based in {saudi_club.city}, "
+        f"{saudi_club.club}, who are based in {saudi_club.city}, "
         f"{saudi_club.country} are willing to give you a yearly salary of "
         "£100 Million and give you a role as a football ambassador for the "
         "region.\n")
@@ -650,7 +650,7 @@ def career_end():
     global age
     age += 5
 
-    print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 7...")
+    print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 7...\n")
 
     time.sleep(3)
 
@@ -671,8 +671,8 @@ def career_end():
     stat.club_four_stats()
 
     print(
-        """\nThroughout their career, the amount of titles won have been
-        "the following...\n""")
+        "\nThroughout their career, the amount of titles won have been "
+        "the following...\n")
 
     stat.total_career_titles()
 
@@ -694,7 +694,7 @@ def play_again():
             print("\nThank you for playing!")
             exit()
         else:
-            print(Fore.RED + "\nError: Please enter YES or NO")
+            print(Fore.RED + "\nError: Please enter YES or NO\n")
 
 
 def main():

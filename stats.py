@@ -112,7 +112,7 @@ def club_titles():
     continental_cups = random.randint(0, 5)
 
     print(
-        "\nThe trophies you've won over the last five seasons:\n"
+        "The trophies you've won over the last five seasons:\n"
         f"\n{league_titles} League Title(s)"
         f"\n{domestic_cups} Domestic Cup Title(s)"
         f"\n{continental_cups} Continental Cup Title(s)")

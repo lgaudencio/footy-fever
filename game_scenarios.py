@@ -19,7 +19,7 @@ def in_game_scenario_one():
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
         response = input(
-            "\nYou've been fouled inside the box do you chose to "
+            "You've been fouled inside the box do you chose to "
             "take the penalty or hand it to a teammate?...\n"
             "\nPlease enter YES to take the pentalty or NO to hand it over to "
             "your teammate...\n")
@@ -61,7 +61,7 @@ def in_game_scenario_two():
     distance = str(random.randint(20, 45)) + " Yards"
     while response not in SHOOT_OR_PASS:
         response = input(
-            "\nYour team is battling to secure a Champions League spot for "
+            "Your team is battling to secure a Champions League spot for "
             "next season.\n"
             f"\nA freekick has been awarded, it is {distance} out from goal.\n"
             "\nAs the clubs freekick taker, you hover over the ball. "
@@ -108,7 +108,7 @@ def in_game_scenario_three():
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
         response = input(
-            "\nAn opposition player is in on goal, do you takle him?...\n"
+            "An opposition player is in on goal, do you takle him?...\n"
             "\nPlease enter YES to tackle or NO to take no action...\n")
         if response.upper() == "YES":
             print("You decided to make the tackle...\n")
@@ -155,7 +155,7 @@ def in_game_scenario_four():
     chance = random.randint(0, 1)
     while response not in SHOOT_OR_PASS:
         response = input(
-            "\nYou are one-on-one with the goalkeeper, but the angle is "
+            "You are one-on-one with the goalkeeper, but the angle is "
             "getting tighter.\n"
             "\nYou see that if you pass to your teammate, they'll have an a "
             "clear cut "
