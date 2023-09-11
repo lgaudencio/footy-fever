@@ -334,3 +334,13 @@ Git commands were used during the development to push code to the remote repo, t
 * *git commit -m "text"* - This git command is used to commit changes made to the code and sent to the local repository.
 
 * *git push* - This git command is used then the committed code was pushed to the remote repository on GitHub.
+
+## Credits
+
+All code used to develop this game is custom. Some resources were used impliment specific features, these were the following: 
+
+* [Using the strip() method to remove all white spacing from the users input name](https://www.geeksforgeeks.org/python-string-strip/)
+
+* [Using the time sleep() function to aid user experience](https://www.geeksforgeeks.org/sleep-in-python/)
+
+* [Using the round() function to calculate the ratio to two decimal places](https://www.w3schools.com/python/ref_func_round.asp)
