@@ -66,6 +66,8 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user selects a number that is neither 1, 2 or 3 an error message will be displayed which will state ‘Please enter a number between 1 and 3’. This error message will have red text, thus highlighting to the user that they have given an incorrect input. The main menu will load again so the user can give a correct input. 
 
+![Main Menu Image](readme-images/main-menu.png)
+
 ### About This Game Section
 
 * If the user decided to view the what the game is about, they will be presented with the title ‘About This Game’ followed by an short explanation of what this game is, what it is centred around and what the ultimate goal is by the end of the game. 
@@ -74,13 +76,17 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * At the end of the ‘About This Game’ explanation, the user will be prompted to enter ‘0’ to be taken back to the main menu, where they can view another game instructions and/or play the game. 
 
+![About This Game Image](readme-images/about-game.png)
+
 ### Game Instructions Section
 
 * If the user decides to view the game instructions, they will be presented with the title ‘Game Instructions’ followed by what is expected of them during the course of the game. 
 
 * The title has been given colour to indicate to the user that it is a title. 
 
-* At the end of the ‘Game Instructions’ explanation, the user will be prompted to enter ‘0’ to be taken back to the main menu, where they can view about this game and/or play the game. 
+* At the end of the ‘Game Instructions’ explanation, the user will be prompted to enter ‘0’ to be taken back to the main menu, where they can view about this game and/or play the game.
+
+![Game Instructions Image](readme-images/game-instructions.png)
 
 ### Name Input Section 
 
