@@ -98,6 +98,8 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user decides to press enter without entering a name, the user will be displayed an error message stating ‘Name must be longer than 0 characters!’. The user will then be prompted again to enter a valid name. The error message will be in red, to convey to the user that an error has occurred. 
 
+![Name Input Image](readme-images/name-input.png)
+
 ### Club Choice Sections
 
 * During the course of this game, the user will be joining a total of four clubs, but the user will only have input on the club selection twice only.
