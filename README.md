@@ -49,6 +49,8 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * The game title was given a green font, this is so the title stands out and relates it to the game subject. Football pitches are green, hence a green coloured title. 
 
+![Game Title](readme-images/title-section.png)
+
 ### Main Menu Section
 
 * Just under the game title, the main menu will be displayed to the user.
