@@ -289,6 +289,42 @@ Validator Testing results for game_scenarios.py:
 
 ## Deployment 
 
+The site was deployed via [Heroku](heroku.com), and the live link for this game can be found here - [Footy Fever](https://footy-fever-ad7b89b7823a.herokuapp.com/)
+
+This project was developed utilising the Code Institute Template. Some of the deployment steps below are specifically required for the new CI template and may not be applicable to older versions, or different projects. 
+
+Before deploying to Heroku, pip3 freeze > requirements.txt was used to add pyfiglet and colorama imports for deployment. 
+
+1. Log into Heroku or create an account if one hasn't been created yet. 
+
+2. Once logged in, click the button labelled 'New' from the dashboard in the top right corner and from the drop-down menu, select 'Create New App'. 
+
+3. A unique app name must be entered, I named mine: Footy Fever. 
+
+4. Next, select your region, as I am based in England, I selected Europe. 
+
+5. Click on the 'Create App' button. 
+
+6. The next page, you will be able to see the project's 'Deploy' tab. Click on the 'Settings Tab' and scroll down to 'Config Vars'. 
+
+7. Click 'Reveal Config Vars' and enter the 'port' into the 'Key' box and '8000' into the 'Value' box and click the 'Add' button. 
+
+8. Next, scroll doen to the Buildpack section, click 'Add Buildpack', select 'Python' and click 'Save Changes'. 
+
+9. Repeat the previous step to add 'Node.js'. Please note that the Buildpacks must be in the correct order. If they are not, click and drag them into the correct order. 
+
+10. Scroll to the top of the page and select the 'Deploy' tab. 
+
+11. Select GitHub as the deployment method. 
+
+12. Confrim that you want to connect to GitHub. 
+
+13. Search for the repository name and click connect button. 
+
+14. Scroll to the bottom of the deployed page and select preferred deployment type:
+
+* Click either 'Enable Automatic Deploys' for automatic deployment when you push update to GitHub or you can choose to select manual deployment and click 'Deploy Branch'. Please note, if you choose manual deployment, it must be deployed everytime you push to GitHub. 
+
 ### Version Control 
 
 Git commands were used during the development to push code to the remote repo, the following commands were the following:
