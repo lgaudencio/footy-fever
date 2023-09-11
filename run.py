@@ -373,7 +373,7 @@ def at_club_two():
                 f"from {sponsor}.\n")
             break
         else:
-            print("Error: Please enter either YES or NO\n")
+            print(Fore.RED + "Error: Please enter either YES or NO\n")
 
     scenario.in_game_scenario_two()
 
