@@ -156,6 +156,10 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user does not enter either ‘yes’ or ‘no’, an error will be displayed to the user to enter either ‘yes’ or ‘no’. he question will be displayed again for the user to give it a correct input. 
 
+![Example outcome of agreeing to the proposed salary](readme-images/negotiation-yes.png)
+
+![Example outcome of disagreeing to the proposed salary](readme-images/negotiation-no.png)
+
 ### Sponsorship Choice Section
 
 * From a list of three brands, one will be selected at random and presented to the user.
