@@ -170,6 +170,8 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user enters something other than ‘yes’ or ‘no’, an error message will pop up prompting the user to either enter ‘yes’ or ’no’. The question will be displayed again for the user to give it a correct input. 
 
+![Example of agreeing to the sponsorship deal](readme-images/sponsorship.png)
+
 ### Awards 
 
 * During the course of the game, there will be two occasions where the user is nominated for awards. 
