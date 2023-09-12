@@ -650,6 +650,8 @@ def career_end():
     global age
     age += 5
 
+    time.sleep(3)
+
     print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 7...\n")
 
     time.sleep(3)
@@ -668,11 +670,17 @@ def career_end():
         "\nOver the past five years playing in a different continent, "
         f"{name} has achieved the following titles...\n")
 
+    time.sleep(3)
+    
     stat.club_four_stats()
+
+    time.sleep(3)
 
     print(
         "\nThroughout their career, the amount of titles won have been "
         "the following...\n")
+
+    time.sleep(3)
 
     stat.total_career_titles()
 
