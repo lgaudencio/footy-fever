@@ -206,6 +206,8 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * If the user enters neither ‘yes’ or ‘no’, an error message will be displayed stating to the user to enter either ‘yes’ or ‘no’ and the question will be displayed again. 
 
+![Outcome if the user selects to end the game](readme-images/end-game.png)
+
 ## Flow Control 
 
 A flow chart is used to show the order in which individual statements, instructions or function calls are executed or evaluated. The below images, the flow of the game is laid out and structured to aid in the design of the control flow statements such as while loops, if-elif-else statements and try-except statements. The flow chart allowed the design of the user input validation checks to be visually clear before the code was written. 
