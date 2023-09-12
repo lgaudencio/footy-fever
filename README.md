@@ -106,7 +106,11 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * The users first selection will be for their first club. Chapter 1 starts with the user have a choice of three clubs, which are Benfica, Ajax and RB Salzburg. The user must select one of these clubs by entering one of the club name. If the user enters a valid response, the user will be displayed with a welcome message and stating good luck in the city and county of the club they’ve chosen. If the user enters an invalid response, the user will be displayed an error message starting that they have entered an invalid input and to choose from one club stated, the question will then be displayed again. If the response is validated the game will continue to the next section, which will be an in-game scenario. 
 
+![Selecting the first club](readme-images/first-club-selection.png)
+
 * The users second selection will be for their last club. The user will be displayed with two options and they must enter either ‘1’ or ‘2’. If the user enters a valid response, the user will be displayed with a welcome message. If the user enters an invalid response, the user will be displayed an error message starting that they have entered an invalid input and to chose either ‘1’ or ‘2’, the question will then be displayed again.  If the response is validated the game will continue to the next section, which will be display the player stats and trophies for their third club. 
+
+![Selecting the last club](readme-images/last-club-selection.png)
 
 ### In-Game Choices Sections
 
