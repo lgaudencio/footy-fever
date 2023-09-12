@@ -190,6 +190,10 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * For award placement, a random number is generated between 1 and 3, if the number generated is a 1, it will display a message to the user congratulating them on the award. If the number generated is a 2, it will display to the user that they placed second and if a 3 is generated, it will display to the user that they played third.
 
+![First award ceremony](readme-images/first-award.png)
+
+![Second award ceremony](readme-images/second-award.png)
+
 ### Play Again
 
 * Once the user finishes the game, they will be prompted whether to end the game or to restart and play again. If the user enters ‘yes’ the game will restart and if ‘no’ is entered the game will end. Both lower and uppercase inputs will be accepted. The user is alerted with an error message if their input is not valid and the option of restarting the game is shown again. 
