@@ -128,7 +128,11 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * Once the user moves club, they will be presented with their stats, which will consist of the following: Games Played, Goals, Assists and Goal Involvement Ratio per Game. The user will also be presented with the number of trophies won with that club, the trophies will be the follwoing: League Title(s), Domestic Cup Title(s) and Contenental Cup Title(s). 
 
+![Example of trophies won in one club over 5 years and player stats](readme-images/stats-and-trophies.png)
+
 * In Chapter 7, the user will be presented with their total trophies won, it will calculate all the trophies the user won throughout their career.
+
+![Total amount of trophies won over player career](readme-images/career-end-trophies.png)
 
 * There are no inputs needed from the user for this feature. 
 
