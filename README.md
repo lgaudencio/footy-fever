@@ -372,6 +372,17 @@ Git commands were used during the development to push code to the remote repo, t
 
 * *git push* - This git command is used then the committed code was pushed to the remote repository on GitHub.
 
+### Clone the Repository Code Locally 
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+* Click on the code drop down button
+* Click on HTTPS
+* Copy the repository link to the clipboard
+* Open your IDE of choice (git must be installed for the next steps)
+* Type git clone copied-git-url into the IDE terminal
+* The project will now of been cloned on your local machine for use.
+
 ## Credits
 
 All code used to develop this game is custom. Some resources were used implement specific features, these were the following: 
