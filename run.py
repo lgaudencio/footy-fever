@@ -54,7 +54,7 @@ def introduction():
     input("Press Enter to continue...\n")
     time.sleep(1)
     print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 1...\n")
-    time.sleep(3)
+    time.sleep(1)
 
     start_pro_career()
 
@@ -97,7 +97,7 @@ def main_menu():
             main_menu()
         elif response == "3":
             print(Fore.CYAN + Style.BRIGHT + "\nStarting Game...\n")
-            time.sleep(2)
+            time.sleep(1)
             break
         else:
             print(Fore.RED + "\nError: Please enter a either 1, 2 or 3")
@@ -163,20 +163,20 @@ def start_pro_career():
     """
     print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 1: The Choice ")
 
-    time.sleep(2)
+    time.sleep(1)
 
     print(
         f"\n{name}, you have just finished a successful youth career "
         "at your local football club.\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     print(
         "Alongside your talent, your agent has been very proactive and "
         "there are a number of clubs around Europe that would like to sign "
         "you.\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     weekly_wage_club_one()
 
@@ -189,7 +189,7 @@ def start_pro_career():
         f"\nOption 2: {CLUB_ONE[1]} for £{weekly_wage_two} per week"
         f"\nOption 3: {CLUB_ONE[2]} for £{weekly_wage_three} per week")
 
-    time.sleep(4)
+    time.sleep(1)
 
     club_picked = ""
     while club_picked not in CLUB_ONE:
@@ -220,7 +220,7 @@ def start_pro_career():
                 "above!\n")
 
     input("\nPress Enter to continue...\n")
-    time.sleep(2)
+    time.sleep(1)
 
 
 def club_one_end():
@@ -235,7 +235,7 @@ def club_one_end():
 
     print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 2...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(
         Fore.YELLOW + Back.BLUE + Style.BRIGHT +
@@ -260,7 +260,7 @@ def start_club_two():
     """
     print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 3...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(
         Fore.YELLOW + Back.BLUE + Style.BRIGHT +
@@ -273,19 +273,19 @@ def start_club_two():
         "\nYou are currently preparing for a pre-season tour "
         "when you get a call from your agent.\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     print(
         "Your agent tells you that some big Premier League clubs "
         "are battling it out for your signature!\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     print(
         "You've been told that your current club has accepted a "
         f"fee of {transfer_fee} from {second_club}.")
 
-    time.sleep(4)
+    time.sleep(2)
 
     global weekly_wage_one
     weekly_wage_one = "£" + str(random.randint(150, 200)) + "k"
@@ -345,7 +345,7 @@ def at_club_two():
     """
     print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 4...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 4: HIGH FLYER ")
 
@@ -377,15 +377,15 @@ def at_club_two():
 
     scenario.in_game_scenario_two()
 
-    time.sleep(3)
+    time.sleep(2)
 
     input("Press Enter to continue...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(Fore.CYAN + Style.BRIGHT + "Loading award ceremony...\n")
 
-    time.sleep(3)
+    time.sleep(2)
 
     print(
         f"{name}, you have been nominated for UEFA Player of the "
@@ -408,11 +408,11 @@ def award_time():
         "\nTonight, you are among teammates and rivals to see who will take "
         f"home the {award} award.\n")
 
-    time.sleep(3)
+    time.sleep(2)
 
     print("Top 3 is about to be announced...\n")
 
-    time.sleep(3)
+    time.sleep(2)
 
     if award_placement == 1:
         print(
@@ -424,11 +424,11 @@ def award_time():
     else:
         print(f"\n{name}, you've finished in 3rd place\n")
 
-    time.sleep(3)
+    time.sleep(2)
 
     input("\nPress Enter to continue...")
 
-    time.sleep(3)
+    time.sleep(1)
 
 
 def end_second_club():
@@ -453,21 +453,21 @@ def end_second_club():
         "game against "
         f"{random_opponent} in the UEFA Champions League Quarter Finals.\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     print(
         f"Your agent informs you that {third_club} has approched your "
         "current club "
         f"and will pay your release clause of {release_clause}.\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     print(
         "A few days later, the Sporting Director of your current club "
         f"pulls you aside for a meeting. He informs you that as {third_club} "
         "paid your release clause and you are free to join them.\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     response = ""
     while response not in YES_OR_NO:
@@ -528,7 +528,7 @@ def at_third_club():
     """
     print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 5...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(
         Fore.YELLOW + Back.BLUE + Style.BRIGHT +
@@ -547,7 +547,7 @@ def at_third_club():
         "game, but, on this night they are also your rivals. Let's see who "
         "comes out on top!\n")
 
-    time.sleep(3)
+    time.sleep(2)
 
     global award
     award = "Balon d'Or"
@@ -566,7 +566,7 @@ def end_third_club():
 
     print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 6...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(
         Fore.YELLOW + Back.BLUE + Style.BRIGHT +
@@ -577,13 +577,13 @@ def end_third_club():
         "you the contract extention you wanted, and clubs around the world "
         "have got wind of this information...\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     print(
         f"{name}, you have two lucrative deals on the table "
         "and you need to select one of them...\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     input("Press Enter to view the first option...\n")
 
@@ -595,7 +595,7 @@ def end_third_club():
         "£100 Million and give you a role as a football ambassador for the "
         "region.\n")
 
-    time.sleep(3)
+    time.sleep(2)
 
     input("Press Enter to view the second option...\n")
 
@@ -608,7 +608,7 @@ def end_third_club():
         "the club, a sponsorship deal with Apple and you get to keep your "
         "image rights.\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     response = ""
     while response not in CLUB_OPTIONS:
@@ -634,7 +634,7 @@ def end_third_club():
         f"{name}, on the last day at your current club, teammates and fans "
         "gather, your accolades are read out by the clubs president...\n")
 
-    time.sleep(4)
+    time.sleep(2)
 
     stat.club_three_stats()
 
@@ -650,11 +650,11 @@ def career_end():
     global age
     age += 5
 
-    time.sleep(3)
+    time.sleep(2)
 
     print(Fore.CYAN + Style.BRIGHT + "\nLoading Chapter 7...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 7: THE LEGACY ")
 
@@ -662,7 +662,7 @@ def career_end():
 
     print("A few years later...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     print(
         f"\n ***BREAKING NEWS*** \n"
@@ -670,17 +670,17 @@ def career_end():
         "\nOver the past five years playing in a different continent, "
         f"{name} has achieved the following titles...\n")
 
-    time.sleep(3)
+    time.sleep(2)
     
     stat.club_four_stats()
 
-    time.sleep(3)
+    time.sleep(2)
 
     print(
         "\nThroughout their career, the amount of titles won have been "
         "the following...\n")
 
-    time.sleep(3)
+    time.sleep(1)
 
     stat.total_career_titles()
 

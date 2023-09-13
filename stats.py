@@ -17,7 +17,7 @@ def club_one_stats():
     ratio_calc = (goals + assists) / games_played
     ratio = round(ratio_calc, 2)
 
-    time.sleep(3)
+    time.sleep(2)
 
     print(
         f"Your stats the last five seasons:\n"
@@ -40,7 +40,7 @@ def club_two_stats():
     ratio_calc = (goals + assists) / games_played
     ratio = round(ratio_calc, 2)
 
-    time.sleep(3)
+    time.sleep(2)
 
     print(
         f"Your stats the last five seasons:\n"
@@ -63,7 +63,7 @@ def club_three_stats():
     ratio_calc = (goals + assists) / games_played
     ratio = round(ratio_calc, 2)
 
-    time.sleep(3)
+    time.sleep(2)
 
     print(
         f"Your stats the last five seasons:\n"
@@ -86,7 +86,7 @@ def club_four_stats():
     ratio_calc = (goals + assists) / games_played
     ratio = round(ratio_calc, 2)
 
-    time.sleep(3)
+    time.sleep(2)
 
     print(
         f"Your stats the last five seasons:\n"

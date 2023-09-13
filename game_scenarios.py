@@ -12,9 +12,9 @@ def in_game_scenario_one():
     the user will have two options to chose from and output
     generated at random
     """
-    time.sleep(3)
+    time.sleep(2)
     print(Fore.CYAN + Style.BRIGHT + "Loading in-game scenario...\n")
-    time.sleep(3)
+    time.sleep(2)
     response = ""
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
@@ -25,7 +25,7 @@ def in_game_scenario_one():
             "your teammate...\n")
         if response.upper() == "NO":
             print("\nYou handed the responsibility to your teammate...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print("Your teammate missed the penalty! Score stays at 0-0")
                 break
@@ -34,7 +34,7 @@ def in_game_scenario_one():
                 break
         elif response.upper() == "YES":
             print("\nYou place the ball on the spot...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print("You missed the penatly!")
                 break
@@ -44,7 +44,7 @@ def in_game_scenario_one():
         else:
             print(Fore.RED + "Error: Please enter either YES or NO...")
 
-    time.sleep(3)
+    time.sleep(2)
 
 
 def in_game_scenario_two():
@@ -53,9 +53,9 @@ def in_game_scenario_two():
     the user will have two options to chose from and output
     generated at random
     """
-    time.sleep(3)
+    time.sleep(2)
     print(Fore.CYAN + Style.BRIGHT + "Loading in-game scenario...\n")
-    time.sleep(3)
+    time.sleep(2)
     response = ""
     chance = random.randint(0, 1)
     distance = str(random.randint(20, 45)) + " Yards"
@@ -69,7 +69,7 @@ def in_game_scenario_two():
             "\nPlease enter SHOOT or PASS...\n")
         if response.upper() == "SHOOT":
             print("\nYou shoot...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print("Goalkeeper saves it!\n")
                 break
@@ -78,7 +78,7 @@ def in_game_scenario_two():
                 break
         elif response.upper() == "PASS":
             print("\nYou pass to one of your teammates...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print(
                     "An opposition player tackles your teammate, and gets "
@@ -92,7 +92,7 @@ def in_game_scenario_two():
         else:
             print(Fore.RED + "\nPlease enter either SHOOT or PASS...\n")
 
-    time.sleep(3)
+    time.sleep(2)
 
 
 def in_game_scenario_three():
@@ -101,9 +101,9 @@ def in_game_scenario_three():
     the user will have two options to chose from and output
     generated at random
     """
-    time.sleep(3)
+    time.sleep(2)
     print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...\n")
-    time.sleep(3)
+    time.sleep(2)
     response = ""
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
@@ -112,7 +112,7 @@ def in_game_scenario_three():
             "\nPlease enter YES to tackle or NO to take no action...\n")
         if response.upper() == "YES":
             print("\nYou decided to make the tackle...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print(
                     "Bad tackle! You got none of the ball so the ref gave "
@@ -125,7 +125,7 @@ def in_game_scenario_three():
             print(
                 "\nThe opposition player has a great chance to score "
                 "here...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print(
                     "The opposition player scored, your team is now 2-1 "
@@ -139,7 +139,7 @@ def in_game_scenario_three():
         else:
             print(Fore.RED + "\nPlease enter either YES or NO...")
 
-    time.sleep(3)
+    time.sleep(2)
 
 
 def in_game_scenario_four():
@@ -148,9 +148,9 @@ def in_game_scenario_four():
     the user will have two options to chose from and output
     generated at random
     """
-    time.sleep(3)
+    time.sleep(2)
     print(Fore.CYAN + Style.BRIGHT + "\nLoading in-game scenario...\n")
-    time.sleep(3)
+    time.sleep(2)
     response = ""
     chance = random.randint(0, 1)
     while response not in SHOOT_OR_PASS:
@@ -164,7 +164,7 @@ def in_game_scenario_four():
             "\nPlease enter SHOOT or PASS...\n")
         if response.upper() == "SHOOT":
             print("\nYou shoot...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print("The shot goes wide!\n")
                 break
@@ -173,7 +173,7 @@ def in_game_scenario_four():
                 break
         elif response.upper() == "PASS":
             print("\nYou pass to your teammate...\n")
-            time.sleep(2)
+            time.sleep(1)
             if chance == 0:
                 print("You teammate shoots the ball over the bar!\n")
                 break
@@ -185,4 +185,4 @@ def in_game_scenario_four():
         else:
             print(Fore.RED + "\nError: Please type SHOOT or PASS...")
 
-    time.sleep(3)
+    time.sleep(2)
