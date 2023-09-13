@@ -28,9 +28,8 @@ Target Audience: The target audience for this game is anyone that has a keen int
 As a User I want to:
 
 * play a quick and fun game around an interest of mine
-* be able to make decision in a game
+* be able to make in game decisions
 * know when i have entered something incorrectly 
-* play a game on different devices
 * understand how to play the game
 * be able to restart the game once finished 
 * play a game that is not repetitive if I play it again and again 
