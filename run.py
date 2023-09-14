@@ -658,11 +658,13 @@ def career_end():
 
     print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 7: THE LEGACY ")
 
+    time.sleep(1)
+
     scenario.in_game_scenario_four()
 
     print("A few years later...\n")
 
-    time.sleep(1)
+    time.sleep(2)
 
     print(
         f"\n ***BREAKING NEWS*** \n"
@@ -680,7 +682,7 @@ def career_end():
         "\nThroughout their career, the amount of titles won have been "
         "the following...\n")
 
-    time.sleep(1)
+    time.sleep(2)
 
     stat.total_career_titles()
 
