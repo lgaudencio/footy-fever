@@ -458,7 +458,7 @@ def end_second_club():
     print(
         f"Your agent informs you that {third_club} has approached your "
         "current club "
-        f"and will pay your release clause of {release_clause}.\n")
+        f"and\nwill pay your release clause of {release_clause}.\n")
 
     time.sleep(2)
 
@@ -512,7 +512,7 @@ def end_second_club():
 
     print(
         f"\n{name}, as you move to {third_club}, you are reminded with what "
-        "you have achieved in the last five season with your previous "
+        "you have achieved\nin the last five season with your previous "
         "club...\n")
 
     stat.club_two_stats()
