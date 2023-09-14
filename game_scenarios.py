@@ -21,7 +21,7 @@ def in_game_scenario_one():
         response = input(
             "You've been fouled inside the box do you chose to "
             "take the penalty or hand it to a teammate?...\n"
-            "\nPlease enter YES to take the pentalty or NO to hand it over to "
+            "\nPlease enter YES to take the penalty or NO to hand it over to "
             "your teammate...\n")
         if response.upper() == "NO":
             print("\nYou handed the responsibility to your teammate...\n")
@@ -36,7 +36,7 @@ def in_game_scenario_one():
             print("\nYou place the ball on the spot...\n")
             time.sleep(1)
             if chance == 0:
-                print("You missed the penatly!")
+                print("You missed the penalty!")
                 break
             elif chance == 1:
                 print("You scored! Your team now leads 1-0")
@@ -108,7 +108,7 @@ def in_game_scenario_three():
     chance = random.randint(0, 1)
     while response not in YES_OR_NO:
         response = input(
-            "An opposition player is in on goal, do you takle him?...\n"
+            "An opposition player is in on goal, do you tackle him?...\n"
             "\nPlease enter YES to tackle or NO to take no action...\n")
         if response.upper() == "YES":
             print("\nYou decided to make the tackle...\n")

@@ -41,7 +41,7 @@ award = ""
 
 def introduction():
     """
-    This fucntion will introduce the name of the game, along with the main
+    This function will introduce the name of the game, along with the main
     menu and have the user input their name
     """
     game_title = pyfiglet.figlet_format(
@@ -143,8 +143,8 @@ def input_name():
 
 def weekly_wage_club_one():
     """
-    This fucntion is used to assign three random values for weekly wage
-    and it is then used in start_pro_career funtion to assign each
+    This function is used to assign three random values for weekly wage
+    and it is then used in start_pro_career function to assign each
     weekly wage to each club option
     """
     global weekly_wage_one
@@ -158,7 +158,7 @@ def weekly_wage_club_one():
 
 def start_pro_career():
     """
-    This fucntion is used so that the user can chose their first club
+    This function is used so that the user can chose their first club
     and it also contains the first in-game scenario
     """
     print(Fore.YELLOW + Back.BLUE + Style.BRIGHT + " CHAPTER 1: The Choice ")
@@ -256,7 +256,7 @@ def start_club_two():
     """
     This function is used for the beginning of Chapter 3 and moving
     to the second club. The user has the option of negotiating the
-    salary that they secodn club is offering.
+    salary that they second club is offering.
     """
     print(Fore.CYAN + Style.BRIGHT + "Loading Chapter 3...\n")
 
@@ -456,7 +456,7 @@ def end_second_club():
     time.sleep(2)
 
     print(
-        f"Your agent informs you that {third_club} has approched your "
+        f"Your agent informs you that {third_club} has approached your "
         "current club "
         f"and will pay your release clause of {release_clause}.\n")
 
@@ -541,8 +541,8 @@ def at_third_club():
     input("Press Enter to continue...")
 
     print(
-        f"\n{name}, you had a phenominal season and you've been nominated "
-        f"or the Balon d'Or,\nthe most presigious prize in world football!\n"
+        f"\n{name}, you had a phenomenal season and you've been nominated "
+        f"or the Balon d'Or,\nthe most prestigious prize in world football!\n"
         "\nWhile at the ceremony you meet with great stars of the beautiful "
         "game, but,\non this night they are also your rivals. Let's see who "
         "comes out on top!\n")
@@ -617,13 +617,13 @@ def end_third_club():
             "Please type 1 or 2\n")
         if response == "1":
             print(
-                f"\n{name}, you have decided to joing {saudi_club.club}.\n"
+                f"\n{name}, you have decided to join {saudi_club.club}.\n"
                 "\nYou will now be meeting up with your new colleagues in "
                 f"{saudi_club.city}, {saudi_club.country}.\n"
                 "\nWe wish you the best of luck!\n")
         elif response == "2":
             print(
-                f"\n{name}, you have decided to joing {usa_club.club}.\n"
+                f"\n{name}, you have decided to join {usa_club.club}.\n"
                 "You will now be meeting up with your new colleagues in "
                 f"{usa_club.city}, {usa_club.country}.\n"
                 "\nWe wish you the best of luck!\n")

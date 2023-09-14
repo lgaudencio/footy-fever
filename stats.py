@@ -24,7 +24,7 @@ def club_one_stats():
         f"\nGames Played: {games_played}"
         f"\nGoals Scored: {goals} "
         f"\nAssists: {assists} "
-        f"\nTotal Goal Involvments per 90: {ratio}\n")
+        f"\nTotal Goal Involvements per 90: {ratio}\n")
 
     club_titles()
 
@@ -47,7 +47,7 @@ def club_two_stats():
         f"\nGames Played: {games_played}"
         f"\nGoals Scored: {goals} "
         f"\nAssists: {assists} "
-        f"\nTotal Goal Involvments per 90: {ratio}\n")
+        f"\nTotal Goal Involvements per 90: {ratio}\n")
 
     club_titles()
 
@@ -70,7 +70,7 @@ def club_three_stats():
         f"\nGames Played: {games_played}"
         f"\nGoals Scored: {goals} "
         f"\nAssists: {assists} "
-        f"\nTotal Goal Involvments per 90: {ratio}\n")
+        f"\nTotal Goal Involvements per 90: {ratio}\n")
 
     club_titles()
 
@@ -93,7 +93,7 @@ def club_four_stats():
         f"\nGames Played: {games_played}"
         f"\nGoals Scored: {goals} "
         f"\nAssists: {assists} "
-        f"\nTotal Goal Involvments per 90: {ratio}\n")
+        f"\nTotal Goal Involvements per 90: {ratio}\n")
 
     club_titles()
 
