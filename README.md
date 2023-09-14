@@ -308,6 +308,26 @@ The os library was imported to create a function to utilise the os.system to cle
 
 	* Play Again: This will only accept either ‘yes’ or ‘no’. It is expected that if the user inputs ‘yes’ the game will restart, if the user inputs ‘no’ the game will finish and exit. Testing was performed on both these inputs and it performed as expected. It is expected that if any other input is given other than ‘yes’ or ‘no’, the user will be displayed with an error message stating that they must enter a valid input. This was tested by giving it an input that would throw an error and it performed as expected. 
 
+### Interesting Issues & Bugs Found
+
+* At times infinite loops were created which would crash the game, but they were fixed by going over the code and making sure that the loop was indented correctly. 
+
+* Issues arose with calculating the total trophies won, as they were not adding up properly. To fix this, the total amount of different trophies were declared as variables and set to a value of 0 on the global scope. A function was then created to count the trophies won during the course of the game so it could effectively be displayed at the end of the game. 
+
+* The sleep() function was given too many seconds, as the user could start to input random characters into the terminal and it would display an automatic error when the program actually asked for an input. This was fixed by reducing the amount of seconds given to the sleep() function.  
+
+* The game title ‘Footy Fever’, which is created with pyfiglet is displaying normally on the machines I use, but displaying oddly on my mentors machine. Examples can be seen below:
+
+Game title on my machine running on the Heroku app: 
+
+![Image showing the game title displayed as it should on the Heroku app, running on my machine](readme-images/correct-title.png)
+
+Game title on my mentors machine running on the Heroku app: 
+
+![Image showing the game title displayed faulty on the Heroku app, running on my mentors machine](readme-images/faulty-title.png)
+
+This bug wasn’t able to be fixed. 
+
 ### Validator Testing
 
 [This](https://pep8ci.herokuapp.com/) python validator was used to validate all python files. All python files were checked with no errors. 
