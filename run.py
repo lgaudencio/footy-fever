@@ -77,9 +77,9 @@ def main_menu():
             print(Fore.GREEN + "\nAbout This Game:")
             print(
                 "\nWelcome to Football Glory, a text-based game that will "
-                "take you to the heights of World Football.\n"
-                "\nWill you reach lengednary status and have your name "
-                "cemented alongside the Footballing Elite?\n"
+                "take you to the heights\nof World Football.\n"
+                "\nWill you reach legendary status and have your name "
+                "cemented alongside the\nFootballing Elite?\n"
                 "\nThere's only one way to find out!\n")
             invalid_main_menu_input()
             main_menu()
@@ -167,13 +167,13 @@ def start_pro_career():
 
     print(
         f"\n{name}, you have just finished a successful youth career "
-        "at your local football club.\n")
+        "at your local football\nclub.\n")
 
     time.sleep(2)
 
     print(
         "Alongside your talent, your agent has been very proactive and "
-        "there are a number of clubs around Europe that would like to sign "
+        "there are a\nnumber of clubs around Europe that would like to sign "
         "you.\n")
 
     time.sleep(2)
@@ -182,7 +182,7 @@ def start_pro_career():
 
     print(
         "Three clubs have expressed their interest and they have "
-        "guaranteed that you'll play at least half the games in your "
+        "guaranteed that you'll\nplay at least half the games in your "
         "first season.\n"
         "\nPlease see your options below:\n"
         f"\nOption 1: {CLUB_ONE[0]} for £{weekly_wage_one} per week"
@@ -283,7 +283,7 @@ def start_club_two():
 
     print(
         "You've been told that your current club has accepted a "
-        f"fee of {transfer_fee} from {second_club}.")
+        f"fee of {transfer_fee} from\n{second_club}.")
 
     time.sleep(2)
 
@@ -304,19 +304,19 @@ def start_club_two():
             if negotiated_salary < weekly_wage_one:
                 print(
                     f"\n{second_club} are not impressed with the "
-                    "negotiations, so they have now offered you "
+                    "negotiations, so they have now offered\nyou "
                     f"{negotiated_salary}\n")
                 print(
                     f"Congratulations {name}, you will now meeting up "
-                    f"with your new teammates at {second_club}!\n")
+                    f"with your new teammates at\n{second_club}!\n")
                 break
             elif negotiated_salary > weekly_wage_one:
                 print(
                     f"\n{second_club} are impressed by your negotiating "
-                    f"skills, they have now offered {negotiated_salary}\n")
+                    f"skills, they have now offered\n{negotiated_salary}\n")
                 print(
                     f"Congratulations {name}, you will now meeting up "
-                    f"with your new teammates at {second_club}!\n")
+                    f"with your new teammates at\n{second_club}!\n")
                 break
             else:
                 print(
@@ -355,7 +355,7 @@ def at_club_two():
     print(
         "\nYour big money move to has made headlines.\n"
         f"\n{sponsor} has contacted you and would like to offer you a "
-        f"sponsorship deal worth {sponsor_salary} per year.\n")
+        f"sponsorship deal worth\n{sponsor_salary} per year.\n")
 
     response = ""
     while response not in YES_OR_NO:
@@ -406,7 +406,7 @@ def award_time():
     print(
         f"{name}, you have arrived in France for the {award} ceremony.\n"
         "\nTonight, you are among teammates and rivals to see who will take "
-        f"home the {award} award.\n")
+        f"home the\n{award} award.\n")
 
     time.sleep(2)
 
@@ -450,8 +450,8 @@ def end_second_club():
 
     print(
         f"\n{name}, you are on your back from playing a first leg away "
-        "game against "
-        f"{random_opponent} in the UEFA Champions League Quarter Finals.\n")
+        f"game against\n{random_opponent} in the UEFA Champions League " 
+        "Quarter Finals.\n")
 
     time.sleep(2)
 
@@ -464,8 +464,8 @@ def end_second_club():
 
     print(
         "A few days later, the Sporting Director of your current club "
-        f"pulls you aside for a meeting. He informs you that as {third_club} "
-        "paid your release clause and you are free to join them.\n")
+        f"pulls you aside\nfor a meeting. He informs you that as {third_club} "
+        "paid your release clause and\nyou are free to join them.\n")
 
     time.sleep(2)
 
@@ -542,9 +542,9 @@ def at_third_club():
 
     print(
         f"\n{name}, you had a phenominal season and you've been nominated "
-        f"or the Balon d'Or, the most presigious prize in world football!\n"
+        f"or the Balon d'Or,\nthe most presigious prize in world football!\n"
         "\nWhile at the ceremony you meet with great stars of the beautiful "
-        "game, but, on this night they are also your rivals. Let's see who "
+        "game, but,\non this night they are also your rivals. Let's see who "
         "comes out on top!\n")
 
     time.sleep(2)
@@ -574,14 +574,14 @@ def end_third_club():
 
     print(
         f"\nAs you are now {age} years old, your club is reluctant to give "
-        "you the contract extention you wanted, and clubs around the world "
-        "have got wind of this information...\n")
+        "you the contract\nextension you wanted, and clubs around the world "
+        "have got wind of this\ninformation...\n")
 
     time.sleep(2)
 
     print(
         f"{name}, you have two lucrative deals on the table "
-        "and you need to select one of them...\n")
+        "and you need to select one of\nthem...\n")
 
     time.sleep(2)
 
@@ -591,8 +591,8 @@ def end_third_club():
 
     print(
         f"{saudi_club.club}, who are based in {saudi_club.city}, "
-        f"{saudi_club.country} are willing to give you a yearly salary of "
-        "£100 Million and give you a role as a football ambassador for the "
+        f"{saudi_club.country} are willing to give you a\nyearly salary of "
+        "£100 Million and give you a role as a football ambassador\nfor the "
         "region.\n")
 
     time.sleep(2)
@@ -603,9 +603,9 @@ def end_third_club():
 
     print(
         f"{usa_club.club}, who are used in {usa_club.city}, "
-        f"{usa_club.country} are wiling to give you a yearly salary of "
+        f"{usa_club.country} are wiling to give you a yearly salary\nof "
         "£50 Million, but you will also have the following: \nStock shares of "
-        "the club, a sponsorship deal with Apple and you get to keep your "
+        "the club, a sponsorship deal with Apple and you get to keep\nyour "
         "image rights.\n")
 
     time.sleep(2)
@@ -632,7 +632,7 @@ def end_third_club():
 
     print(
         f"{name}, on the last day at your current club, teammates and fans "
-        "gather, your accolades are read out by the clubs president...\n")
+        "gather, your\naccolades are read out by the clubs president...\n")
 
     time.sleep(2)
 
@@ -668,7 +668,7 @@ def career_end():
         f"\n ***BREAKING NEWS*** \n"
         f"\n{name} has just announced their retirement at the age of {age}.\n"
         "\nOver the past five years playing in a different continent, "
-        f"{name} has achieved the following titles...\n")
+        f"{name} has achieved\nthe following titles...\n")
 
     time.sleep(2)
     

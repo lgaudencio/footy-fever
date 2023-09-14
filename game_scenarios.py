@@ -158,7 +158,7 @@ def in_game_scenario_four():
             "You are one-on-one with the goalkeeper, but the angle is "
             "getting tighter.\n"
             "\nYou see that if you pass to your teammate, they'll have an a "
-            "clear cut "
+            "clear cut\n"
             "opportunity to score. Do you take the shot or do you pass to "
             "teammate?...\n"
             "\nPlease enter SHOOT or PASS...\n")
