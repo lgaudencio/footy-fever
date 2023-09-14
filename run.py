@@ -450,7 +450,7 @@ def end_second_club():
 
     print(
         f"\n{name}, you are on your back from playing a first leg away "
-        f"game against\n{random_opponent} in the UEFA Champions League " 
+        f"game against\n{random_opponent} in the UEFA Champions League "
         "Quarter Finals.\n")
 
     time.sleep(2)
@@ -673,7 +673,7 @@ def career_end():
         f"{name} has achieved\nthe following titles...\n")
 
     time.sleep(2)
-    
+
     stat.club_four_stats()
 
     time.sleep(2)
