@@ -4,17 +4,17 @@ Footy Fever is a Python terminal game that runs on Heroku.
 
 The live project can be viewed [here](https://footy-fever-ad7b89b7823a.herokuapp.com/).
 
-Inspiration for this game comes from an existing game called New Star Soccer, which can be downloaded from the App Store and the Google Play Store. In this game you also climb the ranks of football and also take decisions into your own hands.
+Inspiration for this game comes from an existing game called New Star Soccer, which can be downloaded from the App Store and the Google Play Store. In this game, you also climb the ranks of football and also take decisions into your own hands.
 
 This game (Footy Fever) was chosen to appeal to its intended target audience, which is football fans of all ages. The game is designed to be a simple and fun game for its target audience. 
 
 ### How To Play 
 
-In this game Footy Fever, users will be playing to reach the heights of their footballing career. By starting just out of a youth club and potentially ending up in a whole different continent by the end of the game. Along the way the user will chose clubs that they’ll play for and even take part in salary negotiations. Upon finishing their time at a certain club, they’ll be presented with their stats as a player and all the trophies they’ve won!
+In this game Footy Fever, users will be playing to reach the heights of their footballing career. By starting just out of a youth club and potentially ending up in a whole different continent by the end of the game. Along the way, the user will choose clubs that they’ll play for and even take part in salary negotiations. Upon finishing their time at a certain club, they’ll be presented with their stats as a player and all the trophies they’ve won!
 
-* The user can chose the club they want to transfer to once their time with their current club expires. 
+* The user can choose the club they want to transfer to once their time with their current club expires. 
 * The user can engage in contract negotiations to potentially increase their weekly wages, but risking these negotiations can backfire. 
-* The user can chose if they like to sign on to a sponsorship deal. 
+* The user can choose if they like to sign on to a sponsorship deal. 
 * Along the way the user can pick up prestigious footballing awards. 
 * The user will be presented with in-game scenarios and they must take control of their actions. 
 * By the end of the game the user should have achieved footballing stardom, with incredible personal and team accolades.
@@ -23,20 +23,20 @@ In this game Footy Fever, users will be playing to reach the heights of their fo
 
 ### User Stories
 
-Target Audience: The target audience for this game is anyone that has a keen interest in football and wants to play an online command-line interface fun game. 
+Target Audience: The target audience for this game is anyone who has a keen interest in football and wants to play an online command-line interface game. 
 
 As a User I want to:
 
 * play a quick and fun game around an interest of mine
-* be able to make in game decisions
-* know when i have entered something incorrectly 
+* be able to make in-game decisions
+* know when I have entered something incorrectly 
 * understand how to play the game
 * be able to restart the game once finished 
 * play a game that is not repetitive if I play it again and again 
 
 ### User Experience in this Game
 
-This game will take into consideration the user stories as mentioned above to create a positive UX. The users experience will be shown in deeper detail with examples within the below sections. 
+This game will take into consideration the user stories mentioned above to create a positive UX. The users experience will be shown in deeper detail with examples within the below sections. 
 
 ## Features 
 
@@ -69,7 +69,7 @@ This game will take into consideration the user stories as mentioned above to cr
 
 ### About This Game Section
 
-* If the user decided to view the what the game is about, they will be presented with the title ‘About This Game’ followed by an short explanation of what this game is, what it is centred around and what the ultimate goal is by the end of the game. 
+* If the user decides to view what the game is about, they will be presented with the title ‘About This Game’ followed by a short explanation of what this game is, what it is centered around and what the ultimate goal is by the end of the game. 
 
 * The title has been given colour to indicate to the user that it is a title. 
 
@@ -91,9 +91,9 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * Once the user enters ‘3’ on the main menu, the game will load and the user will be prompted to enter their name. 
 
-* The user can chose to either use letters or numbers or a combination of both to create their name. 
+* The user can choose to either use letters or numbers or a combination of both to create their name. 
 
-* One the name has been accepted, a welcome message with the users name will be displayed. 
+* Once the name has been accepted, a welcome message with the users name will be displayed. 
 
 * If the user decides to press enter without entering a name, the user will be displayed an error message stating ‘Name must be longer than 0 characters!’. The user will then be prompted again to enter a valid name. The error message will be in red, to convey to the user that an error has occurred. 
 
@@ -103,11 +103,11 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * During the course of this game, the user will be joining a total of four clubs, but the user will only have input on the club selection twice only.
 
-* The users first selection will be for their first club. Chapter 1 starts with the user have a choice of three clubs, which are Benfica, Ajax and RB Salzburg. The user must select one of these clubs by entering one of the club name. If the user enters a valid response, the user will be displayed with a welcome message and stating good luck in the city and county of the club they’ve chosen. If the user enters an invalid response, the user will be displayed an error message starting that they have entered an invalid input and to choose from one club stated, the question will then be displayed again. If the response is validated the game will continue to the next section, which will be an in-game scenario. 
+* The users first selection will be for their first club. Chapter 1 starts with the user have a choice of three clubs, which are Benfica, Ajax and RB Salzburg. The user must select one of these clubs by entering one of the club name. If the user enters a valid response, the user will be displayed with a welcome message and stating good luck in the city and county of the club they’ve chosen. If the user enters an invalid response, the user will be displayed an error message stating that they have entered an invalid input and to choose from one club stated, the question will then be displayed again. If the response is validated the game will continue to the next section, which will be an in-game scenario. 
 
 ![Selecting the first club](readme-images/first-club-selection.png)
 
-* The users second selection will be for their last club. The user will be displayed with two options and they must enter either ‘1’ or ‘2’. If the user enters a valid response, the user will be displayed with a welcome message. If the user enters an invalid response, the user will be displayed an error message starting that they have entered an invalid input and to chose either ‘1’ or ‘2’, the question will then be displayed again.  If the response is validated the game will continue to the next section, which will be display the player stats and trophies for their third club. 
+* The users second selection will be for their last club. The user will be displayed with two options and they must enter either ‘1’ or ‘2’. If the user enters a valid response, the user will be displayed with a welcome message. If the user enters an invalid response, the user will be displayed an error message stating that they have entered an invalid input and to choose either ‘1’ or ‘2’, the question will then be displayed again.  If the response is validated the game will continue to the next section, which will be display the player stats and trophies for their third club. 
 
 ![Selecting the last club](readme-images/last-club-selection.png)
 
@@ -119,7 +119,7 @@ This game will take into consideration the user stories as mentioned above to cr
 
 * These four in-game scenarios are as follows: 
 
-	* Scenario 1: The user has been fouled inside the box and a penalty has been awarded, the user can either chose to take it or pass the responsibility to a teammate. If the user decides to take the penalty, there will be two possible outcomes and these outcome are generated by the random function. If the random function gives a ‘0’, it will display to the user that they have missed the penalty. If the random function returns a ‘1’, it will display to the user that they have scored the penalty. Now, if the user decides to hand over the penalty responsibility to a teammate, there will also be two possible outcomes decided by the random function. If it returns a ‘0’ it will be displayed to the user that the teammate missed the penalty. If a ‘1’ is returned, it will display to the user that their teammate scored the penalty. If the user enters something that isn’t a ‘yes’ or a ‘no’, the game will display to the user that they must enter either one of those two options and the question will be displayed again. 
+	* Scenario 1: The user has been fouled inside the box and a penalty has been awarded, the user can either choose to take it or pass the responsibility to a teammate. If the user decides to take the penalty, there will be two possible outcomes and these outcome are generated by the random function. If the random function gives a ‘0’, it will display to the user that they have missed the penalty. If the random function returns a ‘1’, it will display to the user that they have scored the penalty. Now, if the user decides to hand over the penalty responsibility to a teammate, there will also be two possible outcomes decided by the random function. If it returns a ‘0’ it will be displayed to the user that the teammate missed the penalty. If a ‘1’ is returned, it will display to the user that their teammate scored the penalty. If the user enters something that isn’t a ‘yes’ or a ‘no’, the game will display to the user that they must enter either one of those two options and the question will be displayed again. 
 
 	![Example of the first scenario outcome](readme-images/first-scenario.png)
 
@@ -127,11 +127,11 @@ This game will take into consideration the user stories as mentioned above to cr
 
 	![Example of the second scenario outcome](readme-images/second-scenario.png)
 
-	* Scenario 3: The user sees that an opposition player is running in on goal, the user will have two options, either to tackle or not to tackle. If the user decides to tackle, there will be two possible outcomes and just like the two above scenarios these outcomes are generated by the random function. If it returns a ‘0’, it will display to the user that it was a bad tackle and will give the user a red card. If it returns a ‘1’, it will display to the user that it was an excellent tackle and they won the ball. If the user decides not to tackle, again, two possible outcomes will be generated. If the random function returns a ‘0’, it will display to the user that the opposition player has scored. If it returns a ‘1’, it will display to the user that the goal keeper has saved the shot and the score stays level. Also, just like in above scenarios, if the user enters something that isn’t a ‘yes’ or a ‘no’, the game will display to the user that they must enter either one of those two options and the question will be displayed again. 
+	* Scenario 3: The user sees that an opposition player is running in on goal, the user will have two options, either to tackle or not to tackle. If the user decides to tackle, there will be two possible outcomes and just like the two above scenarios these outcomes are generated by the random function. If it returns a ‘0’, it will display to the user that it was a bad tackle and will give the user a red card. If it returns a ‘1’, it will display to the user that it was an excellent tackle and they won the ball. If the user decides not to tackle, again, two possible outcomes will be generated. If the random function returns a ‘0’, it will display to the user that the opposition player has scored. If it returns a ‘1’, it will display to the user that the goal keeper has saved the shot and the score stays level. Also, just like in the above scenarios, if the user enters something that isn’t a ‘yes’ or a ‘no’, the game will display to the user that they must enter either one of those two options and the question will be displayed again. 
 
 	![Example of the third scenario outcome](readme-images/third-scenario.png)
 
-	* Scenario 4: The user finds themselves one-on-one with the goalkeeper, but the angle to shoot on goal in narrowing, the user has two options, either to take the shot or pass to a teammate that is in a much better position. If the user decides to shoot, there will be two possible outcomes and just like the above scenarios, these outcomes are generated by the random function. If it returns a ‘0’, it will display to the user that their shot went wide. it it returns a ‘1’, it will display to the user that they have scored and their team now leads. If the user decides to pass to a teammate, again, two possible outcomes will be generated. If the random function returns a ‘0’, it will display to the user that their teammate has shoot the ball over the bar. If it returns a ‘1’, it will display to the user that their teammate got an easy tap in and that their team now leads. Also, just like in above scenarios, if the user enters something that isn’t a ‘shoot’ or a ‘pass’, the game will display to the user that they must enter either one of those two options and the question will be displayed again.
+	* Scenario 4: The user finds themselves one-on-one with the goalkeeper, but the angle to shoot on goal in narrowing, the user has two options, either to take the shot or pass to a teammate that is in a much better position. If the user decides to shoot, there will be two possible outcomes and just like the above scenarios, these outcomes are generated by the random function. If it returns a ‘0’, it will display to the user that their shot went wide. it it returns a ‘1’, it will display to the user that they have scored and their team now leads. If the user decides to pass to a teammate, again, two possible outcomes will be generated. If the random function returns a ‘0’, it will display to the user that their teammate has shot the ball over the bar. If it returns a ‘1’, it will display to the user that their teammate got an easy tap in and that their team now leads. Also, just like in above scenarios, if the user enters something that isn’t a ‘shoot’ or a ‘pass’, the game will display to the user that they must enter either one of those two options and the question will be displayed again.
 
 	![Example of the fourth scenario outcome](readme-images/fourth-scenario.png)
 
@@ -149,7 +149,7 @@ This game will take into consideration the user stories as mentioned above to cr
 
 ### Negotiation Sections 
 
-* There exists two parts in the game where the user will be prompted to either accept the salary given by the club or they can chose to negotiate. These two sections exist when the user goes to their second and third professional club. 
+* There exists two parts in the game where the user will be prompted to either accept the salary given by the club or they can choose to negotiate. These two sections exist when the user goes to their second and third professional club. 
 
 * If the user choses to accept the offer and not negotiate, a welcome to your new club message will be displayed to the user. 
 
@@ -251,7 +251,7 @@ The time library was imported to access the built-in method of suspending the ex
 
 * os 
 
-The os library was imported to create a function to utilise the os.system to clear the terminal. At the end of the game, if the user decided to play again, the terminal will be cleared and the game will start from the beginning. This function will provide a positive user experience as it will make the new game clearer and more structured. 
+The os library was imported to create a function to utilise the os.system to clear the terminal. At the end of the game, if the user decides to play again, the terminal will be cleared and the game will start from the beginning. This function will provide a positive user experience as it will make the new game clearer and more structured. 
 
 ### External Python Libraries  
 
@@ -286,7 +286,7 @@ The os library was imported to create a function to utilise the os.system to cle
 
 * Testing inputs were used to ensure all user inputs would be handled correctly and would display appropriate feedback to the user. In the features section, it mentions how user inputs were handled. 
 
-	* Main Menu: This will only accept either 1, 2, 3. It was tested by entering other numbers and other random letters to ensure the error was caught and handled appropriately. 
+	* Main Menu: This will only accept either 1, 2 and 3. It was tested by entering other numbers and other random letters to ensure the error was caught and handled appropriately. 
 
 	* Back to Main Menu: This will only accept 0. It was tested by entering anything else other than ‘0’ to ensure the error was caught and handled appropriately. 
 
@@ -296,7 +296,7 @@ The os library was imported to create a function to utilise the os.system to cle
 
 	* First Club Choice: This will only accept one of the three club options presented to the user and will accept any of those clubs typed in lower or uppercase. It was tested by entering anything else that was not one of the three clubs presented to ensure the error was caught and handled appropriately.  
 
-	* Fourth Club Choice: This will only accept either a ‘1’ or a ‘2’. If the user inputs ‘1’, it is expected that they will join the club mentioned first option presented, if they input ‘2’ it is expected that they will join the club mentioned second option presented. This was tested by selecting either option and it performed as expected. If the user inputs neither ‘1’ or ‘2’ an error will be displayed telling the user to enter either ‘1’ or ‘2’. 
+	* Fourth Club Choice: This will only accept either a ‘1’ or a ‘2’. If the user inputs ‘1’, it is expected that they will join the club mentioned first option presented, if they input ‘2’ it is expected that they will join the club mentioned in the second option presented. This was tested by selecting either option and it performed as expected. If the user inputs neither ‘1’ or ‘2’ an error will be displayed telling the user to enter either ‘1’ or ‘2’. 
 
 	* First & Third In-Game Scenario: This will only accept either a ‘yes’ or a ‘no’ input and will accept any of those responses in lower or uppercase. It was tested by entering anything else that wasn’t either of the two given options to ensure the error was caught and handled appropriately. 
 
@@ -314,7 +314,7 @@ The os library was imported to create a function to utilise the os.system to cle
 
 * Issues arose with calculating the total trophies won, as they were not adding up properly. To fix this, the total amount of different trophies were declared as variables and set to a value of 0 on the global scope. A function was then created to count the trophies won during the course of the game so it could effectively be displayed at the end of the game. 
 
-* The sleep() function was given too many seconds, as the user could start to input random characters into the terminal and it would display an automatic error when the program actually asked for an input. This was fixed by reducing the amount of seconds given to the sleep() function.  
+* The sleep() function was given too many seconds, as the user could start to input random characters into the terminal and it would display an automatic error when the program asked for an input. This was fixed by reducing the amount of seconds given to the sleep() function.  
 
 * The game title ‘Footy Fever’, which is created with pyfiglet is displaying normally on the machines I use, but displaying oddly on my mentors machine. Examples can be seen below:
 
@@ -330,7 +330,7 @@ This bug wasn’t able to be fixed.
 
 ### Validator Testing
 
-[This](https://pep8ci.herokuapp.com/) python validator was used to validate all python files. All python files were checked with no errors. 
+[This](https://pep8ci.herokuapp.com/) Python validator was used to validate all Python files. All Python files were checked with no errors. 
 
 Validator Testing results for run.py: 
 
@@ -380,7 +380,7 @@ Before deploying to Heroku, pip3 freeze > requirements.txt was used to add pyfig
 
 14. Scroll to the bottom of the deployed page and select preferred deployment type:
 
-* Click either 'Enable Automatic Deploys' for automatic deployment when you push update to GitHub or you can choose to select manual deployment and click 'Deploy Branch'. Please note, if you choose manual deployment, it must be deployed every time you push to GitHub. 
+* Click either 'Enable Automatic Deploys' for automatic deployment when you push an update to GitHub or you can choose to select manual deployment and click 'Deploy Branch'. Please note, if you choose manual deployment, it must be deployed every time you push to GitHub. 
 
 ### Version Control 
 
@@ -401,11 +401,11 @@ Navigate to the GitHub Repository you want to clone to use locally:
 * Copy the repository link to the clipboard
 * Open your IDE of choice (git must be installed for the next steps)
 * Type git clone copied-git-url into the IDE terminal
-* The project will now of been cloned on your local machine for use.
+* The project will now be cloned on your local machine for use.
 
 ## Credits
 
-All code used to develop this game is custom. Some resources were used implement specific features, these were the following: 
+All code used to develop this game is custom. Some resources were used to implement specific features, these were the following: 
 
 * [Using the strip() method to remove all white spacing from the users input name](https://www.geeksforgeeks.org/python-string-strip/)
 
