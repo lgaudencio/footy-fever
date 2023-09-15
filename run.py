@@ -538,7 +538,13 @@ def at_third_club():
 
     time.sleep(2)
 
-    input("Press Enter to continue...")
+    input("\nPress Enter to continue...\n")
+
+    time.sleep(1)
+
+    print(Fore.CYAN + Style.BRIGHT + "Loading award ceremony...\n")
+
+    time.sleep(2)
 
     print(
         f"\n{name}, you had a phenomenal season and you've been nominated "
